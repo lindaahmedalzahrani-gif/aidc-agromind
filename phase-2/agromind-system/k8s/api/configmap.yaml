@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: agromind-api-config
+  namespace: agromind-h100
+
+data:
+  MODEL_API_URL: "http://agromind-serving:8000"
+  RAG_API_URL: "http://agromind-rag:5000"
+
+  DIAGNOSIS_MODEL: "agromind-diagnosis"
+  BASE_MODEL: "Qwen/Qwen2.5-VL-7B-Instruct"
+
+  REQUEST_TIMEOUT: "180"

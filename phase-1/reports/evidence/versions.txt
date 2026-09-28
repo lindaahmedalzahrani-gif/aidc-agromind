@@ -1,0 +1,4 @@
+Docker version 27.2.1, build 9e34c9b
+Python 3.10.12
+Client Version: v1.36.4+k3s1
+Kustomize Version: v5.8.1

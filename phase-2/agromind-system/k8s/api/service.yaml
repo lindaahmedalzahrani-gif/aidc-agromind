@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: agromind-api
+  namespace: agromind-h100
+
+spec:
+  type: ClusterIP
+
+  selector:
+    app: agromind-api
+
+  ports:
+    - name: http
+      port: 8000
+      targetPort: 8000

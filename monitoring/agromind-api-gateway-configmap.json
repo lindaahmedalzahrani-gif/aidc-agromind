@@ -1,0 +1,11 @@
+{
+  "apiVersion": "v1",
+  "kind": "ConfigMap",
+  "metadata": {
+    "name": "agromind-api-gateway",
+    "namespace": "team"
+  },
+  "data": {
+    "default.conf.template": "server {\n    listen 8000;\n\n    client_max_body_size 20m;\n\n    # Backend root only\n    location = / {\n        default_type application/json;\n        return 200 '{\"service\":\"AgroMind API\",\"status\":\"ok\"}';\n    }\n\n    # Public health check\n    location = /health {\n        default_type application/json;\n        return 200 '{\"status\":\"ok\"}';\n    }\n\n    # Internal Prometheus metrics\n    location = /metrics {\n        proxy_pass http://agromind-serving.agromind-h100.svc.cluster.local:8000/metrics;\n        proxy_set_header Authorization \"\";\n        proxy_http_version 1.1;\n    }\n\n    # Protected model information\n    location = /v1/models {\n        if ($http_authorization != \"Bearer ${API_KEY}\") {\n            return 401;\n        }\n\n        proxy_pass http://agromind-serving.agromind-h100.svc.cluster.local:8000/v1/models;\n        proxy_set_header Authorization \"\";\n        proxy_http_version 1.1;\n    }\n\n    # Protected inference endpoint\n    location = /v1/chat/completions {\n        if ($http_authorization != \"Bearer ${API_KEY}\") {\n            return 401;\n        }\n\n        proxy_pass http://agromind-serving.agromind-h100.svc.cluster.local:8000/v1/chat/completions;\n        proxy_set_header Authorization \"\";\n\n        proxy_http_version 1.1;\n        proxy_connect_timeout 60s;\n        proxy_send_timeout 300s;\n        proxy_read_timeout 300s;\n    }\n\n    # Do not expose anything else\n    location / {\n        return 404;\n    }\n}\n"
+  }
+}

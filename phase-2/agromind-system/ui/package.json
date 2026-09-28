@@ -1,0 +1,13 @@
+{
+  "name": "agromind",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "install:all": "npm install --prefix frontend && npm install --prefix server",
+    "dev": "concurrently -n frontend,backend -c green,blue \"npm --prefix frontend run dev\" \"npm --prefix server run dev\"",
+    "build": "npm --prefix frontend run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

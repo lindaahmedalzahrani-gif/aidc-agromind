@@ -1,0 +1,178 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: agromind-api-gateway
+  namespace: team
+
+data:
+  default.conf.template: |
+    server {
+        listen 8000;
+
+        client_max_body_size 20m;
+
+
+        # ====================================================
+        # Public backend health
+        # ====================================================
+
+        location = /health {
+            proxy_pass http://agromind-api.agromind-h100.svc.cluster.local:8000/health;
+
+            proxy_http_version 1.1;
+
+            proxy_connect_timeout 30s;
+            proxy_send_timeout 60s;
+            proxy_read_timeout 60s;
+        }
+
+
+        # ====================================================
+        # OpenAI-compatible model listing
+        #
+        # Authentication is enforced by FastAPI.
+        # ====================================================
+
+        location = /v1/models {
+            proxy_pass http://agromind-api.agromind-h100.svc.cluster.local:8000/v1/models;
+
+            proxy_set_header Authorization $http_authorization;
+            proxy_set_header X-API-Key $http_x_api_key;
+
+            proxy_http_version 1.1;
+
+            proxy_connect_timeout 30s;
+            proxy_send_timeout 60s;
+            proxy_read_timeout 60s;
+        }
+
+
+        # ====================================================
+        # OpenAI-compatible inference
+        # ====================================================
+
+        location = /v1/chat/completions {
+            proxy_pass http://agromind-api.agromind-h100.svc.cluster.local:8000/v1/chat/completions;
+
+            proxy_set_header Authorization $http_authorization;
+            proxy_set_header X-API-Key $http_x_api_key;
+
+            proxy_http_version 1.1;
+
+            proxy_connect_timeout 60s;
+            proxy_send_timeout 300s;
+            proxy_read_timeout 300s;
+        }
+
+
+        # ====================================================
+        # Direct AgroMind diagnosis API
+        #
+        # Fine-tuned LoRA:
+        # agromind-diagnosis
+        # ====================================================
+
+        location = /api/diagnose {
+            proxy_pass http://agromind-api.agromind-h100.svc.cluster.local:8000/api/diagnose;
+
+            proxy_set_header Authorization $http_authorization;
+            proxy_set_header X-API-Key $http_x_api_key;
+
+            proxy_http_version 1.1;
+
+            proxy_connect_timeout 60s;
+            proxy_send_timeout 300s;
+            proxy_read_timeout 300s;
+        }
+
+
+        # ====================================================
+        # Direct AgroMind RAG API
+        # ====================================================
+
+        location = /api/chat {
+            proxy_pass http://agromind-api.agromind-h100.svc.cluster.local:8000/api/chat;
+
+            proxy_set_header Authorization $http_authorization;
+            proxy_set_header X-API-Key $http_x_api_key;
+
+            proxy_http_version 1.1;
+
+            proxy_connect_timeout 60s;
+            proxy_send_timeout 300s;
+            proxy_read_timeout 300s;
+        }
+
+
+        # ====================================================
+        # UI backend proxy
+        #
+        # Browser calls:
+        #
+        #   /ui-api/diagnose
+        #   /ui-api/chat
+        #   /ui-api/health
+        #
+        # Express then securely adds the private AgroMind API key.
+        # ====================================================
+
+        location /ui-api/ {
+            proxy_pass http://agromind-ui.agromind-h100.svc.cluster.local:8787;
+
+            proxy_http_version 1.1;
+
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto $scheme;
+
+            proxy_connect_timeout 30s;
+            proxy_send_timeout 300s;
+            proxy_read_timeout 300s;
+        }
+
+
+        # ====================================================
+        # Prometheus metrics
+        # ====================================================
+
+        location = /metrics {
+            proxy_pass http://agromind-serving.agromind-h100.svc.cluster.local:8000/metrics;
+
+            proxy_set_header Authorization "";
+
+            proxy_http_version 1.1;
+
+            proxy_connect_timeout 30s;
+            proxy_send_timeout 60s;
+            proxy_read_timeout 60s;
+        }
+
+
+        # ====================================================
+        # AgroMind React website
+        #
+        # This must remain LAST because it catches:
+        #
+        #   /
+        #   /assets/...
+        #   React SPA routes
+        #   favicon
+        #   etc.
+        # ====================================================
+
+        location / {
+            proxy_pass http://agromind-ui.agromind-h100.svc.cluster.local:8787;
+
+            proxy_http_version 1.1;
+
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto $scheme;
+
+            proxy_connect_timeout 30s;
+            proxy_send_timeout 60s;
+            proxy_read_timeout 60s;
+        }
+    }

@@ -1,0 +1,71 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: agromind-ui
+  namespace: agromind-h100
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: agromind-ui
+
+  template:
+    metadata:
+      labels:
+        app: agromind-ui
+
+    spec:
+      containers:
+        - name: ui
+
+          image: agromind-ui:phase2
+          imagePullPolicy: IfNotPresent
+
+          ports:
+            - name: http
+              containerPort: 8787
+
+          env:
+            # Use the internal FastAPI service.
+            # No need to go out through Cloudflare and back in.
+            - name: AGROMIND_API_URL
+              value: "http://agromind-api:8000"
+
+            # Reuse the existing private backend key.
+            - name: AGROMIND_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: agromind-api-key
+                  key: API_KEY
+
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "128Mi"
+
+            limits:
+              cpu: "1"
+              memory: "512Mi"
+
+          startupProbe:
+            httpGet:
+              path: /ui-api/health
+              port: 8787
+            periodSeconds: 5
+            failureThreshold: 30
+
+          readinessProbe:
+            httpGet:
+              path: /ui-api/health
+              port: 8787
+            periodSeconds: 10
+            failureThreshold: 3
+
+          livenessProbe:
+            httpGet:
+              path: /ui-api/health
+              port: 8787
+            periodSeconds: 20
+            failureThreshold: 3

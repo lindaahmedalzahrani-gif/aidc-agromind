@@ -1,0 +1,14 @@
+{
+  "total_images": 500,
+  "successful_inferences": 426,
+  "failed_inferences": 74,
+  "inference_success_rate": 0.852,
+  "valid_output_rate": 0.9788732394366197,
+  "crop_accuracy": 0.45305164319248825,
+  "disease_accuracy": 0.07746478873239436,
+  "combined_accuracy": 0.025821596244131457,
+  "mean_latency_seconds": 0.8859923600829688,
+  "p50_latency_seconds": 0.9132312024594285,
+  "p95_latency_seconds": 1.389417730475543,
+  "known_phase1_limitation": "74 requests exceeded the configured 4096-token maximum context length."
+}

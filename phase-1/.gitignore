@@ -1,0 +1,19 @@
+# Raw dataset
+data/raw/
+
+# Evaluation images
+evaluation/images/
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+.venv/
+venv/
+
+# Temporary results
+*.log
+
+# Secrets
+.env

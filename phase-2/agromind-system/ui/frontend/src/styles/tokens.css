@@ -1,0 +1,40 @@
+:root {
+  /* Color */
+  --color-ivory: #f7f3e7;
+  --color-ivory-deep: #efe9d8;
+  --color-ink: #22281e;
+  --color-ink-soft: #4a5142;
+  --color-moss: #4b5a3e;
+  --color-moss-dark: #384630;
+  --color-sage: #8c9a78;
+  --color-sage-pale: #c7d0b8;
+  --color-clay: #a9682f;
+  --color-clay-pale: #f0ddc7;
+  --color-border: #dad3bc;
+  --color-surface: #fffdf6;
+
+  /* Type */
+  --font-serif-en: 'Fraunces', 'Iowan Old Style', Georgia, serif;
+  --font-sans-en: 'Work Sans', 'Segoe UI', Helvetica, Arial, sans-serif;
+  --font-serif-zh: 'Noto Serif SC', 'Songti SC', serif;
+  --font-sans-zh: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+
+  --radius-lg: 28px;
+  --radius-md: 18px;
+  --radius-sm: 10px;
+
+  --shadow-soft: 0 12px 32px -18px rgba(34, 40, 30, 0.35);
+  --shadow-hair: 0 1px 0 rgba(34, 40, 30, 0.08);
+
+  --max-width: 1120px;
+}
+
+[data-lang='en'] {
+  --font-serif: var(--font-serif-en);
+  --font-sans: var(--font-sans-en);
+}
+
+[data-lang='zh'] {
+  --font-serif: var(--font-serif-zh);
+  --font-sans: var(--font-sans-zh);
+}

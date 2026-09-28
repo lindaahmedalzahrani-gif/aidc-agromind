@@ -1,0 +1,32 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    kubectl.kubernetes.io/last-applied-configuration: |
+      {"apiVersion":"v1","kind":"Service","metadata":{"annotations":{},"name":"agromind-serving","namespace":"agromind-h100"},"spec":{"ports":[{"name":"http","nodePort":30802,"port":8000,"targetPort":8000}],"selector":{"app":"agromind-vllm"},"type":"NodePort"}}
+  creationTimestamp: "2026-09-16T13:50:17Z"
+  name: agromind-serving
+  namespace: agromind-h100
+  resourceVersion: "474264"
+  uid: 90e2cf5d-fa87-4f41-b2c5-93ad0a3ec434
+spec:
+  clusterIP: 10.43.244.221
+  clusterIPs:
+  - 10.43.244.221
+  externalTrafficPolicy: Cluster
+  internalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - name: http
+    nodePort: 30802
+    port: 8000
+    protocol: TCP
+    targetPort: 8000
+  selector:
+    app: agromind-vllm
+  sessionAffinity: None
+  type: NodePort
+status:
+  loadBalancer: {}

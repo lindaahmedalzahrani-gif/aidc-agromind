@@ -1,0 +1,68 @@
+apiVersion: v1
+data:
+  default.conf.template: |
+    server {
+        listen 8000;
+
+        client_max_body_size 20m;
+
+        # Backend root only
+        location = / {
+            default_type application/json;
+            return 200 '{"service":"AgroMind API","status":"ok"}';
+        }
+
+        # Public health check
+        location = /health {
+            default_type application/json;
+            return 200 '{"status":"ok"}';
+        }
+
+        # Internal Prometheus metrics
+        location = /metrics {
+            proxy_pass http://agromind-serving.agromind-h100.svc.cluster.local:8000/metrics;
+            proxy_set_header Authorization "";
+            proxy_http_version 1.1;
+        }
+
+        # Protected model information
+        location = /v1/models {
+            if ($http_authorization != "Bearer ${API_KEY}") {
+                return 401;
+            }
+
+            proxy_pass http://agromind-serving.agromind-h100.svc.cluster.local:8000/v1/models;
+            proxy_set_header Authorization "";
+            proxy_http_version 1.1;
+        }
+
+        # Protected inference endpoint
+        location = /v1/chat/completions {
+            if ($http_authorization != "Bearer ${API_KEY}") {
+                return 401;
+            }
+
+            proxy_pass http://agromind-serving.agromind-h100.svc.cluster.local:8000/v1/chat/completions;
+            proxy_set_header Authorization "";
+
+            proxy_http_version 1.1;
+            proxy_connect_timeout 60s;
+            proxy_send_timeout 300s;
+            proxy_read_timeout 300s;
+        }
+
+        # Do not expose anything else
+        location / {
+            return 404;
+        }
+    }
+kind: ConfigMap
+metadata:
+  annotations:
+    kubectl.kubernetes.io/last-applied-configuration: |
+      {"apiVersion":"v1","data":{"default.conf.template":"server {\n    listen 8000;\n\n    client_max_body_size 20m;\n\n    # Backend root only\n    location = / {\n        default_type application/json;\n        return 200 '{\"service\":\"AgroMind API\",\"status\":\"ok\"}';\n    }\n\n    # Public health check\n    location = /health {\n        default_type application/json;\n        return 200 '{\"status\":\"ok\"}';\n    }\n\n    # Protected model information\n    location = /v1/models {\n        if ($http_authorization != \"Bearer ${API_KEY}\") {\n            return 401;\n        }\n\n        proxy_pass http://agromind-serving.agromind-h100.svc.cluster.local:8000/v1/models;\n        proxy_set_header Authorization \"\";\n        proxy_http_version 1.1;\n    }\n\n    # Protected inference endpoint\n    location = /v1/chat/completions {\n        if ($http_authorization != \"Bearer ${API_KEY}\") {\n            return 401;\n        }\n\n        proxy_pass http://agromind-serving.agromind-h100.svc.cluster.local:8000/v1/chat/completions;\n        proxy_set_header Authorization \"\";\n\n        proxy_http_version 1.1;\n        proxy_connect_timeout 60s;\n        proxy_send_timeout 300s;\n        proxy_read_timeout 300s;\n    }\n\n    # Do not expose anything else\n    location / {\n        return 404;\n    }\n}\n"},"kind":"ConfigMap","metadata":{"annotations":{},"name":"agromind-api-gateway","namespace":"team"}}
+  creationTimestamp: "2026-09-22T14:12:14Z"
+  name: agromind-api-gateway
+  namespace: team
+  resourceVersion: "703182"
+  uid: 6a2438b2-5c46-4364-b9c1-6641bddbacec

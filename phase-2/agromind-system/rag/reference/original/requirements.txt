@@ -1,0 +1,7 @@
+langchain==0.1.10
+chromadb==0.4.24
+ollama==0.4.7
+huggingface-hub==0.20.0
+sentence-transformers==2.2.2
+flask==3.0.0
+python-dotenv==1.0.0

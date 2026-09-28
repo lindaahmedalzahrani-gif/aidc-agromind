@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+
+metadata:
+  name: agromind-rag
+  namespace: agromind-h100
+
+spec:
+  type: ClusterIP
+
+  selector:
+    app: agromind-rag
+
+  ports:
+    - name: http
+      port: 5000
+      targetPort: 5000

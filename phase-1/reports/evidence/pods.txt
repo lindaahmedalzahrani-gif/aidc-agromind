@@ -1,0 +1,2 @@
+NAME                             READY   STATUS    RESTARTS   AGE   IP           NODE       NOMINATED NODE   READINESS GATES
+agromind-vllm-7bcfcfc798-nqgjl   1/1     Running   0          62m   10.42.1.37   aidc-t02   <none>           <none>

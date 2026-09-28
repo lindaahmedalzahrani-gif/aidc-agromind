@@ -1,0 +1,49 @@
+.about__inner {
+  max-width: 780px;
+}
+
+.about__heading {
+  font-size: 1.7rem;
+  margin-bottom: 16px;
+}
+
+.about__body {
+  color: var(--color-ink-soft);
+  font-size: 1.05rem;
+  max-width: 62ch;
+  margin-bottom: 40px;
+}
+
+.about__points {
+  display: flex;
+  flex-direction: column;
+}
+
+.about__point {
+  padding: 20px 0;
+  border-top: 1px solid var(--color-border);
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 24px;
+}
+
+.about__point:last-child {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.about__point h3 {
+  font-size: 1.05rem;
+  color: var(--color-moss-dark);
+}
+
+.about__point p {
+  color: var(--color-ink-soft);
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .about__point {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+}

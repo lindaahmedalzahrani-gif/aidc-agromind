@@ -1,0 +1,31 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    kubectl.kubernetes.io/last-applied-configuration: |
+      {"apiVersion":"v1","kind":"Service","metadata":{"annotations":{},"name":"agromind-api-gateway-external","namespace":"team"},"spec":{"ports":[{"nodePort":30900,"port":8000,"targetPort":8000}],"selector":{"app":"agromind-api-gateway"},"type":"NodePort"}}
+  creationTimestamp: "2026-09-22T16:48:49Z"
+  name: agromind-api-gateway-external
+  namespace: team
+  resourceVersion: "706536"
+  uid: dfce748d-7af3-40ba-b691-5582160001f5
+spec:
+  clusterIP: 10.43.203.154
+  clusterIPs:
+  - 10.43.203.154
+  externalTrafficPolicy: Cluster
+  internalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - nodePort: 30900
+    port: 8000
+    protocol: TCP
+    targetPort: 8000
+  selector:
+    app: agromind-api-gateway
+  sessionAffinity: None
+  type: NodePort
+status:
+  loadBalancer: {}

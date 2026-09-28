@@ -1,0 +1,106 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: agromind-vllm
+  namespace: agromind-h100
+
+spec:
+  replicas: 1
+
+  strategy:
+    type: Recreate
+
+  selector:
+    matchLabels:
+      app: agromind-vllm
+
+  template:
+    metadata:
+      labels:
+        app: agromind-vllm
+
+    spec:
+      containers:
+        - name: vllm
+
+          image: vllm/vllm-openai:v0.27.1
+          imagePullPolicy: IfNotPresent
+
+          args:
+            # Base model
+            - --model=Qwen/Qwen2.5-VL-7B-Instruct
+            - --dtype=half
+
+            # Context length retained from revised Phase 1
+            - --max-model-len=20000
+
+            # Start slightly below the Phase 1 0.85 setting so the
+            # LoRA runtime has additional GPU-memory headroom.
+            - --gpu-memory-utilization=0.82
+
+            # LoRA support
+            - --enable-lora
+            - --max-loras=1
+            - --max-lora-rank=16
+
+            # Static AgroMind diagnosis adapter
+            - >-
+              --lora-modules={"name":"agromind-diagnosis","path":"/models/adapters/diagnosis-final","base_model_name":"Qwen/Qwen2.5-VL-7B-Instruct"}
+
+          ports:
+            - containerPort: 8000
+              name: http
+
+          resources:
+            requests:
+              cpu: "4"
+              memory: "16Gi"
+              nvidia.com/gpu: "1"
+
+            limits:
+              cpu: "4"
+              memory: "16Gi"
+              nvidia.com/gpu: "1"
+
+          volumeMounts:
+            - name: hf-cache
+              mountPath: /root/.cache/huggingface
+
+            - name: diagnosis-adapter
+              mountPath: /models/adapters/diagnosis-final
+              readOnly: true
+
+          startupProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            periodSeconds: 10
+            failureThreshold: 60
+            timeoutSeconds: 2
+
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            periodSeconds: 10
+            failureThreshold: 3
+            timeoutSeconds: 2
+
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            periodSeconds: 20
+            failureThreshold: 3
+            timeoutSeconds: 2
+
+      volumes:
+        - name: hf-cache
+          hostPath:
+            path: /var/lib/hf-cache
+            type: DirectoryOrCreate
+
+        - name: diagnosis-adapter
+          hostPath:
+            path: /var/lib/agromind/adapters/diagnosis-final
+            type: Directory

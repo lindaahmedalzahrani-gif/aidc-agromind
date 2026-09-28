@@ -1,0 +1,97 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: agromind-rag
+  namespace: agromind-h100
+
+spec:
+  replicas: 1
+
+  strategy:
+    type: Recreate
+
+  selector:
+    matchLabels:
+      app: agromind-rag
+
+  template:
+    metadata:
+      labels:
+        app: agromind-rag
+
+    spec:
+      containers:
+        - name: rag
+
+          image: agromind-rag:structured-v3
+          imagePullPolicy: IfNotPresent
+
+          ports:
+            - containerPort: 5000
+
+          envFrom:
+            - configMapRef:
+                name: agromind-rag-config
+
+          resources:
+            requests:
+              cpu: "1"
+              memory: "2Gi"
+              ephemeral-storage: "1Gi"
+
+            limits:
+              cpu: "4"
+              memory: "8Gi"
+              ephemeral-storage: "4Gi"
+
+          volumeMounts:
+
+            - name: rag-documents
+              mountPath: /app/runtime/documents
+              readOnly: true
+
+            - name: rag-vector-db
+              mountPath: /app/runtime/vector-db
+
+            - name: hf-cache
+              mountPath: /root/.cache/huggingface
+
+          startupProbe:
+            httpGet:
+              path: /health
+              port: 5000
+            periodSeconds: 10
+            timeoutSeconds: 2
+            failureThreshold: 90
+
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 5000
+            periodSeconds: 10
+            failureThreshold: 3
+
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 5000
+            periodSeconds: 20
+            failureThreshold: 3
+
+      volumes:
+
+        - name: rag-documents
+          hostPath:
+            path: /var/lib/agromind/rag/documents
+            type: Directory
+
+        - name: rag-vector-db
+          hostPath:
+            path: /var/lib/agromind/rag/vector-db
+            type: DirectoryOrCreate
+
+        - name: hf-cache
+          hostPath:
+            path: /var/lib/hf-cache
+            type: Directory

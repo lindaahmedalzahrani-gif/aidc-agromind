@@ -1,0 +1,1608 @@
+# AgroMind Knowledge Base v4.0 — Extended Coverage
+# Core entries are based on the Phase 2 label set; extended entries add common disorders, diseases, and pests for the same eight crops.
+# Extended RAG coverage does NOT mean the vision model was trained or validated to diagnose every added condition.
+# Structured to match the app's four question buttons: What causes this? / What symptoms should I look for? / How can I manage it? / Tell me more about this crop.
+# Each entry is a single, self-contained, single-language paragraph for accurate retrieval.
+# Keep diagnosis labels stable: the API support check uses exact normalized [Crop | Condition] pairs.
+
+# ===================================================================
+# TOMATO / 番茄
+# ===================================================================
+
+## Tomato - Viral Disease (Tomato Spotted Wilt Virus) / 番茄 - 病毒病
+
+[Tomato | Viral Disease] Q: What causes this?
+A: Tomato spotted wilt is caused by Tomato Spotted Wilt Virus (TSWV), a tospovirus transmitted almost entirely by thrips, especially western flower thrips. Only immature thrips can acquire the virus, but the adults they grow into carry and spread it for the rest of their lives, so an early thrips infestation is what actually introduces the disease.
+
+[番茄 | 病毒病] 问：病因是什么？
+答：番茄斑萎病由番茄斑萎病毒（TSWV）引起，主要通过蓟马传播，尤其是西花蓟马。只有蓟马幼虫期才能获得病毒，但它们长为成虫后会终生携带并传播病毒，因此早期的蓟马侵染是该病爆发的关键原因。
+
+[Tomato | Viral Disease] Q: What symptoms should I look for?
+A: Look for wilting combined with leaf curling and a purplish or bronze discoloration on young leaves. As the disease progresses, ring-shaped spots may appear on fruit, and plant growth becomes stunted and uneven. These symptoms together (not any single one) are what distinguish TSWV from ordinary wilting.
+
+[番茄 | 病毒病] 问：应该注意哪些症状？
+答：注意萎蔫并伴随叶片卷曲，幼叶出现紫色或古铜色变色。病情发展后，果实上可能出现环状斑点，植株生长会变得矮小且不均匀。这些症状同时出现（而非单一症状）才是判断TSWV病毒病的关键依据。
+
+[Tomato | Viral Disease] Q: How can I manage it?
+A: There is no cure once a plant is infected, so management focuses on prevention: avoid planting near onion, garlic, or cereal fields since thrips build up heavily on them, use yellow sticky traps to monitor thrips populations, and remove and destroy infected plants immediately (rogue them out) to stop the virus from spreading to healthy plants nearby.
+
+[番茄 | 病毒病] 问：如何防治？
+答：植株一旦感染便无法治愈，因此防治重点在于预防：避免在洋葱、大蒜或谷类作物附近种植，因为蓟马容易在这些作物上大量繁殖；使用黄色粘虫板监测蓟马种群；发现感病植株应立即拔除销毁，以防病毒传播给周围健康植株。
+
+[Tomato | Viral Disease] Q: Tell me more about this crop.
+A: Tomato is a warm-season fruiting vegetable in the nightshade family, grown widely for fresh consumption and processing. It is highly sensitive to insect-vectored viruses, which is why thrips and aphid control is a routine part of tomato pest management programs, separate from managing fungal or bacterial diseases.
+
+[番茄 | 病毒病] 问：介绍一下这种作物。
+答：番茄是茄科的一种喜温果菜，广泛用于鲜食和加工。番茄对昆虫传播的病毒病非常敏感，因此蓟马和蚜虫的防治是番茄病虫害管理中的常规工作，这与防治真菌或细菌性病害是分开进行的。
+
+## Tomato - Blight / 番茄 - 疫病
+
+[Tomato | Blight] Q: What causes this?
+A: Blight in tomato (疫病) is commonly caused by Phytophthora species, water-mold pathogens that thrive in wet, poorly-drained soil and spread rapidly during periods of rain or overhead irrigation. Infection usually starts at the stem base or roots and moves upward through the plant.
+
+[番茄 | 疫病] 问：病因是什么？
+答：番茄疫病通常由疫霉菌（Phytophthora）引起，这是一种在潮湿、排水不良的土壤中容易滋生的病原菌，在多雨或喷灌频繁的条件下传播迅速。感染通常从茎基部或根部开始，逐渐向上蔓延。
+
+[Tomato | Blight] Q: What symptoms should I look for?
+A: Early signs include dark, water-soaked lesions on stems near the soil line and sudden wilting of the whole plant even though the soil is moist. As the disease advances, the stem base becomes soft and discolored, and the plant can collapse within days under warm, wet conditions.
+
+[番茄 | 疫病] 问：应该注意哪些症状？
+答：早期症状包括近地面茎部出现暗色水浸状病斑，即使土壤湿润植株也会突然萎蔫。病情加重后，茎基部变软并变色，在温暖潮湿条件下植株可能在几天内整株倒伏。
+
+[Tomato | Blight] Q: How can I manage it?
+A: Improve drainage and avoid overhead irrigation to reduce the wet conditions the pathogen needs, rotate away from tomato and other nightshades for at least two to three years in affected fields, and remove infected plants promptly since the pathogen survives in soil and plant debris.
+
+[番茄 | 疫病] 问：如何防治？
+答：改善田间排水，避免喷灌，以减少病原菌所需的潮湿环境；受害地块应与番茄及其他茄科作物轮作至少两到三年；及时清除病株，因为病原菌可在土壤和植株残体中长期存活。
+
+[Tomato | Blight] Q: Tell me more about this crop.
+A: Tomato performs best in well-drained soil with consistent but not excessive moisture. Because several of its most serious diseases, including blight, are driven by wet conditions at the root zone, drainage and irrigation management are as important to tomato health as pest control.
+
+[番茄 | 疫病] 问：介绍一下这种作物。
+答：番茄在排水良好、水分适中但不过湿的土壤中长势最佳。由于包括疫病在内的多种严重病害都与根部积水有关，因此排水和灌溉管理对番茄的健康与虫害防治同样重要。
+
+## Tomato - Bacterial Disease / 番茄 - 细菌性
+
+[Tomato | Bacterial Disease] Q: What causes this?
+A: Bacterial spot on tomato is caused by Xanthomonas bacteria, which are seed-borne and can also survive on infected transplants without showing symptoms until conditions favor an outbreak. Warm temperatures above 20°C combined with high humidity or splashing water (rain or overhead irrigation) are what trigger visible disease.
+
+[番茄 | 细菌性] 问：病因是什么？
+答：番茄细菌性斑点病由黄单胞菌（Xanthomonas）引起，该病原可通过种子传播，也能在感病但未表现症状的种苗上潜伏，直到条件适宜时才爆发。20摄氏度以上的温度配合高湿度或雨水、喷灌溅水，是诱发明显病害的主要条件。
+
+[Tomato | Bacterial Disease] Q: What symptoms should I look for?
+A: Look for small, dark, water-soaked spots on leaves that turn brown to black and feel slightly raised; leaf spot centers often dry out and tear, giving leaves a ragged look. On fruit, spots start small and scabby and can enlarge and merge as the disease progresses.
+
+[番茄 | 细菌性] 问：应该注意哪些症状？
+答：注意叶片上出现细小、暗色、水浸状斑点，随后变为褐色至黑色并略微隆起；病斑中心常常干裂，使叶片呈现破损状。果实上的病斑起初细小粗糙，病情加重后会扩大并连合。
+
+[Tomato | Bacterial Disease] Q: How can I manage it?
+A: Use pathogen-free seed and disease-free transplants whenever possible, since this is the single most effective way to prevent an outbreak. Preventive copper sprays combined with these cultural practices help manage the disease once conditions become favorable, and avoiding overhead watering reduces bacterial spread between plants.
+
+[番茄 | 细菌性] 问：如何防治？
+答：尽可能使用无病原种子和健康种苗，这是预防该病最有效的方法。在条件适宜发病时，配合预防性喷施铜制剂可帮助控制病情；避免喷灌浇水可减少细菌在植株间的传播。
+
+[Tomato | Bacterial Disease] Q: Tell me more about this crop.
+A: Tomato is grown in a wide range of climates but is particularly vulnerable to bacterial diseases during warm, humid growing seasons. Because the bacteria that cause spot diseases can hide symptomlessly in transplants, sourcing clean seedlings is one of the most important tomato-growing decisions a farmer makes.
+
+[番茄 | 细菌性] 问：介绍一下这种作物。
+答：番茄适应多种气候种植，但在温暖潮湿的生长季节中尤其容易感染细菌性病害。由于引起斑点病的细菌可在种苗上无症状潜伏，因此选用干净健康的种苗是种植番茄时最重要的决定之一。
+
+## Tomato - Blossom end rot / 番茄 - 脐腐病
+
+[Tomato | Blossom end rot] Q: What causes this?
+A: Blossom end rot is a physiological disorder, not an infectious disease. It develops when rapidly growing fruit does not receive enough calcium, often because irregular soil moisture, root stress, high salts, or overly rapid growth disrupt calcium movement into the fruit.
+
+[番茄 | 脐腐病] 问：病因是什么？
+答：番茄脐腐病是一种生理性障碍，并非传染性病害。快速发育的果实得不到足够钙时会发生，常与土壤水分忽干忽湿、根系受压、盐分过高或生长过快影响钙运输有关。
+
+[Tomato | Blossom end rot] Q: What symptoms should I look for?
+A: Look for a pale or water-soaked spot at the blossom end of young fruit. It enlarges and becomes brown to black, sunken, dry, and leathery; secondary rots may later invade the damaged tissue.
+
+[番茄 | 脐腐病] 问：应该注意哪些症状？
+答：幼果花端先出现浅色或水渍状斑点，随后扩大并变成褐色至黑色、凹陷、干燥和革质状，受损组织之后可能继发腐烂。
+
+[Tomato | Blossom end rot] Q: How can I manage it?
+A: Keep soil moisture even, mulch where appropriate, avoid root injury and excessive fertilization, and use a soil test before adding calcium. Pesticides do not cure blossom end rot, and damaged fruit will not recover.
+
+[番茄 | 脐腐病] 问：如何防治？
+答：保持土壤水分稳定，可适当覆盖地表；避免伤根和过量施肥。补钙前应先进行土壤检测。农药不能治愈脐腐病，已经受害的果实也不会恢复。
+
+[Tomato | Blossom end rot] Q: Tell me more about this crop.
+A: Tomato is a warm-season nightshade crop. Consistent irrigation, good air movement, clean planting material, and regular scouting for insects and leaf symptoms are central to reducing disease and pest pressure.
+
+[番茄 | 脐腐病] 问：介绍一下这种作物。
+答：番茄是喜温的茄科作物。保持稳定灌溉、良好通风、使用健康种苗，并定期检查虫害和叶片症状，是降低病虫害风险的关键。
+
+## Tomato - Early Blight / 番茄 - 早疫病
+
+[Tomato | Early Blight] Q: What causes this?
+A: Early blight is caused by Alternaria solani, which survives on infected crop residue and related weeds. Spores spread by wind and splashing water, and infection is favored by prolonged leaf wetness and humid weather.
+
+[番茄 | 早疫病] 问：病因是什么？
+答：番茄早疫病主要由茄链格孢菌（Alternaria solani）引起，病原可在病残体和茄科杂草上存活，孢子通过风和溅水传播，叶片长时间潮湿和高湿有利于发病。
+
+[Tomato | Early Blight] Q: What symptoms should I look for?
+A: Older leaves usually develop brown to black spots with concentric rings, often described as target-like lesions. Severe infection causes yellowing and leaf loss; fruit lesions are typically dark, dry, sunken, and may also show rings.
+
+[番茄 | 早疫病] 问：应该注意哪些症状？
+答：老叶通常先出现褐色至黑色病斑，常具有同心轮纹，呈靶纹状。严重时叶片黄化脱落，果实可出现暗色、干燥、凹陷并带轮纹的病斑。
+
+[Tomato | Early Blight] Q: How can I manage it?
+A: Remove infected debris and volunteer nightshades, rotate away from tomato and potato, reduce prolonged leaf wetness, and use locally registered fungicides only when disease pressure and local guidance justify treatment.
+
+[番茄 | 早疫病] 问：如何防治？
+答：清除病残体和自生茄科植株，与番茄和马铃薯等作物轮作，减少叶片长时间潮湿；在病害压力较高且当地建议需要时，再使用登记允许的杀菌剂。
+
+[Tomato | Early Blight] Q: Tell me more about this crop.
+A: Tomato is a warm-season nightshade crop. Consistent irrigation, good air movement, clean planting material, and regular scouting for insects and leaf symptoms are central to reducing disease and pest pressure.
+
+[番茄 | 早疫病] 问：介绍一下这种作物。
+答：番茄是喜温的茄科作物。保持稳定灌溉、良好通风、使用健康种苗，并定期检查虫害和叶片症状，是降低病虫害风险的关键。
+
+## Tomato - Late Blight / 番茄 - 晚疫病
+
+[Tomato | Late Blight] Q: What causes this?
+A: Late blight is caused by Phytophthora infestans, an oomycete that spreads rapidly in cool, wet conditions through airborne spores and infected plant material.
+
+[番茄 | 晚疫病] 问：病因是什么？
+答：番茄晚疫病由疫霉菌 Phytophthora infestans 引起，在凉爽潮湿条件下可通过空气传播的孢子和带病植株材料迅速扩散。
+
+[Tomato | Late Blight] Q: What symptoms should I look for?
+A: Leaves develop rapidly enlarging water-soaked or brown lesions, often with pale or whitish sporulation near lesion margins in humid weather. Stems can darken, and fruit may develop firm brown lesions.
+
+[番茄 | 晚疫病] 问：应该注意哪些症状？
+答：叶片出现快速扩大的水渍状或褐色病斑，潮湿时病斑边缘可见浅色或白色霉状物；茎部可变暗，果实可出现坚实褐色病斑。
+
+[Tomato | Late Blight] Q: How can I manage it?
+A: Use healthy transplants, remove infected plants promptly, avoid leaving cull piles or infected volunteer plants, improve airflow, and follow regional late-blight alerts and registered fungicide guidance where available.
+
+[番茄 | 晚疫病] 问：如何防治？
+答：使用健康种苗，及时清除病株和病果堆，清除带病自生植株，改善通风，并根据当地晚疫病预警和登记用药指南进行防治。
+
+[Tomato | Late Blight] Q: Tell me more about this crop.
+A: Tomato is a warm-season nightshade crop. Consistent irrigation, good air movement, clean planting material, and regular scouting for insects and leaf symptoms are central to reducing disease and pest pressure.
+
+[番茄 | 晚疫病] 问：介绍一下这种作物。
+答：番茄是喜温的茄科作物。保持稳定灌溉、良好通风、使用健康种苗，并定期检查虫害和叶片症状，是降低病虫害风险的关键。
+
+## Tomato - Powdery Mildew / 番茄 - 白粉病
+
+[Tomato | Powdery Mildew] Q: What causes this?
+A: Tomato powdery mildew is caused by powdery mildew fungi that spread by airborne spores. Disease is often favored by moderate temperatures, dense canopies, and conditions that support fungal growth even without free water on leaves.
+
+[番茄 | 白粉病] 问：病因是什么？
+答：番茄白粉病由白粉菌类真菌引起，孢子可随空气传播。适中温度、冠层过密等环境有利于病害发生，即使叶面没有明显积水也可发展。
+
+[Tomato | Powdery Mildew] Q: What symptoms should I look for?
+A: Look for white powdery patches on leaves that enlarge over time, with associated yellowing, browning, and premature leaf drop when disease becomes severe.
+
+[番茄 | 白粉病] 问：应该注意哪些症状？
+答：叶片上出现白色粉状斑块并逐渐扩大，严重时伴随黄化、褐变和提前落叶。
+
+[Tomato | Powdery Mildew] Q: How can I manage it?
+A: Improve plant spacing and airflow, remove heavily affected tissue where practical, avoid excessive nitrogen, and use resistant varieties or locally registered fungicides when available and justified.
+
+[番茄 | 白粉病] 问：如何防治？
+答：改善株距和通风，适当清除严重受害组织，避免氮肥过量；条件允许时选用抗病品种，并按当地建议使用登记杀菌剂。
+
+[Tomato | Powdery Mildew] Q: Tell me more about this crop.
+A: Tomato is a warm-season nightshade crop. Consistent irrigation, good air movement, clean planting material, and regular scouting for insects and leaf symptoms are central to reducing disease and pest pressure.
+
+[番茄 | 白粉病] 问：介绍一下这种作物。
+答：番茄是喜温的茄科作物。保持稳定灌溉、良好通风、使用健康种苗，并定期检查虫害和叶片症状，是降低病虫害风险的关键。
+
+## Tomato - Fusarium Wilt / 番茄 - 镰刀菌枯萎病
+
+[Tomato | Fusarium Wilt] Q: What causes this?
+A: Fusarium wilt is caused by soilborne Fusarium oxysporum strains that invade tomato roots and vascular tissue. The pathogen can persist in soil and is favored when susceptible plants are grown repeatedly in infested ground.
+
+[番茄 | 镰刀菌枯萎病] 问：病因是什么？
+答：番茄镰刀菌枯萎病由土传尖孢镰刀菌相关菌株引起，病原从根部侵入维管组织，可在土壤中长期存活，连续种植感病番茄会增加风险。
+
+[Tomato | Fusarium Wilt] Q: What symptoms should I look for?
+A: Lower leaves yellow and wilt first, often beginning on one side of the plant. Wilting progresses upward, growth is stunted, and cutting the lower stem may reveal brown vascular discoloration.
+
+[番茄 | 镰刀菌枯萎病] 问：应该注意哪些症状？
+答：下部叶片先黄化和萎蔫，常先发生在植株一侧，随后向上发展，植株生长受抑；切开近地面茎部可见维管组织褐变。
+
+[Tomato | Fusarium Wilt] Q: How can I manage it?
+A: Use resistant cultivars and clean transplants, avoid moving contaminated soil, manage root stress, and rotate with nonhost crops where useful. Severely affected plants should be removed.
+
+[番茄 | 镰刀菌枯萎病] 问：如何防治？
+答：使用抗病品种和健康种苗，避免携带污染土壤，减少根系胁迫，并在条件适宜时与非寄主作物轮作。严重病株应及时清除。
+
+[Tomato | Fusarium Wilt] Q: Tell me more about this crop.
+A: Tomato is a warm-season nightshade crop. Consistent irrigation, good air movement, clean planting material, and regular scouting for insects and leaf symptoms are central to reducing disease and pest pressure.
+
+[番茄 | 镰刀菌枯萎病] 问：介绍一下这种作物。
+答：番茄是喜温的茄科作物。保持稳定灌溉、良好通风、使用健康种苗，并定期检查虫害和叶片症状，是降低病虫害风险的关键。
+
+## Tomato - Whiteflies / 番茄 - 白粉虱
+
+[Tomato | Whiteflies] Q: What causes this?
+A: Whitefly infestations occur when small sap-feeding whiteflies colonize leaf undersides. Warm conditions favor rapid population growth, and some whitefly species can also transmit plant viruses.
+
+[番茄 | 白粉虱] 问：病因是什么？
+答：白粉虱侵染是由成虫和若虫在叶片背面刺吸汁液造成的。温暖条件下种群增长迅速，部分白粉虱种类还可传播植物病毒。
+
+[Tomato | Whiteflies] Q: What symptoms should I look for?
+A: Look for tiny white adults that fly when leaves are disturbed, scale-like immature stages under leaves, sticky honeydew, sooty mold, yellowing, and reduced vigor.
+
+[番茄 | 白粉虱] 问：应该注意哪些症状？
+答：轻触叶片时可见小型白色成虫飞起，叶背有鳞片状若虫，并可能出现蜜露、煤污、叶片黄化和植株长势下降。
+
+[Tomato | Whiteflies] Q: How can I manage it?
+A: Monitor leaf undersides and sticky traps, remove heavily infested plant material, control weeds that host whiteflies, conserve natural enemies, and use selective controls when thresholds justify treatment.
+
+[番茄 | 白粉虱] 问：如何防治？
+答：检查叶片背面并使用粘虫板监测，清除重度受害组织和寄主杂草，保护天敌，在虫口密度达到防治需要时优先采用选择性措施。
+
+[Tomato | Whiteflies] Q: Tell me more about this crop.
+A: Tomato is a warm-season nightshade crop. Consistent irrigation, good air movement, clean planting material, and regular scouting for insects and leaf symptoms are central to reducing disease and pest pressure.
+
+[番茄 | 白粉虱] 问：介绍一下这种作物。
+答：番茄是喜温的茄科作物。保持稳定灌溉、良好通风、使用健康种苗，并定期检查虫害和叶片症状，是降低病虫害风险的关键。
+
+# ===================================================================
+# PEPPER (CHILI) / 辣椒
+# ===================================================================
+
+## Pepper - Viral Disease / 辣椒 - 病毒病
+
+[Pepper | Viral Disease] Q: What causes this?
+A: The main viral threat to pepper is also Tomato Spotted Wilt Virus (TSWV), spread by thrips in exactly the same way as in tomato. Peppers grown near onion, garlic, cereal fields, or greenhouses growing cut flowers are at higher risk because these host thrips populations that carry the virus.
+
+[辣椒 | 病毒病] 问：病因是什么？
+答：辣椒的主要病毒威胁同样是番茄斑萎病毒（TSWV），其传播方式与在番茄上完全相同，均由蓟马传播。种植在洋葱、大蒜、谷类作物附近或切花温室附近的辣椒风险更高，因为这些地方容易滋生携带病毒的蓟马种群。
+
+[Pepper | Viral Disease] Q: What symptoms should I look for?
+A: Infected plants show distorted new growth, leaf mottling, and ring or line patterns on leaves and fruit. Growth is often stunted and uneven across the field rather than affecting every plant equally, which is a useful clue when distinguishing it from nutrient problems.
+
+[辣椒 | 病毒病] 问：应该注意哪些症状？
+答：感病植株表现为新生组织畸形、叶片斑驳，叶片和果实上出现环状或条状斑纹。植株生长通常矮小且田间分布不均，并非所有植株均等受害，这是区分病毒病与营养问题的重要线索。
+
+[Pepper | Viral Disease] Q: How can I manage it?
+A: Avoid planting pepper adjacent to onion, garlic, or cereal crops that harbor thrips, use reflective mulch early in the season to repel thrips before they settle, and deploy yellow sticky traps for ongoing monitoring. Rogue out and destroy infected plants as soon as they are found.
+
+[辣椒 | 病毒病] 问：如何防治？
+答：避免将辣椒种植在容易滋生蓟马的洋葱、大蒜或谷类作物旁边；生长季早期使用反光地膜驱避蓟马，防止其定殖；持续使用黄色粘虫板监测虫情。发现感病植株应立即拔除销毁。
+
+[Pepper | Viral Disease] Q: Tell me more about this crop.
+A: Pepper is a warm-season crop closely related to tomato and shares many of the same insect and virus pressures. Its fruit set and quality are especially sensitive to early-season stress, so controlling thrips before flowering matters more for pepper than for many other vegetables.
+
+[辣椒 | 病毒病] 问：介绍一下这种作物。
+答：辣椒是一种喜温作物，与番茄近缘，面临许多相同的虫害和病毒压力。辣椒的坐果和品质对生长早期的胁迫尤为敏感，因此在开花前控制蓟马对辣椒比对许多其他蔬菜更为重要。
+
+## Pepper - Aphids / 辣椒 - 蚜虫
+
+[Pepper | Aphids] Q: What causes this?
+A: Aphid infestations occur when green peach aphids and other species colonize the undersides of leaves and new growth tips, reproducing rapidly in mild, dry weather. Aphids are also a common way viruses get introduced into a pepper planting, since they can pick up and transmit plant viruses as they feed.
+
+[辣椒 | 蚜虫] 问：病因是什么？
+答：蚜虫侵染是由于桃蚜等蚜虫种类在叶片背面和新梢上聚集繁殖，在温和干燥的天气条件下繁殖速度很快。蚜虫也是病毒传入辣椒地的常见途径，因为它们取食时可获取并传播植物病毒。
+
+[Pepper | Aphids] Q: What symptoms should I look for?
+A: Look for clusters of small, soft-bodied insects on the underside of leaves and along stems, shiny sticky honeydew on leaves, shed white skins from molting, curled or distorted new leaves, and the presence of ants attracted to the honeydew.
+
+[辣椒 | 蚜虫] 问：应该注意哪些症状？
+答：留意叶片背面和茎秆上成簇的小型软体昆虫、叶片上发亮的粘性蜜露、蜕皮留下的白色皮壳、卷曲或畸形的新叶，以及被蜜露吸引而来的蚂蚁。
+
+[Pepper | Aphids] Q: How can I manage it?
+A: Monitor weekly by inspecting the underside of leaves and new growth directly, rather than relying only on sticky traps, since aphid identification at the species level matters for choosing the right biological control. Predatory lady beetles and aphid parasitic wasps are effective biological controls where infestations are moderate.
+
+[辣椒 | 蚜虫] 问：如何防治？
+答：每周直接检查叶片背面和新梢进行监测，不要仅依赖粘虫板，因为准确识别蚜虫种类对选择合适的生物防治方法很重要。在中等程度侵染下，瓢虫等捕食性天敌和蚜虫寄生蜂是有效的生物防治手段。
+
+[Pepper | Aphids] Q: Tell me more about this crop.
+A: Pepper produces new growth continuously through its fruiting season, and that tender new growth is exactly what aphids prefer to colonize. This makes aphid monitoring an ongoing task throughout the growing season rather than a one-time inspection.
+
+[辣椒 | 蚜虫] 问：介绍一下这种作物。
+答：辣椒在整个结果期会持续长出新梢，而这些嫩梢正是蚜虫最喜欢聚集的部位。因此蚜虫监测需要贯穿整个生长季持续进行，而非一次性检查。
+
+## Pepper - Thrips / 辣椒 - 蓟马
+
+[Pepper | Thrips] Q: What causes this?
+A: Thrips infest pepper directly for feeding and, more seriously, act as the vector that introduces Tomato Spotted Wilt Virus into the planting. The adults are the only life stage that flies, though poorly, and are mostly spread by wind currents and on clothing or plant material.
+
+[辣椒 | 蓟马] 问：病因是什么？
+答：蓟马直接取食辣椒造成危害，更严重的是它们是传播番茄斑萎病毒的媒介昆虫。成虫是唯一能飞行的虫态，但飞行能力较弱，主要通过风力以及附着在衣物或植株残体上传播扩散。
+
+[Pepper | Thrips] Q: What symptoms should I look for?
+A: Feeding damage distorts plant growth, deforms flowers, and leaves white-to-silvery patches on emerging leaves that often contain tiny black fecal specks. High populations cause visible silvering or scarring on leaf and fruit surfaces along with edema-like blemishes on fruit.
+
+[辣椒 | 蓟马] 问：应该注意哪些症状？
+答：取食为害会导致植株生长畸形、花朵变形，新叶上出现白色至银白色斑块，斑块中常伴有黑色小粪便点。高密度虫害会在叶片和果实表面造成明显的银斑或疤痕，果实上还可能出现水肿状斑痕。
+
+[Pepper | Thrips] Q: How can I manage it?
+A: Use yellow sticky traps to monitor thrips movement (the same traps also catch aphids and whiteflies), apply reflective mulch early in the season to repel incoming thrips, and avoid planting near onion, garlic, or cereal fields where thrips populations build up heavily.
+
+[辣椒 | 蓟马] 问：如何防治？
+答：使用黄色粘虫板监测蓟马活动情况（同一粘虫板也能诱集蚜虫和白粉虱）；生长季早期铺设反光地膜驱避迁入的蓟马；避免在容易大量滋生蓟马的洋葱、大蒜或谷类作物附近种植。
+
+[Pepper | Thrips] Q: Tell me more about this crop.
+A: Pepper is one of the key host crops for western flower thrips in field settings, alongside tomato and lettuce. Because thrips damage and virus transmission are closely linked in pepper, effective thrips management is really virus-prevention management as well.
+
+[辣椒 | 蓟马] 问：介绍一下这种作物。
+答：辣椒与番茄、莴苣一样，是西花蓟马在田间的主要寄主作物之一。由于辣椒上蓟马的为害与病毒传播密切相关，有效防治蓟马实际上也就是在进行病毒病的预防。
+
+## Pepper - Mites / 辣椒 - 螨
+
+[Pepper | Mites] Q: What causes this?
+A: Spider mite outbreaks on pepper are favored by hot, dry weather, which speeds up mite reproduction, and by the loss of natural predators, often from earlier broad-spectrum insecticide use. Mites are found mainly on the undersides of leaves, out of sight until damage is already visible from above.
+
+[辣椒 | 螨] 问：病因是什么？
+答：辣椒上红蜘蛛（叶螨）暴发的原因主要是炎热干燥的天气，这种气候会加速螨类繁殖；同时天敌的减少（通常由于此前使用了广谱杀虫剂）也是重要原因。螨类主要藏匿在叶片背面，往往等到叶面上已能看出受害症状时才被发现。
+
+[Pepper | Mites] Q: What symptoms should I look for?
+A: Look for tiny yellow or white stippling dots on the upper leaf surface, visible when viewing leaves from above, while the mites themselves are found on the underside. Heavy infestations produce fine webbing across leaves and can cause overall leaf bronzing or drop.
+
+[辣椒 | 螨] 问：应该注意哪些症状？
+答：留意叶片正面出现的细小黄白色斑点（俗称"白斑"），从上方观察叶片即可看到，而螨虫本身则藏在叶片背面。严重侵染时叶片上会出现细密的蛛网，并可能导致叶片整体呈古铜色或脱落。
+
+[Pepper | Mites] Q: How can I manage it?
+A: Treat as soon as mites are found at any level, since populations multiply rapidly in hot, dry conditions and become much harder to control once webbing covers the plant. Miticides that are gentler on beneficial insects are preferred where predatory mites are still present in the field.
+
+[辣椒 | 螨] 问：如何防治？
+答：一旦发现螨虫，无论密度高低都应立即处理，因为在炎热干燥条件下种群会迅速倍增，一旦蛛网覆盖全株就更难控制。在田间仍有捕食性螨类存在的情况下，优先选用对天敌较温和的杀螨剂。
+
+[Pepper | Mites] Q: Tell me more about this crop.
+A: Pepper's broad leaf canopy and the tendency of mites to hide on leaf undersides mean visual scouting from above the canopy alone will miss early infestations. Turning leaves over during routine field checks is an important habit for pepper growers.
+
+[辣椒 | 螨] 问：介绍一下这种作物。
+答：辣椒叶片冠层较大，而螨虫又习惯藏匿在叶背，因此仅从植株上方观察容易错过早期虫害。种植者在日常田间巡查时养成翻看叶片背面的习惯十分重要。
+
+## Pepper - Anthracnose / 辣椒 - 炭疽病
+
+[Pepper | Anthracnose] Q: What causes this?
+A: Anthracnose on pepper is caused by Colletotrichum fungal species that infect immature fruit while it is still in the field, though visible symptoms often do not appear until after harvest. No anthracnose-resistant pepper cultivar has yet been developed, which is why this disease remains a persistent priority in pepper production.
+
+[辣椒 | 炭疽病] 问：病因是什么？
+答：辣椒炭疽病由炭疽菌（Colletotrichum）真菌引起，该病原在果实尚未成熟时就已在田间侵染，但症状往往要到采后才明显表现出来。目前尚未培育出抗炭疽病的辣椒品种，因此该病始终是辣椒生产中需要重点关注的问题。
+
+[Pepper | Anthracnose] Q: What symptoms should I look for?
+A: Early lesions are small and water-soaked, expanding rapidly into sunken spots that range from dark red to tan to black. As infection progresses, small buff or salmon-colored spore masses appear scattered or in concentric rings within the lesion.
+
+[辣椒 | 炭疽病] 问：应该注意哪些症状？
+答：早期病斑细小、呈水浸状，会迅速扩大为凹陷斑，颜色从暗红色到黄褐色再到黑色不等。随着病情发展，病斑内会散生或呈同心圆状分布浅黄色至橙红色的孢子堆。
+
+[Pepper | Anthracnose] Q: How can I manage it?
+A: Start with clean, pathogen-free seed and rotate crops away from pepper and related hosts to reduce carryover inoculum in the field. Preventive fungicide sprays timed to periods of favorable warm, humid weather provide additional protection where the disease has been a problem before.
+
+[辣椒 | 炭疽病] 问：如何防治？
+答：首先应使用无病原的洁净种子，并与辣椒及其近缘寄主作物轮作，以减少田间病原菌的残留积累。在此前曾发病的地块，可在温暖潮湿的天气条件到来前预防性喷施杀菌剂，以提供额外保护。
+
+[Pepper | Anthracnose] Q: Tell me more about this crop.
+A: Because anthracnose symptoms on pepper fruit frequently appear only after harvest, post-harvest handling and storage conditions matter almost as much as field management for controlling this particular disease.
+
+[辣椒 | 炭疽病] 问：介绍一下这种作物。
+答：由于辣椒炭疽病的症状常常在采收后才显现，因此采后处理和贮藏条件对控制这种病害的重要性，几乎不亚于田间管理本身。
+
+## Pepper - Bacterial Spot / 辣椒 - 细菌性斑点病
+
+[Pepper | Bacterial Spot] Q: What causes this?
+A: Pepper bacterial spot is caused by Xanthomonas bacteria that can be carried on seed or transplants. Warm, humid conditions and splashing water favor infection and spread.
+
+[辣椒 | 细菌性斑点病] 问：病因是什么？
+答：辣椒细菌性斑点病由黄单胞菌引起，可通过种子或种苗传播。温暖高湿和溅水有利于侵染与扩散。
+
+[Pepper | Bacterial Spot] Q: What symptoms should I look for?
+A: Leaves develop small angular water-soaked spots that turn brown, stems may form raised lesions, and fruit develops raised, rough, cracked brown spots.
+
+[辣椒 | 细菌性斑点病] 问：应该注意哪些症状？
+答：叶片出现细小角形水渍状斑点并逐渐变褐，茎部可形成隆起病斑，果实出现隆起、粗糙、开裂的褐色斑点。
+
+[Pepper | Bacterial Spot] Q: How can I manage it?
+A: Start with pathogen-free seed or transplants, avoid overhead irrigation, rotate out of pepper, remove crop residue, and follow local guidance for copper or other registered bactericides where appropriate.
+
+[辣椒 | 细菌性斑点病] 问：如何防治？
+答：使用无病原种子或健康种苗，避免喷灌，与非寄主作物轮作并清除病残体；必要时根据当地建议使用登记的铜制剂或其他杀菌剂。
+
+[Pepper | Bacterial Spot] Q: Tell me more about this crop.
+A: Pepper is a warm-season nightshade crop closely related to tomato. It responds best to steady moisture, healthy roots, good airflow, and early monitoring for insects that can also transmit viruses.
+
+[辣椒 | 细菌性斑点病] 问：介绍一下这种作物。
+答：辣椒是与番茄近缘的喜温茄科作物。稳定水分、健康根系、良好通风以及及早监测可能传播病毒的害虫，对保持辣椒健康十分重要。
+
+## Pepper - Powdery Mildew / 辣椒 - 白粉病
+
+[Pepper | Powdery Mildew] Q: What causes this?
+A: Pepper powdery mildew is caused mainly by Leveillula taurica. Airborne spores spread the disease, which can become severe during warm conditions.
+
+[辣椒 | 白粉病] 问：病因是什么？
+答：辣椒白粉病主要由 Leveillula taurica 引起，病原孢子可随空气传播，在温暖条件下可能严重发生。
+
+[Pepper | Powdery Mildew] Q: What symptoms should I look for?
+A: White powdery growth is often most visible on the lower leaf surface, while the upper surface develops yellow or brown patches. Infected leaves may curl upward and drop, exposing fruit to sunburn.
+
+[辣椒 | 白粉病] 问：应该注意哪些症状？
+答：白色粉状霉层常主要出现在叶片背面，叶片正面出现黄色或褐色斑块；受害叶片可向上卷曲并脱落，使果实暴露后发生日灼。
+
+[Pepper | Powdery Mildew] Q: How can I manage it?
+A: Scout regularly, improve airflow, remove heavily infected leaves where practical, and use locally appropriate resistant varieties or registered fungicides when disease pressure is high.
+
+[辣椒 | 白粉病] 问：如何防治？
+答：定期巡查，改善通风，适当清除严重病叶；病害压力高时可选用当地适宜的抗病品种或登记杀菌剂。
+
+[Pepper | Powdery Mildew] Q: Tell me more about this crop.
+A: Pepper is a warm-season nightshade crop closely related to tomato. It responds best to steady moisture, healthy roots, good airflow, and early monitoring for insects that can also transmit viruses.
+
+[辣椒 | 白粉病] 问：介绍一下这种作物。
+答：辣椒是与番茄近缘的喜温茄科作物。稳定水分、健康根系、良好通风以及及早监测可能传播病毒的害虫，对保持辣椒健康十分重要。
+
+## Pepper - Whiteflies / 辣椒 - 白粉虱
+
+[Pepper | Whiteflies] Q: What causes this?
+A: Whiteflies reproduce on the undersides of pepper leaves and feed on phloem sap. Warm conditions and protected production can allow populations to build rapidly.
+
+[辣椒 | 白粉虱] 问：病因是什么？
+答：白粉虱在辣椒叶片背面繁殖并刺吸韧皮部汁液，温暖环境和设施栽培条件下种群可能迅速增加。
+
+[Pepper | Whiteflies] Q: What symptoms should I look for?
+A: Adults fly up when foliage is disturbed; immature stages remain attached beneath leaves. Heavy infestations cause honeydew, sooty mold, yellowing, reduced vigor, and may increase virus risk.
+
+[辣椒 | 白粉虱] 问：应该注意哪些症状？
+答：扰动叶片时成虫会飞起，若虫则附着在叶背。严重时出现蜜露、煤污、叶片黄化和长势下降，并可能增加病毒传播风险。
+
+[Pepper | Whiteflies] Q: How can I manage it?
+A: Use sticky traps and leaf inspections, remove heavily infested material, manage weeds, conserve natural enemies, and choose selective controls where treatment is needed.
+
+[辣椒 | 白粉虱] 问：如何防治？
+答：使用粘虫板和叶背检查进行监测，清除重度受害组织和杂草寄主，保护天敌，必要时优先选择对天敌影响较小的防治措施。
+
+[Pepper | Whiteflies] Q: Tell me more about this crop.
+A: Pepper is a warm-season nightshade crop closely related to tomato. It responds best to steady moisture, healthy roots, good airflow, and early monitoring for insects that can also transmit viruses.
+
+[辣椒 | 白粉虱] 问：介绍一下这种作物。
+答：辣椒是与番茄近缘的喜温茄科作物。稳定水分、健康根系、良好通风以及及早监测可能传播病毒的害虫，对保持辣椒健康十分重要。
+
+## Pepper - Blossom end rot / 辣椒 - 脐腐病
+
+[Pepper | Blossom end rot] Q: What causes this?
+A: Pepper blossom end rot is a physiological calcium-transport disorder usually associated with uneven moisture, root stress, high salinity, or rapid fruit growth rather than an infectious pathogen.
+
+[辣椒 | 脐腐病] 问：病因是什么？
+答：辣椒脐腐病是一种生理性钙运输障碍，通常与水分不稳定、根系受压、盐分过高或果实快速生长有关，并非由传染性病原引起。
+
+[Pepper | Blossom end rot] Q: What symptoms should I look for?
+A: A pale or water-soaked area develops at the blossom end of fruit and becomes dark, sunken, dry, and leathery as the fruit enlarges.
+
+[辣椒 | 脐腐病] 问：应该注意哪些症状？
+答：果实花端出现浅色或水渍状斑块，随着果实膨大逐渐变暗、凹陷、干燥并呈革质状。
+
+[Pepper | Blossom end rot] Q: How can I manage it?
+A: Maintain steady soil moisture, avoid root injury and excessive fertilizer salts, mulch where suitable, and test soil before adding calcium. Damaged fruit will not recover.
+
+[辣椒 | 脐腐病] 问：如何防治？
+答：保持土壤水分稳定，避免伤根和肥盐过高，可适当覆盖地表；补钙前先检测土壤。已经受害的果实不会恢复。
+
+[Pepper | Blossom end rot] Q: Tell me more about this crop.
+A: Pepper is a warm-season nightshade crop closely related to tomato. It responds best to steady moisture, healthy roots, good airflow, and early monitoring for insects that can also transmit viruses.
+
+[辣椒 | 脐腐病] 问：介绍一下这种作物。
+答：辣椒是与番茄近缘的喜温茄科作物。稳定水分、健康根系、良好通风以及及早监测可能传播病毒的害虫，对保持辣椒健康十分重要。
+
+## Pepper - Phytophthora Root and Crown Rot / 辣椒 - 疫霉根腐和冠腐病
+
+[Pepper | Phytophthora Root and Crown Rot] Q: What causes this?
+A: Phytophthora root and crown rot is caused by soilborne oomycetes favored by saturated, poorly drained soils and contaminated irrigation water.
+
+[辣椒 | 疫霉根腐和冠腐病] 问：病因是什么？
+答：辣椒疫霉根腐和冠腐病由土传疫霉类卵菌引起，积水、排水不良土壤和受污染灌溉水有利于病害发生。
+
+[Pepper | Phytophthora Root and Crown Rot] Q: What symptoms should I look for?
+A: Plants may wilt suddenly, lower stems or crowns become dark and water-soaked, roots rot, and severely affected plants collapse despite wet soil.
+
+[辣椒 | 疫霉根腐和冠腐病] 问：应该注意哪些症状？
+答：植株可突然萎蔫，茎基部或根冠变暗并呈水渍状，根系腐烂，严重时即使土壤湿润植株也会倒伏死亡。
+
+[Pepper | Phytophthora Root and Crown Rot] Q: How can I manage it?
+A: Improve drainage, avoid overirrigation and standing water, use healthy transplants and resistant material where available, rotate where practical, and follow local Phytophthora management guidance.
+
+[辣椒 | 疫霉根腐和冠腐病] 问：如何防治？
+答：改善排水，避免过度灌溉和积水，使用健康种苗和可利用的抗性材料，合理轮作，并遵循当地疫霉病防治建议。
+
+[Pepper | Phytophthora Root and Crown Rot] Q: Tell me more about this crop.
+A: Pepper is a warm-season nightshade crop closely related to tomato. It responds best to steady moisture, healthy roots, good airflow, and early monitoring for insects that can also transmit viruses.
+
+[辣椒 | 疫霉根腐和冠腐病] 问：介绍一下这种作物。
+答：辣椒是与番茄近缘的喜温茄科作物。稳定水分、健康根系、良好通风以及及早监测可能传播病毒的害虫，对保持辣椒健康十分重要。
+
+# ===================================================================
+# CUCUMBER / 黄瓜
+# ===================================================================
+
+## Cucumber - Viral Disease / 黄瓜 - 病毒病
+
+[Cucumber | Viral Disease] Q: What causes this?
+A: Cucumber mosaic virus (CMV) has an unusually wide host range and is transmitted mainly by aphids, which pick up the virus while feeding on infected plants or weeds and carry it to healthy cucumber plants. It also spreads through infected seed and mechanical contact during handling.
+
+[黄瓜 | 病毒病] 问：病因是什么？
+答：黄瓜花叶病毒（CMV）寄主范围异常广泛，主要通过蚜虫传播——蚜虫在感病植株或杂草上取食时获得病毒，再传染给健康的黄瓜植株。该病毒也可通过带毒种子及田间操作接触传播。
+
+[Cucumber | Viral Disease] Q: What symptoms should I look for?
+A: Symptoms vary by strain but commonly include a light-green to dark-green mottled pattern on leaves, vein banding, interveinal yellowing, and leaf distortion. In severe cases, dark green blisters can form, and symptoms can superficially resemble herbicide injury, which sometimes leads to misdiagnosis.
+
+[黄瓜 | 病毒病] 问：应该注意哪些症状？
+答：症状因毒株不同而有差异，但常见表现为叶片呈浅绿至深绿相间的花叶斑驳、叶脉带状变色、脉间黄化及叶片畸形。严重时叶片会出现深绿色水泡状凸起，症状有时与除草剂药害相似，容易造成误诊。
+
+[Cucumber | Viral Disease] Q: How can I manage it?
+A: Control the aphid populations that spread the virus between plants, remove and destroy infected plants promptly to reduce the source of new infections, and control weeds around the field since many weed species serve as a reservoir for the virus between cropping seasons.
+
+[黄瓜 | 病毒病] 问：如何防治？
+答：控制传播病毒的蚜虫种群；及时拔除并销毁感病植株，以减少新的传染源；同时清除田边杂草，因为许多杂草是该病毒在作物茬口之间的越冬寄主和储存库。
+
+[Cucumber | Viral Disease] Q: Tell me more about this crop.
+A: Cucumber belongs to the cucurbit family and, because CMV can also infect beans, peppers, and many ornamental and weed species, managing this virus effectively usually requires attention to what is growing in and around the field, not just the cucumber crop itself.
+
+[黄瓜 | 病毒病] 问：介绍一下这种作物。
+答：黄瓜属于葫芦科作物。由于黄瓜花叶病毒同样能感染豆类、辣椒以及多种观赏植物和杂草，因此要有效控制该病毒，通常需要关注田块内外的整体种植环境，而不仅仅是黄瓜本身。
+
+## Cucumber - Mites / 黄瓜 - 螨
+
+[Cucumber | Mites] Q: What causes this?
+A: Spider mites on cucumber build up during hot, dry conditions, particularly in high tunnels or greenhouses where humidity is low. Populations can escalate quickly once conditions favor them, especially if natural predators have been reduced by earlier pesticide applications.
+
+[黄瓜 | 螨] 问：病因是什么？
+答：黄瓜上红蜘蛛（叶螨）多在炎热干燥的条件下大量发生，尤其是在湿度较低的大棚或温室中更为常见。一旦条件适宜，种群会迅速扩增，若此前的农药施用减少了天敌数量，情况会更加严重。
+
+[Cucumber | Mites] Q: What symptoms should I look for?
+A: Early infestation shows as light stippling on the upper leaf surface, with the mites themselves visible on the underside if you look closely. As populations grow, webbing can cover entire leaves and branches, and heavily infested plants may show overall bronzing or curling of foliage.
+
+[黄瓜 | 螨] 问：应该注意哪些症状？
+答：早期侵染表现为叶片正面出现轻微的白色斑点，仔细查看叶片背面即可发现螨虫本身。随着种群增长，蛛网可能覆盖整片叶子和枝条，严重受害的植株叶片会出现整体古铜色或卷曲现象。
+
+[Cucumber | Mites] Q: How can I manage it?
+A: Treat infestations as soon as they are found at any level, since dry conditions inside tunnels or greenhouses let mite populations multiply rapidly if left unchecked. Materials that spare beneficial predatory mites and insects are preferred when natural enemies are still present in the planting.
+
+[黄瓜 | 螨] 问：如何防治？
+答：一旦发现螨虫，无论密度高低都应及时处理，因为大棚或温室内的干燥环境会让螨虫种群在不加控制的情况下迅速倍增。若田间仍有天敌存在，应优先选用对捕食性螨类和益虫较温和的防治药剂。
+
+[Cucumber | Mites] Q: Tell me more about this crop.
+A: Cucumber grown in high tunnels or greenhouses faces a higher spider mite risk than field-grown cucumber specifically because of the drier, more sheltered growing environment, so growers using protected culture should scout for mites more frequently.
+
+[黄瓜 | 螨] 问：介绍一下这种作物。
+答：与露地种植的黄瓜相比，大棚或温室栽培的黄瓜面临更高的红蜘蛛风险，这正是由于设施内更干燥、更封闭的生长环境所致，因此设施栽培的种植者应更频繁地巡查螨情。
+
+## Cucumber - Downy Mildew / 黄瓜 - 霜霉病
+
+[Cucumber | Downy Mildew] Q: What causes this?
+A: Cucurbit downy mildew is caused by a water-mold pathogen that spreads through the air over long distances and establishes quickly once it reaches a field, particularly on cucumber and cantaloupe, which are more susceptible than other cucurbits to the strain that affects this crop group.
+
+[黄瓜 | 霜霉病] 问：病因是什么？
+答：黄瓜霜霉病由一种卵菌类病原引起，该病原可通过空气远距离传播，一旦到达田间便能迅速定殖，其中黄瓜和甜瓜对该病原所对应的致病型尤为易感，比其他葫芦科作物更容易发病。
+
+[Cucumber | Downy Mildew] Q: What symptoms should I look for?
+A: Look for angular, yellow spots on the upper leaf surface that are bounded by leaf veins, giving them a blocky rather than round shape. On the underside of the leaf, a grayish or purplish fuzzy growth may be visible during humid conditions, especially in the early morning.
+
+[黄瓜 | 霜霉病] 问：应该注意哪些症状？
+答：注意叶片正面出现受叶脉限制、呈方块状而非圆形的黄色角斑。在潮湿条件下，尤其是清晨，叶片背面可能可见灰色或紫灰色的霉状物。
+
+[Cucumber | Downy Mildew] Q: How can I manage it?
+A: Choose downy-mildew-resistant cucumber varieties where available, since resistant varieties can extend the harvest window by several weeks compared to susceptible ones. Apply protective fungicides preventively once downy mildew has been detected or forecast in the surrounding region, and scout regularly during humid periods.
+
+[黄瓜 | 霜霉病] 问：如何防治？
+答：尽量选用抗霜霉病的黄瓜品种，与感病品种相比，抗性品种可延长数周的采收期。一旦周边地区检测到或预测有霜霉病发生，应及时预防性喷施保护性杀菌剂，并在潮湿季节加强田间巡查。
+
+[Cucumber | Downy Mildew] Q: Tell me more about this crop.
+A: Cucumber is among the cucurbit crops most susceptible to downy mildew, and because the pathogen spreads on wind currents across large distances, regional disease alerts and forecasting systems are an important tool for timing protective fungicide sprays correctly.
+
+[黄瓜 | 霜霉病] 问：介绍一下这种作物。
+答：黄瓜是葫芦科作物中对霜霉病最为易感的品种之一，由于该病原可随气流远距离传播，区域性的病害预警和预测系统是把握保护性杀菌剂正确施用时机的重要工具。
+
+## Cucumber - Aphids / 黄瓜 - 蚜虫
+
+[Cucumber | Aphids] Q: What causes this?
+A: Melon aphid and green peach aphid are the main species affecting cucumber, colonizing the undersides of leaves and new growth. Populations expand quickly in mild weather and can be reintroduced repeatedly from nearby weeds or other host crops throughout the season.
+
+[黄瓜 | 蚜虫] 问：病因是什么？
+答：为害黄瓜的主要蚜虫种类是瓜蚜和桃蚜，它们聚集在叶片背面和新梢上。在温和天气下种群扩增迅速，并可能在整个生长季节中反复从附近的杂草或其他寄主作物迁入。
+
+[Cucumber | Aphids] Q: What symptoms should I look for?
+A: Look for colonies of small soft-bodied insects under leaves, sticky honeydew residue on foliage, sooty mold growing on the honeydew, curled or distorted new leaves, and stunted growth on heavily infested plants.
+
+[黄瓜 | 蚜虫] 问：应该注意哪些症状？
+答：留意叶片背面成群的小型软体昆虫、叶面上粘性的蜜露残留物、蜜露上滋生的煤污病、卷曲或畸形的新叶，以及重度受害植株的生长迟缓。
+
+[Cucumber | Aphids] Q: How can I manage it?
+A: Monitor the underside of leaves weekly rather than relying only on sticky-trap counts, and encourage or introduce natural predators such as lady beetles and aphid parasites where infestation levels are still moderate. Controlling nearby weed hosts reduces the number of aphids migrating into the planting.
+
+[黄瓜 | 蚜虫] 问：如何防治？
+答：每周检查叶片背面进行监测，不要仅依靠粘虫板计数；在虫害程度尚属中等时，可引入或保护瓢虫、蚜虫寄生蜂等天敌。清除周边杂草寄主可减少迁入田间的蚜虫数量。
+
+[Cucumber | Aphids] Q: Tell me more about this crop.
+A: Because aphids are also the primary vector for cucumber mosaic virus, aphid management on cucumber serves a dual purpose: limiting direct feeding damage and reducing the risk of viral disease spreading through the planting.
+
+[黄瓜 | 蚜虫] 问：介绍一下这种作物。
+答：由于蚜虫同时也是黄瓜花叶病毒的主要传播媒介，因此黄瓜上的蚜虫防治具有双重意义：既能减少直接取食造成的损害，也能降低病毒病在田间传播的风险。
+
+## Cucumber - Anthracnose / 黄瓜 - 炭疽病
+
+[Cucumber | Anthracnose] Q: What causes this?
+A: Cucumber anthracnose is caused by Colletotrichum fungal species and, as with pepper, infection can occur on fruit while it is still developing in the field even though visible symptoms may not appear until later, including after harvest.
+
+[黄瓜 | 炭疽病] 问：病因是什么？
+答：黄瓜炭疽病由炭疽菌（Colletotrichum）引起，与辣椒炭疽病类似，感染可能在果实尚在田间发育时就已发生，但可见症状可能要到之后（包括采收后）才显现出来。
+
+[Cucumber | Anthracnose] Q: What symptoms should I look for?
+A: Look for water-soaked lesions that expand into sunken, dark spots on leaves and fruit, sometimes developing concentric rings of spore masses within the lesion as the infection matures.
+
+[黄瓜 | 炭疽病] 问：应该注意哪些症状？
+答：留意叶片和果实上出现水浸状病斑，逐渐扩大为凹陷的暗色斑点，随着感染成熟，病斑内有时会形成同心圆状分布的孢子堆。
+
+[Cucumber | Anthracnose] Q: How can I manage it?
+A: Use clean seed and rotate cucumber away from other cucurbits to break the disease cycle in the soil, and apply fungicide sprays preventively during warm, humid periods when the disease is most likely to establish.
+
+[黄瓜 | 炭疽病] 问：如何防治？
+答：使用洁净种子，并与其他葫芦科作物轮作以打断土壤中的病害循环；在病害最容易发生的温暖潮湿季节，预防性喷施杀菌剂。
+
+[Cucumber | Anthracnose] Q: Tell me more about this crop.
+A: Cucumber shares several major fungal diseases, including anthracnose and downy mildew, with other cucurbit crops such as melon and squash, so crop rotation planning needs to account for the whole cucurbit family, not cucumber alone.
+
+[黄瓜 | 炭疽病] 问：介绍一下这种作物。
+答：黄瓜与甜瓜、南瓜等其他葫芦科作物共有多种主要真菌病害，包括炭疽病和霜霉病，因此在制定轮作计划时，需要考虑整个葫芦科作物群体，而不仅仅是黄瓜本身。
+
+## Cucumber - Powdery Mildew / 黄瓜 - 白粉病
+
+[Cucumber | Powdery Mildew] Q: What causes this?
+A: Cucumber powdery mildew is caused by powdery mildew fungi whose airborne spores readily infect cucurbit foliage, especially in dense canopies and moderate to warm conditions.
+
+[黄瓜 | 白粉病] 问：病因是什么？
+答：黄瓜白粉病由白粉菌类真菌引起，孢子可随空气传播，在冠层茂密和适中至温暖条件下容易侵染葫芦科叶片。
+
+[Cucumber | Powdery Mildew] Q: What symptoms should I look for?
+A: White powdery patches appear on leaves and stems, expand, and can cause yellowing, browning, premature leaf death, and reduced fruit quality.
+
+[黄瓜 | 白粉病] 问：应该注意哪些症状？
+答：叶片和茎上出现白色粉状斑块并逐渐扩大，严重时叶片黄化、褐变和提前枯死，并影响果实品质。
+
+[Cucumber | Powdery Mildew] Q: How can I manage it?
+A: Use resistant varieties where available, improve airflow, remove severely affected leaves, and apply locally registered fungicides preventively or early when disease pressure warrants.
+
+[黄瓜 | 白粉病] 问：如何防治？
+答：尽量使用抗病品种，改善通风，清除严重病叶；病害压力较高时按当地建议预防或早期使用登记杀菌剂。
+
+[Cucumber | Powdery Mildew] Q: Tell me more about this crop.
+A: Cucumber is a fast-growing cucurbit that benefits from good airflow, careful irrigation, healthy pollination, and frequent scouting because foliar diseases and sucking insects can spread quickly in dense canopies.
+
+[黄瓜 | 白粉病] 问：介绍一下这种作物。
+答：黄瓜是生长迅速的葫芦科作物，需要良好通风、合理灌溉和正常授粉。由于叶部病害和刺吸式害虫可在茂密冠层中迅速扩散，应经常巡查。
+
+## Cucumber - Angular Leaf Spot / 黄瓜 - 角斑病
+
+[Cucumber | Angular Leaf Spot] Q: What causes this?
+A: Angular leaf spot is caused by Pseudomonas syringae pv. lachrymans. The bacterium can survive in infected debris or seed and spreads rapidly through rain, overhead irrigation, workers, and equipment in humid conditions.
+
+[黄瓜 | 角斑病] 问：病因是什么？
+答：黄瓜角斑病由 Pseudomonas syringae pv. lachrymans 引起，病原可在病残体或种子中存活，在高湿条件下通过雨水、喷灌、人员和设备迅速传播。
+
+[Cucumber | Angular Leaf Spot] Q: What symptoms should I look for?
+A: Water-soaked spots become gray or tan and are bounded by veins, giving them an angular shape. Dry tissue may fall out, leaving a tattered appearance; fruit lesions are often superficial.
+
+[黄瓜 | 角斑病] 问：应该注意哪些症状？
+答：水渍状病斑逐渐变成灰色或黄褐色，并受叶脉限制呈角形；病组织干枯后可脱落形成破孔，果实病斑通常较浅表。
+
+[Cucumber | Angular Leaf Spot] Q: How can I manage it?
+A: Use resistant varieties and clean seed, limit overhead irrigation, avoid working plants when wet, remove infected debris, and sanitize equipment between affected areas.
+
+[黄瓜 | 角斑病] 问：如何防治？
+答：使用抗病品种和健康种子，减少喷灌，植株潮湿时避免田间操作，清除病残体，并在受害区域之间清洁消毒设备。
+
+[Cucumber | Angular Leaf Spot] Q: Tell me more about this crop.
+A: Cucumber is a fast-growing cucurbit that benefits from good airflow, careful irrigation, healthy pollination, and frequent scouting because foliar diseases and sucking insects can spread quickly in dense canopies.
+
+[黄瓜 | 角斑病] 问：介绍一下这种作物。
+答：黄瓜是生长迅速的葫芦科作物，需要良好通风、合理灌溉和正常授粉。由于叶部病害和刺吸式害虫可在茂密冠层中迅速扩散，应经常巡查。
+
+## Cucumber - Whiteflies / 黄瓜 - 白粉虱
+
+[Cucumber | Whiteflies] Q: What causes this?
+A: Whiteflies colonize cucumber leaf undersides and feed on plant sap. Warm greenhouse or field conditions can support rapid population growth.
+
+[黄瓜 | 白粉虱] 问：病因是什么？
+答：白粉虱在黄瓜叶片背面聚集并刺吸汁液，温暖的温室或田间环境可使种群迅速增长。
+
+[Cucumber | Whiteflies] Q: What symptoms should I look for?
+A: Look for white adults flying from disturbed leaves, immature stages beneath leaves, honeydew, sooty mold, yellowing, and reduced growth.
+
+[黄瓜 | 白粉虱] 问：应该注意哪些症状？
+答：扰动叶片时可见白色成虫飞起，叶背有若虫，同时可能出现蜜露、煤污、叶片黄化和生长受抑。
+
+[Cucumber | Whiteflies] Q: How can I manage it?
+A: Monitor with sticky traps and leaf inspections, remove heavily infested leaves, control weeds, conserve natural enemies, and use selective treatments if populations become damaging.
+
+[黄瓜 | 白粉虱] 问：如何防治？
+答：使用粘虫板和叶背检查监测，清除重度受害叶片和杂草寄主，保护天敌，虫口密度造成明显危害时再采取选择性防治。
+
+[Cucumber | Whiteflies] Q: Tell me more about this crop.
+A: Cucumber is a fast-growing cucurbit that benefits from good airflow, careful irrigation, healthy pollination, and frequent scouting because foliar diseases and sucking insects can spread quickly in dense canopies.
+
+[黄瓜 | 白粉虱] 问：介绍一下这种作物。
+答：黄瓜是生长迅速的葫芦科作物，需要良好通风、合理灌溉和正常授粉。由于叶部病害和刺吸式害虫可在茂密冠层中迅速扩散，应经常巡查。
+
+## Cucumber - Thrips / 黄瓜 - 蓟马
+
+[Cucumber | Thrips] Q: What causes this?
+A: Thrips feed by rasping cucumber leaves, flowers, and young fruit. Populations often increase during warm, dry periods and can move in from surrounding vegetation.
+
+[黄瓜 | 蓟马] 问：病因是什么？
+答：蓟马通过锉吸方式危害黄瓜叶片、花和幼果，在温暖干燥时期种群常增加，并可从周边植被迁入。
+
+[Cucumber | Thrips] Q: What symptoms should I look for?
+A: Feeding causes silvery or pale scarring, tiny black fecal specks, distorted young leaves or flowers, and surface scarring on developing fruit.
+
+[黄瓜 | 蓟马] 问：应该注意哪些症状？
+答：取食会造成银白色或浅色擦伤斑、细小黑色粪点、新叶或花器畸形，以及幼果表面的疤痕。
+
+[Cucumber | Thrips] Q: How can I manage it?
+A: Use sticky traps and flower/leaf inspections, reduce nearby weed hosts, conserve predatory insects and mites, and use selective controls only when monitoring shows damaging populations.
+
+[黄瓜 | 蓟马] 问：如何防治？
+答：使用粘虫板并检查花和叶片，减少周边杂草寄主，保护捕食性昆虫和螨类，仅在监测显示虫口密度达到危害水平时采取选择性防治。
+
+[Cucumber | Thrips] Q: Tell me more about this crop.
+A: Cucumber is a fast-growing cucurbit that benefits from good airflow, careful irrigation, healthy pollination, and frequent scouting because foliar diseases and sucking insects can spread quickly in dense canopies.
+
+[黄瓜 | 蓟马] 问：介绍一下这种作物。
+答：黄瓜是生长迅速的葫芦科作物，需要良好通风、合理灌溉和正常授粉。由于叶部病害和刺吸式害虫可在茂密冠层中迅速扩散，应经常巡查。
+
+## Cucumber - Root Rot / 黄瓜 - 根腐病
+
+[Cucumber | Root Rot] Q: What causes this?
+A: Cucumber root rot can be caused by several soilborne pathogens, including oomycetes and fungi, and is favored by saturated soil, poor drainage, root injury, and continuous cropping.
+
+[黄瓜 | 根腐病] 问：病因是什么？
+答：黄瓜根腐病可由多种土传真菌或卵菌引起，土壤长期过湿、排水不良、根系受伤和连作都会增加发病风险。
+
+[Cucumber | Root Rot] Q: What symptoms should I look for?
+A: Plants become weak, yellow, and wilted even when water is available; roots turn brown, soft, or sparse, and the crown may discolor as disease progresses.
+
+[黄瓜 | 根腐病] 问：应该注意哪些症状？
+答：植株长势衰弱、黄化并萎蔫，即使有水也难恢复；根系变褐、变软或数量减少，病情发展后根冠也可变色。
+
+[Cucumber | Root Rot] Q: How can I manage it?
+A: Improve drainage, avoid overwatering, use clean growing media and healthy transplants, rotate when possible, remove severely affected plants, and disinfect reused equipment or containers.
+
+[黄瓜 | 根腐病] 问：如何防治？
+答：改善排水，避免过度浇水，使用清洁基质和健康种苗，条件允许时轮作，清除严重病株，并对重复使用的设备和容器进行清洁消毒。
+
+[Cucumber | Root Rot] Q: Tell me more about this crop.
+A: Cucumber is a fast-growing cucurbit that benefits from good airflow, careful irrigation, healthy pollination, and frequent scouting because foliar diseases and sucking insects can spread quickly in dense canopies.
+
+[黄瓜 | 根腐病] 问：介绍一下这种作物。
+答：黄瓜是生长迅速的葫芦科作物，需要良好通风、合理灌溉和正常授粉。由于叶部病害和刺吸式害虫可在茂密冠层中迅速扩散，应经常巡查。
+
+# ===================================================================
+# EGGPLANT / 茄子
+# ===================================================================
+
+## Eggplant - Mites / 茄子 - 螨
+
+[Eggplant | Mites] Q: What causes this?
+A: Spider mites infest eggplant under the same hot, dry conditions that favor mites on other nightshade crops like tomato and pepper. Reduced numbers of natural predator insects, often following broad-spectrum insecticide use, also allow mite populations to build up unchecked.
+
+[茄子 | 螨] 问：病因是什么？
+答：茄子上红蜘蛛的侵染与番茄、辣椒等其他茄科作物一样，是在炎热干燥的条件下发生的。此前使用广谱杀虫剂导致天敌昆虫数量减少，也会使螨类种群失去制约而大量繁殖。
+
+[Eggplant | Mites] Q: What symptoms should I look for?
+A: Look for fine stippling on the upper leaf surface and check the underside of leaves for the mites themselves, since they are difficult to see without close inspection. Heavy infestations produce visible webbing and can cause leaves to bronze, curl, or drop prematurely.
+
+[茄子 | 螨] 问：应该注意哪些症状？
+答：留意叶片正面出现的细小白色斑点，并检查叶片背面是否有螨虫本身，因为不仔细观察很难发现它们。严重侵染时会产生明显的蛛网，并可能导致叶片古铜色、卷曲或提前脱落。
+
+[Eggplant | Mites] Q: How can I manage it?
+A: Treat as soon as mites are detected at any level, since hot conditions allow rapid population growth once an infestation starts. Choose miticides that spare beneficial predatory mites and insects when natural enemies are still present in the field.
+
+[茄子 | 螨] 问：如何防治？
+答：一旦发现螨虫迹象，无论密度多少都应立即处理，因为在炎热条件下侵染一旦开始，种群会迅速增长。若田间仍有天敌存在，应选用对捕食性螨类和益虫较为温和的杀螨剂。
+
+[Eggplant | Mites] Q: Tell me more about this crop.
+A: Eggplant is a nightshade crop, closely related to tomato and pepper, and shares many of the same insect and mite pressures as those crops, which is why growers who rotate among nightshades still need to scout each crop separately for mites.
+
+[茄子 | 螨] 问：介绍一下这种作物。
+答：茄子是茄科作物，与番茄、辣椒近缘，面临与这些作物相似的虫害和螨害压力，因此即使在茄科作物之间轮作，种植者仍需对每种作物分别进行螨情巡查。
+
+## Eggplant - Aphids / 茄子 - 蚜虫
+
+[Eggplant | Aphids] Q: What causes this?
+A: Aphids colonize eggplant shoots and leaf undersides and reproduce rapidly under favorable weather. Their feeding removes sap and produces honeydew.
+
+[茄子 | 蚜虫] 问：病因是什么？
+答：蚜虫聚集在茄子嫩梢和叶片背面，在适宜天气下繁殖迅速，通过刺吸汁液造成危害并分泌蜜露。
+
+[Eggplant | Aphids] Q: What symptoms should I look for?
+A: Look for clusters of soft-bodied insects, curled or distorted young leaves, sticky honeydew, sooty mold, and reduced vigor.
+
+[茄子 | 蚜虫] 问：应该注意哪些症状？
+答：可见成群软体小虫、新叶卷曲或畸形、粘性蜜露、煤污以及植株长势下降。
+
+[Eggplant | Aphids] Q: How can I manage it?
+A: Inspect new growth, conserve lady beetles, lacewings, and parasitoids, reduce weed hosts, use reflective mulch where suitable, and avoid unnecessary broad-spectrum insecticides.
+
+[茄子 | 蚜虫] 问：如何防治？
+答：检查嫩梢，保护瓢虫、草蛉和寄生蜂等天敌，减少杂草寄主，条件适宜时使用反光地膜，并避免不必要的广谱杀虫剂。
+
+[Eggplant | Aphids] Q: Tell me more about this crop.
+A: Eggplant is a warm-season nightshade crop related to tomato and pepper. Healthy transplants, crop rotation, warm growing conditions, and regular inspection of leaf undersides help reduce common wilt diseases and insect problems.
+
+[茄子 | 蚜虫] 问：介绍一下这种作物。
+答：茄子是与番茄和辣椒近缘的喜温茄科作物。使用健康种苗、合理轮作、保持适宜温度，并经常检查叶片背面，有助于减少枯萎病和常见虫害。
+
+## Eggplant - Whiteflies / 茄子 - 白粉虱
+
+[Eggplant | Whiteflies] Q: What causes this?
+A: Whiteflies feed and reproduce on eggplant leaf undersides, and warm conditions can produce large populations quickly.
+
+[茄子 | 白粉虱] 问：病因是什么？
+答：白粉虱在茄子叶片背面取食和繁殖，温暖条件下种群可迅速增加。
+
+[Eggplant | Whiteflies] Q: What symptoms should I look for?
+A: Adults fly when leaves are disturbed, immature stages remain beneath leaves, and heavy infestations lead to honeydew, sooty mold, yellowing, and reduced plant vigor.
+
+[茄子 | 白粉虱] 问：应该注意哪些症状？
+答：扰动叶片时成虫飞起，若虫附着在叶背；严重时出现蜜露、煤污、叶片黄化和植株衰弱。
+
+[Eggplant | Whiteflies] Q: How can I manage it?
+A: Monitor with sticky traps and leaf inspections, remove heavily infested material, control weed hosts, conserve natural enemies, and use selective controls if needed.
+
+[茄子 | 白粉虱] 问：如何防治？
+答：使用粘虫板和叶背检查监测，清除重度受害组织和杂草寄主，保护天敌，必要时采用选择性防治措施。
+
+[Eggplant | Whiteflies] Q: Tell me more about this crop.
+A: Eggplant is a warm-season nightshade crop related to tomato and pepper. Healthy transplants, crop rotation, warm growing conditions, and regular inspection of leaf undersides help reduce common wilt diseases and insect problems.
+
+[茄子 | 白粉虱] 问：介绍一下这种作物。
+答：茄子是与番茄和辣椒近缘的喜温茄科作物。使用健康种苗、合理轮作、保持适宜温度，并经常检查叶片背面，有助于减少枯萎病和常见虫害。
+
+## Eggplant - Flea Beetles / 茄子 - 跳甲
+
+[Eggplant | Flea Beetles] Q: What causes this?
+A: Flea beetles are small jumping beetles that chew eggplant foliage, with seedlings and young plants especially vulnerable.
+
+[茄子 | 跳甲] 问：病因是什么？
+答：跳甲是体型很小、善于跳跃的甲虫，会啃食茄子叶片，幼苗和幼株尤其容易受害。
+
+[Eggplant | Flea Beetles] Q: What symptoms should I look for?
+A: Feeding produces many tiny round or irregular 'shot holes' in leaves. Heavy feeding can weaken young plants and reduce growth.
+
+[茄子 | 跳甲] 问：应该注意哪些症状？
+答：取食后叶片出现大量细小圆形或不规则的“弹孔状”小孔，严重时会削弱幼株并影响生长。
+
+[Eggplant | Flea Beetles] Q: How can I manage it?
+A: Protect young plants with physical barriers where practical, control nearby weed hosts, monitor seedlings closely, and use registered controls only when feeding threatens establishment.
+
+[茄子 | 跳甲] 问：如何防治？
+答：幼苗期可在适当情况下使用物理隔离措施，清除周边杂草寄主并加强巡查；仅在取食明显影响成活和生长时采用登记防治措施。
+
+[Eggplant | Flea Beetles] Q: Tell me more about this crop.
+A: Eggplant is a warm-season nightshade crop related to tomato and pepper. Healthy transplants, crop rotation, warm growing conditions, and regular inspection of leaf undersides help reduce common wilt diseases and insect problems.
+
+[茄子 | 跳甲] 问：介绍一下这种作物。
+答：茄子是与番茄和辣椒近缘的喜温茄科作物。使用健康种苗、合理轮作、保持适宜温度，并经常检查叶片背面，有助于减少枯萎病和常见虫害。
+
+## Eggplant - Verticillium Wilt / 茄子 - 黄萎病
+
+[Eggplant | Verticillium Wilt] Q: What causes this?
+A: Verticillium wilt is caused by soilborne Verticillium fungi that enter roots and colonize vascular tissue. Resting structures can persist in soil for many years.
+
+[茄子 | 黄萎病] 问：病因是什么？
+答：茄子黄萎病由土传轮枝菌引起，病原从根部侵入并定殖维管组织，其休眠结构可在土壤中存活多年。
+
+[Eggplant | Verticillium Wilt] Q: What symptoms should I look for?
+A: Lower leaves yellow and wilt first, often asymmetrically or on one side of the plant. Symptoms progress upward, and a cut stem may show tan to brown vascular discoloration.
+
+[茄子 | 黄萎病] 问：应该注意哪些症状？
+答：下部叶片先黄化萎蔫，常表现为不对称或先发生在植株一侧，随后向上发展；切开茎部可见黄褐至褐色维管组织变色。
+
+[Eggplant | Verticillium Wilt] Q: How can I manage it?
+A: Use clean transplants and resistant material where available, avoid moving infested soil, rotate for multiple years with nonhost crops where practical, and remove severely affected plants.
+
+[茄子 | 黄萎病] 问：如何防治？
+答：使用健康种苗和可利用的抗性材料，避免携带污染土壤；条件允许时与非寄主作物进行多年轮作，并清除严重病株。
+
+[Eggplant | Verticillium Wilt] Q: Tell me more about this crop.
+A: Eggplant is a warm-season nightshade crop related to tomato and pepper. Healthy transplants, crop rotation, warm growing conditions, and regular inspection of leaf undersides help reduce common wilt diseases and insect problems.
+
+[茄子 | 黄萎病] 问：介绍一下这种作物。
+答：茄子是与番茄和辣椒近缘的喜温茄科作物。使用健康种苗、合理轮作、保持适宜温度，并经常检查叶片背面，有助于减少枯萎病和常见虫害。
+
+## Eggplant - Mosaic Virus / 茄子 - 花叶病毒病
+
+[Eggplant | Mosaic Virus] Q: What causes this?
+A: Eggplant mosaic symptoms can be caused by several viruses, including cucumber mosaic virus and related viruses, spread by insect vectors or contaminated plant material depending on the virus.
+
+[茄子 | 花叶病毒病] 问：病因是什么？
+答：茄子花叶症状可由多种病毒引起，包括黄瓜花叶病毒等，不同病毒可通过昆虫媒介或受污染的植物材料传播。
+
+[Eggplant | Mosaic Virus] Q: What symptoms should I look for?
+A: Leaves develop light- and dark-green mottling, distortion, curling, or unusually narrow 'shoestring' growth, and plants may become stunted.
+
+[茄子 | 花叶病毒病] 问：应该注意哪些症状？
+答：叶片出现深浅绿色相间的花叶斑驳、畸形、卷曲或异常狭长的“线叶”症状，植株也可能矮化。
+
+[Eggplant | Mosaic Virus] Q: How can I manage it?
+A: Use healthy transplants, remove symptomatic plants, control weeds that can host viruses and vectors, manage relevant insect vectors, and sanitize tools where mechanical spread is possible.
+
+[茄子 | 花叶病毒病] 问：如何防治？
+答：使用健康种苗，及时清除有症状植株，控制可作为病毒和媒介寄主的杂草，管理相关传毒害虫，并在可能机械传播时清洁消毒工具。
+
+[Eggplant | Mosaic Virus] Q: Tell me more about this crop.
+A: Eggplant is a warm-season nightshade crop related to tomato and pepper. Healthy transplants, crop rotation, warm growing conditions, and regular inspection of leaf undersides help reduce common wilt diseases and insect problems.
+
+[茄子 | 花叶病毒病] 问：介绍一下这种作物。
+答：茄子是与番茄和辣椒近缘的喜温茄科作物。使用健康种苗、合理轮作、保持适宜温度，并经常检查叶片背面，有助于减少枯萎病和常见虫害。
+
+# ===================================================================
+# CORN / 玉米
+# ===================================================================
+
+## Corn - Chemical/Pesticide Damage / 玉米 - 药害
+
+[Corn | Chemical Damage] Q: What causes this?
+A: Chemical damage (phytotoxicity) in corn is most often caused by herbicide drift from a nearby application, herbicide carryover from a previous season or crop, tank contamination from residue left over in spray equipment, or applying a chemical while the crop is under environmental stress.
+
+[玉米 | 药害] 问：病因是什么？
+答：玉米药害（植物毒害）最常见的原因包括附近喷药作业造成的飘移、上一季或上茬作物残留的除草剂、喷药设备清洗不彻底造成的药箱污染，以及在作物处于环境胁迫状态下施药。
+
+[Corn | Chemical Damage] Q: What symptoms should I look for?
+A: Symptoms depend on the herbicide's mode of action: some cause malformed brace roots, brittle stems, and stunting; others cause stunted growth with yellowing in the youngest leaves and reddened veins; and some cause leaves that fail to unroll properly, an injury pattern sometimes called "buggy-whipping."
+
+[玉米 | 药害] 问：应该注意哪些症状？
+答：症状因除草剂作用机制不同而异：有些会导致支持根畸形、茎秆变脆及植株矮化；有些会导致植株矮化并伴有最幼嫩叶片黄化、叶脉发红；还有些会导致叶片无法正常展开，形成俗称"鞭状卷叶"的受害症状。
+
+[Corn | Chemical Damage] Q: How can I manage it?
+A: There is no way to reverse chemical damage once it has occurred, so management is about diagnosis and prevention: identify the likely herbicide by matching symptoms to its mode of action, review recent spray records and nearby field activity, and clean spray equipment thoroughly between different chemical applications to prevent tank contamination.
+
+[玉米 | 药害] 问：如何防治？
+答：药害一旦发生便无法逆转，因此管理重点在于诊断和预防：根据症状对应除草剂的作用机制来判断可能的致害药剂，查阅近期施药记录及周边地块的作业情况，并在更换不同药剂时彻底清洗喷药设备以防止药箱污染。
+
+[Corn | Chemical Damage] Q: Tell me more about this crop.
+A: Corn's tolerance to different herbicides varies significantly depending on the specific product and its mode of action, so what is a safe, labeled application for corn can still cause visible injury under certain weather or soil conditions, or if used at the wrong growth stage.
+
+[玉米 | 药害] 问：介绍一下这种作物。
+答：玉米对不同除草剂的耐受性因产品及其作用机制的不同而有明显差异，因此即使是对玉米标注为安全的合规用药，在特定天气或土壤条件下，或在错误的生育阶段使用，仍可能造成明显药害。
+
+## Corn - Northern Corn Leaf Blight / 玉米 - 大斑病
+
+[Corn | Northern Corn Leaf Blight] Q: What causes this?
+A: Northern corn leaf blight is caused by Exserohilum turcicum, which survives in infected corn residue. Moderate temperatures and prolonged leaf wetness favor disease development.
+
+[玉米 | 大斑病] 问：病因是什么？
+答：玉米大斑病由 Exserohilum turcicum 引起，病原可在带病玉米残体中越冬，适中温度和叶片长时间潮湿有利于发病。
+
+[Corn | Northern Corn Leaf Blight] Q: What symptoms should I look for?
+A: Long gray-green lesions develop into tan, cigar- or canoe-shaped lesions that can reach several inches in length, usually beginning on lower leaves and moving upward.
+
+[玉米 | 大斑病] 问：应该注意哪些症状？
+答：叶片出现灰绿色长斑，随后变成黄褐色、雪茄形或舟形大斑，可长达数英寸，通常从下部叶片开始向上发展。
+
+[Corn | Northern Corn Leaf Blight] Q: How can I manage it?
+A: Plant resistant hybrids, rotate crops, manage infected residue where appropriate, scout before and after silking, and consider fungicides only when hybrid susceptibility, disease level, and economics justify them.
+
+[玉米 | 大斑病] 问：如何防治？
+答：种植抗病杂交种，合理轮作并管理病残体，在抽丝前后加强巡查；只有在品种感病、病害程度和经济效益均支持时才考虑使用杀菌剂。
+
+[Corn | Northern Corn Leaf Blight] Q: Tell me more about this crop.
+A: Corn health depends on hybrid resistance, residue and rotation management, balanced fertility, and regular scouting from vegetative growth through grain fill because foliar diseases and insects can reduce photosynthetic leaf area.
+
+[玉米 | 大斑病] 问：介绍一下这种作物。
+答：玉米健康与品种抗性、残体和轮作管理、均衡施肥以及从营养生长期到灌浆期的持续巡查密切相关，因为叶部病害和害虫会减少有效光合叶面积。
+
+## Corn - Gray Leaf Spot / 玉米 - 灰斑病
+
+[Corn | Gray Leaf Spot] Q: What causes this?
+A: Gray leaf spot is caused by Cercospora zeae-maydis and is favored by humid, wet conditions, susceptible hybrids, and infected residue in continuous or reduced-tillage corn.
+
+[玉米 | 灰斑病] 问：病因是什么？
+答：玉米灰斑病由 Cercospora zeae-maydis 引起，高湿多雨、感病品种以及连作或少耕条件下残留的带病残体有利于发病。
+
+[Corn | Gray Leaf Spot] Q: What symptoms should I look for?
+A: Lesions become rectangular, gray to tan, and run parallel between leaf veins. Severe disease reduces green leaf area during grain fill.
+
+[玉米 | 灰斑病] 问：应该注意哪些症状？
+答：病斑逐渐呈矩形、灰色至黄褐色，并沿叶脉平行分布；严重时在灌浆期大量减少绿色叶面积。
+
+[Corn | Gray Leaf Spot] Q: How can I manage it?
+A: Use resistant hybrids, rotate away from corn, manage residue where suitable, scout around tasseling and grain fill, and use fungicides only when risk and expected benefit justify treatment.
+
+[玉米 | 灰斑病] 问：如何防治？
+答：使用抗病品种，与非玉米作物轮作，并在适当情况下管理残体；抽雄和灌浆期加强巡查，仅在风险和预期收益合理时使用杀菌剂。
+
+[Corn | Gray Leaf Spot] Q: Tell me more about this crop.
+A: Corn health depends on hybrid resistance, residue and rotation management, balanced fertility, and regular scouting from vegetative growth through grain fill because foliar diseases and insects can reduce photosynthetic leaf area.
+
+[玉米 | 灰斑病] 问：介绍一下这种作物。
+答：玉米健康与品种抗性、残体和轮作管理、均衡施肥以及从营养生长期到灌浆期的持续巡查密切相关，因为叶部病害和害虫会减少有效光合叶面积。
+
+## Corn - Common Rust / 玉米 - 普通锈病
+
+[Corn | Common Rust] Q: What causes this?
+A: Common rust is caused by Puccinia sorghi. Airborne spores infect corn, and cool to moderate humid conditions favor development.
+
+[玉米 | 普通锈病] 问：病因是什么？
+答：玉米普通锈病由 Puccinia sorghi 引起，孢子可随空气传播，凉爽至适中且潮湿的环境有利于发病。
+
+[Corn | Common Rust] Q: What symptoms should I look for?
+A: Small chlorotic flecks develop into elongated, blister-like pustules containing cinnamon-brown to brick-red spores, often on both leaf surfaces.
+
+[玉米 | 普通锈病] 问：应该注意哪些症状？
+答：叶片先出现浅色小斑点，随后形成细长、疱状的孢子堆，内含肉桂褐至砖红色孢子，常在叶片正反两面出现。
+
+[Corn | Common Rust] Q: How can I manage it?
+A: Plant resistant hybrids when possible and scout susceptible corn. Fungicides are generally considered only when disease appears early and conditions, crop value, and susceptibility indicate meaningful risk.
+
+[玉米 | 普通锈病] 问：如何防治？
+答：尽量种植抗病杂交种，并加强感病玉米巡查。通常只有在病害出现较早且环境、作物价值和品种感病性表明风险较高时才考虑使用杀菌剂。
+
+[Corn | Common Rust] Q: Tell me more about this crop.
+A: Corn health depends on hybrid resistance, residue and rotation management, balanced fertility, and regular scouting from vegetative growth through grain fill because foliar diseases and insects can reduce photosynthetic leaf area.
+
+[玉米 | 普通锈病] 问：介绍一下这种作物。
+答：玉米健康与品种抗性、残体和轮作管理、均衡施肥以及从营养生长期到灌浆期的持续巡查密切相关，因为叶部病害和害虫会减少有效光合叶面积。
+
+## Corn - Fall Armyworm / 玉米 - 草地贪夜蛾
+
+[Corn | Fall Armyworm] Q: What causes this?
+A: Fall armyworm damage is caused by Spodoptera frugiperda larvae feeding in whorls, leaves, tassels, and ears. Warm conditions allow repeated generations and rapid population growth.
+
+[玉米 | 草地贪夜蛾] 问：病因是什么？
+答：草地贪夜蛾由 Spodoptera frugiperda 幼虫危害，幼虫可在心叶、叶片、雄穗和果穗取食，温暖条件下可连续繁殖并迅速增加。
+
+[Corn | Fall Armyworm] Q: What symptoms should I look for?
+A: Young leaves show windowpane feeding and ragged holes, whorls may contain frass, and larger larvae can damage tassels or ears. Larvae often have an inverted Y-shaped marking on the head.
+
+[玉米 | 草地贪夜蛾] 问：应该注意哪些症状？
+答：幼叶可见窗格状取食痕和不规则孔洞，心叶内常有大量虫粪，较大幼虫还可危害雄穗和果穗；幼虫头部常有倒Y形纹。
+
+[Corn | Fall Armyworm] Q: How can I manage it?
+A: Scout whorls and young plants, conserve natural enemies, destroy crop residues where locally appropriate, and use threshold-based registered controls when larval feeding is economically damaging.
+
+[玉米 | 草地贪夜蛾] 问：如何防治？
+答：检查心叶和幼株，保护天敌，在当地适宜时处理作物残体；当幼虫取食达到经济危害水平时再采用基于阈值的登记防治措施。
+
+[Corn | Fall Armyworm] Q: Tell me more about this crop.
+A: Corn health depends on hybrid resistance, residue and rotation management, balanced fertility, and regular scouting from vegetative growth through grain fill because foliar diseases and insects can reduce photosynthetic leaf area.
+
+[玉米 | 草地贪夜蛾] 问：介绍一下这种作物。
+答：玉米健康与品种抗性、残体和轮作管理、均衡施肥以及从营养生长期到灌浆期的持续巡查密切相关，因为叶部病害和害虫会减少有效光合叶面积。
+
+## Corn - Aphids / 玉米 - 蚜虫
+
+[Corn | Aphids] Q: What causes this?
+A: Corn aphids and other aphid species colonize leaves, tassels, and whorls and feed on plant sap. Populations often build rapidly when natural enemies are scarce.
+
+[玉米 | 蚜虫] 问：病因是什么？
+答：玉米蚜及其他蚜虫可聚集在叶片、雄穗和心叶处刺吸汁液，当天敌数量不足时种群可能迅速增加。
+
+[Corn | Aphids] Q: What symptoms should I look for?
+A: Look for clusters of soft-bodied aphids, sticky honeydew, sooty mold, leaf yellowing, and large colonies around tassels or upper leaves.
+
+[玉米 | 蚜虫] 问：应该注意哪些症状？
+答：可见成群软体蚜虫、粘性蜜露、煤污、叶片黄化，以及雄穗或上部叶片周围的大量虫群。
+
+[Corn | Aphids] Q: How can I manage it?
+A: Scout colonies and natural-enemy activity before treating, conserve predators and parasitoids, and use registered controls only if aphid pressure is high enough to threaten yield.
+
+[玉米 | 蚜虫] 问：如何防治？
+答：施药前先评估蚜虫种群和天敌活动，保护捕食者和寄生蜂；只有虫口密度高到可能影响产量时才考虑登记防治措施。
+
+[Corn | Aphids] Q: Tell me more about this crop.
+A: Corn health depends on hybrid resistance, residue and rotation management, balanced fertility, and regular scouting from vegetative growth through grain fill because foliar diseases and insects can reduce photosynthetic leaf area.
+
+[玉米 | 蚜虫] 问：介绍一下这种作物。
+答：玉米健康与品种抗性、残体和轮作管理、均衡施肥以及从营养生长期到灌浆期的持续巡查密切相关，因为叶部病害和害虫会减少有效光合叶面积。
+
+# ===================================================================
+# CHINESE CABBAGE / 白菜
+# ===================================================================
+
+## Chinese Cabbage - Downy Mildew / 白菜 - 霜霉病
+
+[Chinese Cabbage | Downy Mildew] Q: What causes this?
+A: Downy mildew in Chinese cabbage is caused by a water-mold pathogen (Peronospora) that is favored by cool, moist conditions typical of temperate growing seasons, though in tropical and subtropical regions it can occur year-round. Infection can happen as early as the seedling stage.
+
+[白菜 | 霜霉病] 问：病因是什么？
+答：白菜霜霉病由一种卵菌类病原（霜霉属）引起，该病原在温带生长季常见的凉爽潮湿条件下最为活跃，但在热带和亚热带地区则可能全年发生。感染最早可从幼苗期就开始发生。
+
+[Chinese Cabbage | Downy Mildew] Q: What symptoms should I look for?
+A: Look for pale, angular spots on the upper leaf surface, often followed by a grayish fuzzy growth on the underside during humid weather. Severe infection commonly occurs later in the season during the heading stage and can cause substantial yield loss if left unmanaged.
+
+[白菜 | 霜霉病] 问：应该注意哪些症状？
+答：留意叶片正面出现的淡色角斑，潮湿天气下叶背常伴有灰色霉状物。严重感染通常发生在生长后期的结球阶段，若不加以防治可能造成显著减产。
+
+[Chinese Cabbage | Downy Mildew] Q: How can I manage it?
+A: Apply protective fungicides preventively before symptoms appear in high-risk cool, wet periods, since the disease spreads fastest once established. Note that plants weakened by downy mildew become more susceptible to bacterial soft rot afterward, so managing downy mildew early also helps prevent a secondary soft rot outbreak.
+
+[白菜 | 霜霉病] 问：如何防治？
+答：在凉爽潮湿的高风险时段，应在症状出现前预防性喷施杀菌剂，因为该病一旦发生便传播迅速。需要注意的是，感染霜霉病后植株会更容易继发软腐病，因此及早防治霜霉病也有助于预防后续的软腐病爆发。
+
+[Chinese Cabbage | Downy Mildew] Q: Tell me more about this crop.
+A: Chinese cabbage is a cool-season leafy vegetable, and downy mildew, bacterial soft rot, and turnip mosaic virus together are considered the three most serious diseases affecting it across Asia and other growing regions.
+
+[白菜 | 霜霉病] 问：介绍一下这种作物。
+答：白菜是一种喜凉的叶菜类蔬菜，霜霉病、细菌性软腐病和芜菁花叶病毒被认为是亚洲及其他种植地区危害白菜最严重的三大病害。
+
+## Chinese Cabbage - Bacterial Disease / 白菜 - 细菌性
+
+[Chinese Cabbage | Bacterial Disease] Q: What causes this?
+A: Bacterial soft rot in Chinese cabbage is caused by Pectobacterium bacteria, which produce enzymes that break down the pectin holding plant cell walls together. Plants that have already been weakened by downy mildew infection are known to become more susceptible to soft rot afterward.
+
+[白菜 | 细菌性] 问：病因是什么？
+答：白菜细菌性软腐病由果胶杆菌（Pectobacterium）引起，该细菌能产生分解果胶质的酶，破坏维持植物细胞壁结构的果胶。已知感染过霜霉病而变弱的植株，之后更容易感染软腐病。
+
+[Chinese Cabbage | Bacterial Disease] Q: What symptoms should I look for?
+A: Infected tissue becomes rotted, watery, and slimy, often with a distinctive unpleasant odor as the tissue breaks down. This is different from fungal leaf spots, which stay dry and defined; soft rot tissue collapses and turns mushy.
+
+[白菜 | 细菌性] 问：应该注意哪些症状？
+答：感病组织会变得腐烂、水渍化并呈粘滑状，组织分解时常伴有明显的异味。这与真菌性叶斑病不同，后者病斑保持干燥且边界清晰；而软腐病组织则会塌陷并变得糊状。
+
+[Chinese Cabbage | Bacterial Disease] Q: How can I manage it?
+A: There is no chemical cure once soft rot sets in, so prevention matters most: manage downy mildew early since it predisposes plants to soft rot, avoid mechanical wounding of plants during handling since bacteria enter through wounds, and remove infected heads promptly to limit spread in storage and transit.
+
+[白菜 | 细菌性] 问：如何防治？
+答：软腐病一旦发生便无化学治愈方法，因此预防最为关键：及早防治霜霉病，因为它会使植株更易感染软腐病；操作时避免造成机械损伤，因为细菌通常从伤口侵入；及时清除感病的白菜球，以限制其在贮藏和运输过程中的传播。
+
+[Chinese Cabbage | Bacterial Disease] Q: Tell me more about this crop.
+A: Chinese cabbage soft rot is a particular concern during transit and storage after harvest, not just in the field, since the bacteria can continue rotting harvested heads if conditions are warm and wet.
+
+[白菜 | 细菌性] 问：介绍一下这种作物。
+答：白菜软腐病不仅是田间生产中的问题，在采收后的运输和贮藏阶段同样值得高度关注，因为在温暖潮湿的条件下，细菌仍会继续腐蚀已采收的白菜球。
+
+## Chinese Cabbage - Black Rot / 白菜 - 黑腐病
+
+[Chinese Cabbage | Black Rot] Q: What causes this?
+A: Black rot is caused by Xanthomonas campestris pv. campestris, a bacterium that can spread in contaminated seed, transplants, splashing water, and infected crop debris.
+
+[白菜 | 黑腐病] 问：病因是什么？
+答：白菜黑腐病由 Xanthomonas campestris pv. campestris 引起，可通过带菌种子、种苗、溅水和病残体传播。
+
+[Chinese Cabbage | Black Rot] Q: What symptoms should I look for?
+A: Yellow V-shaped lesions develop from leaf margins toward the midrib, veins may turn dark, and severe infection can cause extensive yellowing, wilting, and head rot.
+
+[白菜 | 黑腐病] 问：应该注意哪些症状？
+答：叶缘出现向主脉延伸的黄色V形病斑，叶脉可变暗，严重时发生大面积黄化、萎蔫甚至结球腐烂。
+
+[Chinese Cabbage | Black Rot] Q: How can I manage it?
+A: Use disease-free seed and transplants, rotate away from brassicas, avoid overhead irrigation and working wet plants, remove infected residue, and sanitize tools and equipment.
+
+[白菜 | 黑腐病] 问：如何防治？
+答：使用无病种子和健康种苗，与非十字花科作物轮作，避免喷灌和植株潮湿时操作，清除病残体并清洁消毒工具设备。
+
+[Chinese Cabbage | Black Rot] Q: Tell me more about this crop.
+A: Chinese cabbage is a cool-season brassica. Clean transplants, good drainage, crop rotation, and frequent inspection of leaves and roots are important because bacterial, fungal, viral, and caterpillar problems can develop rapidly.
+
+[白菜 | 黑腐病] 问：介绍一下这种作物。
+答：白菜是喜凉的十字花科作物。使用健康种苗、保持良好排水、合理轮作并经常检查叶片和根系十分重要，因为细菌、真菌、病毒和鳞翅目幼虫问题都可能迅速发展。
+
+## Chinese Cabbage - Clubroot / 白菜 - 根肿病
+
+[Chinese Cabbage | Clubroot] Q: What causes this?
+A: Clubroot is caused by the soilborne protist Plasmodiophora brassicae. Wet acidic soils favor infection, and long-lived resting spores can persist in infested soil.
+
+[白菜 | 根肿病] 问：病因是什么？
+答：白菜根肿病由土传原生生物 Plasmodiophora brassicae 引起，潮湿酸性土壤有利于侵染，其休眠孢子可在受污染土壤中长期存活。
+
+[Chinese Cabbage | Clubroot] Q: What symptoms should I look for?
+A: Plants become stunted, pale, and wilt during hot periods, while roots develop swollen spindle-shaped or irregular galls. Young plants can die and older plants may fail to form normal heads.
+
+[白菜 | 根肿病] 问：应该注意哪些症状？
+答：植株矮化、叶色变浅，并在高温时萎蔫；根部形成纺锤状或不规则肿瘤。幼株可能死亡，老株可能无法正常结球。
+
+[Chinese Cabbage | Clubroot] Q: How can I manage it?
+A: Avoid moving contaminated soil, improve drainage, use resistant varieties where available, rotate for long periods with non-brassica crops, and raise acidic soil pH according to soil-test guidance.
+
+[白菜 | 根肿病] 问：如何防治？
+答：避免携带污染土壤，改善排水，尽量使用抗病品种，与非十字花科作物进行长期轮作，并根据土壤检测结果适当提高酸性土壤pH。
+
+[Chinese Cabbage | Clubroot] Q: Tell me more about this crop.
+A: Chinese cabbage is a cool-season brassica. Clean transplants, good drainage, crop rotation, and frequent inspection of leaves and roots are important because bacterial, fungal, viral, and caterpillar problems can develop rapidly.
+
+[白菜 | 根肿病] 问：介绍一下这种作物。
+答：白菜是喜凉的十字花科作物。使用健康种苗、保持良好排水、合理轮作并经常检查叶片和根系十分重要，因为细菌、真菌、病毒和鳞翅目幼虫问题都可能迅速发展。
+
+## Chinese Cabbage - Aphids / 白菜 - 蚜虫
+
+[Chinese Cabbage | Aphids] Q: What causes this?
+A: Cabbage, turnip, and green peach aphids can colonize Chinese cabbage leaves and heads. Their sap feeding and rapid reproduction can distort growth and contaminate harvested heads.
+
+[白菜 | 蚜虫] 问：病因是什么？
+答：菜蚜、萝卜蚜和桃蚜等可聚集在白菜叶片和叶球上刺吸汁液，快速繁殖会导致生长畸形并污染收获产品。
+
+[Chinese Cabbage | Aphids] Q: What symptoms should I look for?
+A: Leaves become curled or yellow, plants may be stunted, and colonies of small soft-bodied aphids can cluster on leaf undersides or deep within developing heads.
+
+[白菜 | 蚜虫] 问：应该注意哪些症状？
+答：叶片卷曲或黄化，植株可能矮化，叶背或正在形成的叶球内部可见成群软体蚜虫。
+
+[Chinese Cabbage | Aphids] Q: How can I manage it?
+A: Inspect inner and outer leaves, conserve natural enemies, remove heavily infested residues, manage weed hosts, and use selective registered controls when colonies are increasing.
+
+[白菜 | 蚜虫] 问：如何防治？
+答：检查内外叶片，保护天敌，清除重度受害残体并管理杂草寄主；虫群持续增长时再采用选择性登记防治措施。
+
+[Chinese Cabbage | Aphids] Q: Tell me more about this crop.
+A: Chinese cabbage is a cool-season brassica. Clean transplants, good drainage, crop rotation, and frequent inspection of leaves and roots are important because bacterial, fungal, viral, and caterpillar problems can develop rapidly.
+
+[白菜 | 蚜虫] 问：介绍一下这种作物。
+答：白菜是喜凉的十字花科作物。使用健康种苗、保持良好排水、合理轮作并经常检查叶片和根系十分重要，因为细菌、真菌、病毒和鳞翅目幼虫问题都可能迅速发展。
+
+## Chinese Cabbage - Diamondback Moth / 白菜 - 小菜蛾
+
+[Chinese Cabbage | Diamondback Moth] Q: What causes this?
+A: Diamondback moth damage is caused by Plutella xylostella larvae feeding on brassica leaves. Multiple generations can occur rapidly in warm conditions.
+
+[白菜 | 小菜蛾] 问：病因是什么？
+答：小菜蛾由 Plutella xylostella 幼虫取食十字花科叶片造成危害，温暖条件下可迅速发生多代。
+
+[Chinese Cabbage | Diamondback Moth] Q: What symptoms should I look for?
+A: Small green larvae scrape leaf tissue, creating windowpane patches and irregular holes. Heavy feeding can skeletonize leaves or contaminate heads with larvae and frass.
+
+[白菜 | 小菜蛾] 问：应该注意哪些症状？
+答：小型绿色幼虫刮食叶肉，形成窗格状斑和不规则孔洞；严重时叶片可被啃成网状，并在叶球中留下幼虫和虫粪。
+
+[Chinese Cabbage | Diamondback Moth] Q: How can I manage it?
+A: Scout leaves frequently, conserve parasitoids and other natural enemies, rotate insecticide modes of action where treatment is required, and remove crop residues that support carryover populations.
+
+[白菜 | 小菜蛾] 问：如何防治？
+答：经常检查叶片，保护寄生蜂等天敌；需要施药时轮换不同作用机制，并清除可维持虫源的作物残体。
+
+[Chinese Cabbage | Diamondback Moth] Q: Tell me more about this crop.
+A: Chinese cabbage is a cool-season brassica. Clean transplants, good drainage, crop rotation, and frequent inspection of leaves and roots are important because bacterial, fungal, viral, and caterpillar problems can develop rapidly.
+
+[白菜 | 小菜蛾] 问：介绍一下这种作物。
+答：白菜是喜凉的十字花科作物。使用健康种苗、保持良好排水、合理轮作并经常检查叶片和根系十分重要，因为细菌、真菌、病毒和鳞翅目幼虫问题都可能迅速发展。
+
+## Chinese Cabbage - Turnip Mosaic Virus / 白菜 - 芜菁花叶病毒病
+
+[Chinese Cabbage | Turnip Mosaic Virus] Q: What causes this?
+A: Turnip mosaic virus infects many brassicas and is transmitted mainly by aphids in a nonpersistent manner. Infected weeds and volunteer brassicas can act as reservoirs.
+
+[白菜 | 芜菁花叶病毒病] 问：病因是什么？
+答：芜菁花叶病毒可侵染多种十字花科作物，主要由蚜虫以非持久性方式传播，感病杂草和自生十字花科植株可作为病毒库。
+
+[Chinese Cabbage | Turnip Mosaic Virus] Q: What symptoms should I look for?
+A: Leaves may develop mosaic mottling, yellowing, distortion, vein clearing, or ring patterns, and infected plants can become stunted with poor head development.
+
+[白菜 | 芜菁花叶病毒病] 问：应该注意哪些症状？
+答：叶片可出现花叶斑驳、黄化、畸形、叶脉透明或环状纹，感病植株可能矮化并结球不良。
+
+[Chinese Cabbage | Turnip Mosaic Virus] Q: How can I manage it?
+A: Use healthy transplants, remove infected plants and brassica weeds, reduce nearby virus reservoirs, and manage aphid pressure early, recognizing that insecticides may not fully prevent rapid virus transmission.
+
+[白菜 | 芜菁花叶病毒病] 问：如何防治？
+答：使用健康种苗，清除病株和十字花科杂草，减少周边病毒来源并及早管理蚜虫，但要认识到杀虫剂并不能完全阻止蚜虫快速传毒。
+
+[Chinese Cabbage | Turnip Mosaic Virus] Q: Tell me more about this crop.
+A: Chinese cabbage is a cool-season brassica. Clean transplants, good drainage, crop rotation, and frequent inspection of leaves and roots are important because bacterial, fungal, viral, and caterpillar problems can develop rapidly.
+
+[白菜 | 芜菁花叶病毒病] 问：介绍一下这种作物。
+答：白菜是喜凉的十字花科作物。使用健康种苗、保持良好排水、合理轮作并经常检查叶片和根系十分重要，因为细菌、真菌、病毒和鳞翅目幼虫问题都可能迅速发展。
+
+# ===================================================================
+# CITRUS / 柑橘
+# ===================================================================
+
+## Citrus - Mites / 柑橘 - 螨
+
+[Citrus | Mites] Q: What causes this?
+A: Citrus rust mite (also called silver mite on lemons) and citrus broad mite are the main mite pests of citrus, thriving in warm, humid conditions. These mites are microscopic, requiring at least 10-20x magnification to see, so infestations are usually noticed only after fruit damage appears.
+
+[柑橘 | 螨] 问：病因是什么？
+答：柑橘锈壁虱（在柠檬上也称银虱）和柑橘阔恙螨是柑橘上主要的螨类害虫，在温暖潮湿的条件下大量繁殖。这些螨虫极其微小，需要至少10到20倍放大镜才能看清，因此侵染通常要到果实出现受害症状后才被察觉。
+
+[Citrus | Mites] Q: What symptoms should I look for?
+A: Rust mite feeding turns the fruit surface silvery on lemons, rust-brown on ripe oranges, or blackish on green oranges, an effect often called russeting or bronzing. Broad mite damage instead causes young leaves to curl and can leave scarred or cracked rind, mostly on the inner-canopy side of young fruit.
+
+[柑橘 | 螨] 问：应该注意哪些症状？
+答：锈壁虱取食会使果皮表面呈现银色（柠檬）、锈褐色（成熟橙）或黑色（未成熟橙），这种现象常被称为"锈斑"或"古铜化"。阔恙螨的为害则表现为幼叶卷曲，并可能在幼果内膛一侧的果皮上留下疤痕或裂纹。
+
+[Citrus | Mites] Q: How can I manage it?
+A: Monitor from early spring through summer since this is when most damage occurs, checking young foliage early in the season and shifting to fruit inspection as the season progresses. Avoid unnecessary pesticide sprays, since they can kill the predatory mites that naturally keep rust mite and broad mite populations in check.
+
+[柑橘 | 螨] 问：如何防治？
+答：从早春到夏季持续监测，因为这是主要受害期，生长季早期应重点检查嫩叶，随季节推进转为检查果实。应避免不必要的农药喷施，因为这会杀死天然抑制锈壁虱和阔恙螨种群的捕食性螨类天敌。
+
+[Citrus | Mites] Q: Tell me more about this crop.
+A: Citrus rust mite damage affects only the rind's appearance and does not harm the fruit's internal quality, so growers weigh cosmetic market standards against the risk of disrupting biological mite control when deciding whether treatment is worthwhile.
+
+[柑橘 | 螨] 问：介绍一下这种作物。
+答：柑橘锈壁虱造成的损害只影响果皮外观，并不损害果实的内在品质，因此种植者在决定是否需要施药防治时，往往需要在市场对外观的要求与破坏生物防治平衡的风险之间进行权衡。
+
+## Citrus - Aphids / 柑橘 - 蚜虫
+
+[Citrus | Aphids] Q: What causes this?
+A: Several aphid species feed on tender citrus flush. Colonies develop on young shoots, and some aphids can transmit citrus viruses such as tristeza.
+
+[柑橘 | 蚜虫] 问：病因是什么？
+答：多种蚜虫可取食柑橘嫩梢，并在新生枝叶上形成虫群；部分蚜虫还可传播柑橘衰退病等病毒。
+
+[Citrus | Aphids] Q: What symptoms should I look for?
+A: Young leaves and shoots curl or distort, aphid colonies cluster on tender growth, and honeydew can lead to black sooty mold.
+
+[柑橘 | 蚜虫] 问：应该注意哪些症状？
+答：嫩叶和嫩梢卷曲或畸形，嫩梢上可见蚜虫群，蜜露还会诱发黑色煤污。
+
+[Citrus | Aphids] Q: How can I manage it?
+A: Monitor new flush, conserve predators and parasitoids, manage ants that protect aphids, and avoid unnecessary broad-spectrum sprays when natural enemies are controlling colonies.
+
+[柑橘 | 蚜虫] 问：如何防治？
+答：重点检查嫩梢，保护捕食者和寄生蜂，管理会保护蚜虫的蚂蚁；当天敌能够压制虫群时避免不必要的广谱喷药。
+
+[Citrus | Aphids] Q: Tell me more about this crop.
+A: Citrus is a perennial fruit crop, so long-term tree health depends on irrigation and drainage, balanced nutrition, healthy roots, and repeated monitoring of new flush, leaves, twigs, and fruit for pests and disease symptoms.
+
+[柑橘 | 蚜虫] 问：介绍一下这种作物。
+答：柑橘是多年生果树，因此长期树势依赖合理灌溉和排水、均衡营养、健康根系，以及持续检查嫩梢、叶片、枝条和果实上的病虫害症状。
+
+## Citrus - Whiteflies / 柑橘 - 白粉虱
+
+[Citrus | Whiteflies] Q: What causes this?
+A: Citrus whiteflies and related species feed on leaf undersides and produce honeydew. Warm conditions can support repeated generations.
+
+[柑橘 | 白粉虱] 问：病因是什么？
+答：柑橘白粉虱等种类在叶片背面刺吸汁液并分泌蜜露，温暖条件下可连续繁殖多代。
+
+[Citrus | Whiteflies] Q: What symptoms should I look for?
+A: Adults and scale-like immature stages occur beneath leaves; heavy infestations produce honeydew, sooty mold, yellowing, and reduced vigor.
+
+[柑橘 | 白粉虱] 问：应该注意哪些症状？
+答：叶背可见成虫和鳞片状若虫，严重时产生蜜露、煤污、叶片黄化和树势下降。
+
+[Citrus | Whiteflies] Q: How can I manage it?
+A: Inspect leaf undersides, conserve parasitoids and predators, control ants where they disrupt biological control, prune heavily infested shoots if appropriate, and use selective treatments when needed.
+
+[柑橘 | 白粉虱] 问：如何防治？
+答：检查叶片背面，保护寄生蜂和捕食性天敌；蚂蚁干扰生物防治时应加以管理，必要时适当修剪重度受害嫩梢，并优先采用选择性防治。
+
+[Citrus | Whiteflies] Q: Tell me more about this crop.
+A: Citrus is a perennial fruit crop, so long-term tree health depends on irrigation and drainage, balanced nutrition, healthy roots, and repeated monitoring of new flush, leaves, twigs, and fruit for pests and disease symptoms.
+
+[柑橘 | 白粉虱] 问：介绍一下这种作物。
+答：柑橘是多年生果树，因此长期树势依赖合理灌溉和排水、均衡营养、健康根系，以及持续检查嫩梢、叶片、枝条和果实上的病虫害症状。
+
+## Citrus - Thrips / 柑橘 - 蓟马
+
+[Citrus | Thrips] Q: What causes this?
+A: Citrus thrips feed on tender leaves and young fruit. Damage is greatest during periods of active flush and early fruit development.
+
+[柑橘 | 蓟马] 问：病因是什么？
+答：柑橘蓟马主要取食嫩叶和幼果，在嫩梢快速生长和果实早期发育阶段危害最明显。
+
+[Citrus | Thrips] Q: What symptoms should I look for?
+A: Young leaves may be distorted, while fruit develops silvery, corky, or ring-like scarring, often around the stem end where thrips feed while fruit is small.
+
+[柑橘 | 蓟马] 问：应该注意哪些症状？
+答：嫩叶可发生畸形，幼果表面出现银白色、木栓化或环状疤痕，常集中在果梗端附近。
+
+[Citrus | Thrips] Q: How can I manage it?
+A: Monitor young flush and fruit after petal fall, conserve natural enemies, manage only when scarring risk is significant, and avoid unnecessary disruptive insecticides.
+
+[柑橘 | 蓟马] 问：如何防治？
+答：落花后重点监测嫩梢和幼果，保护天敌；只有疤痕危害风险较高时才进行防治，并避免不必要的破坏性杀虫剂。
+
+[Citrus | Thrips] Q: Tell me more about this crop.
+A: Citrus is a perennial fruit crop, so long-term tree health depends on irrigation and drainage, balanced nutrition, healthy roots, and repeated monitoring of new flush, leaves, twigs, and fruit for pests and disease symptoms.
+
+[柑橘 | 蓟马] 问：介绍一下这种作物。
+答：柑橘是多年生果树，因此长期树势依赖合理灌溉和排水、均衡营养、健康根系，以及持续检查嫩梢、叶片、枝条和果实上的病虫害症状。
+
+## Citrus - Citrus Leafminer / 柑橘 - 柑橘潜叶蛾
+
+[Citrus | Citrus Leafminer] Q: What causes this?
+A: Citrus leafminer larvae tunnel within young citrus leaves. Adult moths lay eggs on tender flush, and repeated flush cycles can support multiple generations.
+
+[柑橘 | 柑橘潜叶蛾] 问：病因是什么？
+答：柑橘潜叶蛾幼虫在嫩叶组织内潜食，成蛾将卵产在嫩梢上，连续抽梢可支持多代发生。
+
+[Citrus | Citrus Leafminer] Q: What symptoms should I look for?
+A: New leaves show winding silvery mines, curled or distorted margins, and sometimes a dark line of frass inside the mine. Mature hardened leaves are rarely attacked.
+
+[柑橘 | 柑橘潜叶蛾] 问：应该注意哪些症状？
+答：新叶出现弯曲的银白色潜道，叶缘卷曲或畸形，潜道内有时可见深色虫粪线；老熟硬化叶片通常较少受害。
+
+[Citrus | Citrus Leafminer] Q: How can I manage it?
+A: Focus management on protecting young trees and new flush, conserve parasitoids, avoid stimulating excessive flush with overfertilization, and use targeted controls only when young growth needs protection.
+
+[柑橘 | 柑橘潜叶蛾] 问：如何防治？
+答：重点保护幼树和新梢，保护寄生蜂等天敌，避免过量施肥刺激过多嫩梢；仅在需要保护新生叶片时采用针对性防治。
+
+[Citrus | Citrus Leafminer] Q: Tell me more about this crop.
+A: Citrus is a perennial fruit crop, so long-term tree health depends on irrigation and drainage, balanced nutrition, healthy roots, and repeated monitoring of new flush, leaves, twigs, and fruit for pests and disease symptoms.
+
+[柑橘 | 柑橘潜叶蛾] 问：介绍一下这种作物。
+答：柑橘是多年生果树，因此长期树势依赖合理灌溉和排水、均衡营养、健康根系，以及持续检查嫩梢、叶片、枝条和果实上的病虫害症状。
+
+## Citrus - Phytophthora Root Rot / 柑橘 - 疫霉根腐病
+
+[Citrus | Phytophthora Root Rot] Q: What causes this?
+A: Citrus Phytophthora root rot is caused by soilborne Phytophthora species. Saturated soils and contaminated irrigation water promote zoospore movement and root infection.
+
+[柑橘 | 疫霉根腐病] 问：病因是什么？
+答：柑橘疫霉根腐病由土传疫霉菌引起，土壤长期过湿和受污染灌溉水有利于游动孢子传播并侵染根系。
+
+[Citrus | Phytophthora Root Rot] Q: What symptoms should I look for?
+A: Trees decline slowly, leaves become pale green or yellow and may drop, feeder roots decay, growth weakens, and fruit production declines. Symptoms can resemble salt, flooding, or nematode injury.
+
+[柑橘 | 疫霉根腐病] 问：应该注意哪些症状？
+答：树势缓慢衰退，叶片变浅绿或黄化并可能脱落，吸收根腐烂，生长减弱且产量下降；症状可能与盐害、涝害或线虫危害相似。
+
+[Citrus | Phytophthora Root Rot] Q: How can I manage it?
+A: Provide good drainage, avoid overirrigation, use tolerant rootstocks when establishing orchards, keep irrigation water from spreading contaminated soil, and confirm uncertain cases before treatment.
+
+[柑橘 | 疫霉根腐病] 问：如何防治？
+答：保持良好排水，避免过度灌溉，新建果园时使用耐病砧木，防止灌溉水传播污染土壤，并在采取治疗措施前对不确定病例进行确认。
+
+[Citrus | Phytophthora Root Rot] Q: Tell me more about this crop.
+A: Citrus is a perennial fruit crop, so long-term tree health depends on irrigation and drainage, balanced nutrition, healthy roots, and repeated monitoring of new flush, leaves, twigs, and fruit for pests and disease symptoms.
+
+[柑橘 | 疫霉根腐病] 问：介绍一下这种作物。
+答：柑橘是多年生果树，因此长期树势依赖合理灌溉和排水、均衡营养、健康根系，以及持续检查嫩梢、叶片、枝条和果实上的病虫害症状。
+
+# ===================================================================
+# COWPEA / LONG BEAN / 豆角
+# ===================================================================
+
+## Cowpea - Thrips / 豆角 - 蓟马
+
+[Cowpea | Thrips] Q: What causes this?
+A: Thrips damage on cowpea is caused by species that feed directly on flowers and developing pods, most severe during dry periods when thrips populations build up fastest. Unlike on tomato or pepper, cowpea thrips damage is caused by direct feeding injury rather than primarily by the viruses they transmit.
+
+[豆角 | 蓟马] 问：病因是什么？
+答：豆角蓟马为害是由直接取食花朵和发育中豆荚的蓟马种类引起，在干燥时段最为严重，因为此时蓟马种群增长最快。与番茄、辣椒不同，豆角上的蓟马为害主要是直接取食造成的损伤，而非以传播病毒为主。
+
+[Cowpea | Thrips] Q: What symptoms should I look for?
+A: Leaves show mottling with a characteristic silvering appearance, later turning yellow and drying out. On pods, thrips feeding causes surface roughening, deformation, and a distinctive dark discoloration at the pod tips and heads, sometimes described as "black-heads and black-tails."
+
+[豆角 | 蓟马] 问：应该注意哪些症状？
+答：叶片表现为斑驳并呈现特有的银白色光泽，随后变黄干枯。豆荚受害后表面粗糙、变形，荚尖和荚头出现特征性的暗色变色，有时被形容为"黑头黑尾"症状。
+
+[Cowpea | Thrips] Q: How can I manage it?
+A: Hang blue or castor-oil-coated sticky traps to monitor and help suppress populations, and use mulch on the soil surface to disrupt the pupal stage of thrips, which develops in the soil before emerging as adults. Neem-based sprays are a lower-impact option where infestations are moderate.
+
+[豆角 | 蓟马] 问：如何防治？
+答：悬挂蓝色或涂有蓖麻油的粘虫板进行监测并辅助控制种群；在土壤表面覆盖地膜，以阻断蓟马蛹期的发育，因为其蛹期是在土壤中完成后才羽化为成虫。在虫害程度中等时，印楝素类喷剂是一种影响较小的防治选择。
+
+[Cowpea | Thrips] Q: Tell me more about this crop.
+A: Cowpea is a legume grown for its edible pods and seeds, and because thrips feed directly on flowers and young pods, damage translates fairly directly into yield loss, making flowering-stage monitoring especially important for this crop.
+
+[豆角 | 蓟马] 问：介绍一下这种作物。
+答：豆角是一种以嫩荚和种子为食用部位的豆科作物，由于蓟马直接取食花朵和幼荚，其为害会较为直接地转化为产量损失，因此在开花期加强监测对该作物尤为重要。
+
+## Cowpea - Aphids / 豆角 - 蚜虫
+
+[Cowpea | Aphids] Q: What causes this?
+A: Cowpea aphids and other aphid species colonize young shoots, leaves, flowers, and pods. They remove plant sap and can also transmit several cowpea viruses.
+
+[豆角 | 蚜虫] 问：病因是什么？
+答：豆角蚜虫等种类可聚集在嫩梢、叶片、花和豆荚上刺吸汁液，并可能传播多种豆类病毒。
+
+[Cowpea | Aphids] Q: What symptoms should I look for?
+A: Look for dense colonies of dark or green aphids, curled leaves, sticky honeydew, sooty mold, weakened growth, and poor flowering or pod set when infestations are heavy.
+
+[豆角 | 蚜虫] 问：应该注意哪些症状？
+答：可见深色或绿色蚜虫密集群落、叶片卷曲、蜜露和煤污；严重时植株长势下降，开花和结荚受到影响。
+
+[Cowpea | Aphids] Q: How can I manage it?
+A: Scout young growth, conserve predators and parasitoids, remove weed hosts, manage ants where needed, and use selective controls if colonies are expanding and damaging the crop.
+
+[豆角 | 蚜虫] 问：如何防治？
+答：检查嫩梢，保护捕食者和寄生蜂，清除杂草寄主，必要时管理蚂蚁；虫群持续扩增并造成危害时采用选择性防治。
+
+[Cowpea | Aphids] Q: Tell me more about this crop.
+A: Cowpea is a warm-season legume grown for pods and seed. Flowering and pod development are especially sensitive to insect feeding, while clean seed, rotation, and good airflow help reduce seedborne and foliar diseases.
+
+[豆角 | 蚜虫] 问：介绍一下这种作物。
+答：豆角（豇豆）是喜温豆科作物，以嫩荚和种子为主要收获部位。开花和结荚期尤其容易受到害虫取食影响，而健康种子、合理轮作和良好通风有助于减少种传和叶部病害。
+
+## Cowpea - Mosaic Virus / 豆角 - 花叶病毒病
+
+[Cowpea | Mosaic Virus] Q: What causes this?
+A: Cowpea mosaic symptoms can be caused by several viruses, including cowpea severe mosaic virus and related viruses, transmitted by insects, seed, or mechanical means depending on the virus.
+
+[豆角 | 花叶病毒病] 问：病因是什么？
+答：豆角花叶症状可由多种病毒引起，包括豇豆严重花叶病毒等；不同病毒可通过昆虫、种子或机械接触传播。
+
+[Cowpea | Mosaic Virus] Q: What symptoms should I look for?
+A: Leaves develop light- and dark-green mosaic patterns, distortion, blistering, vein symptoms, and stunting; pod set and seed development may be reduced.
+
+[豆角 | 花叶病毒病] 问：应该注意哪些症状？
+答：叶片出现深浅绿色花叶斑驳、畸形、水泡状隆起或叶脉异常，植株可能矮化，并影响结荚和种子发育。
+
+[Cowpea | Mosaic Virus] Q: How can I manage it?
+A: Use clean seed, remove symptomatic plants, manage weed and volunteer hosts, reduce insect-vector pressure, and sanitize tools where mechanical transmission is possible.
+
+[豆角 | 花叶病毒病] 问：如何防治？
+答：使用健康种子，清除有症状植株，管理杂草和自生寄主，降低传毒昆虫压力，并在可能机械传播时清洁消毒工具。
+
+[Cowpea | Mosaic Virus] Q: Tell me more about this crop.
+A: Cowpea is a warm-season legume grown for pods and seed. Flowering and pod development are especially sensitive to insect feeding, while clean seed, rotation, and good airflow help reduce seedborne and foliar diseases.
+
+[豆角 | 花叶病毒病] 问：介绍一下这种作物。
+答：豆角（豇豆）是喜温豆科作物，以嫩荚和种子为主要收获部位。开花和结荚期尤其容易受到害虫取食影响，而健康种子、合理轮作和良好通风有助于减少种传和叶部病害。
+
+## Cowpea - Anthracnose / 豆角 - 炭疽病
+
+[Cowpea | Anthracnose] Q: What causes this?
+A: Cowpea anthracnose is caused by Colletotrichum fungi and can be seedborne or survive in infected residue. Warm, humid, wet conditions favor infection and spread.
+
+[豆角 | 炭疽病] 问：病因是什么？
+答：豆角炭疽病由炭疽菌属真菌引起，可通过带菌种子传播或在病残体中存活，温暖高湿和多雨条件有利于侵染扩散。
+
+[Cowpea | Anthracnose] Q: What symptoms should I look for?
+A: Dark sunken lesions develop on stems, petioles, leaves, or pods, sometimes with pink or salmon-colored spore masses under humid conditions.
+
+[豆角 | 炭疽病] 问：应该注意哪些症状？
+答：茎、叶柄、叶片或豆荚上出现暗色凹陷病斑，潮湿时病斑上有时形成粉红至橙红色孢子堆。
+
+[Cowpea | Anthracnose] Q: How can I manage it?
+A: Plant clean seed, rotate away from susceptible legumes, remove infected residue, avoid working wet foliage, improve airflow, and use locally registered fungicides where disease pressure warrants.
+
+[豆角 | 炭疽病] 问：如何防治？
+答：使用健康种子，与感病豆科作物轮作，清除病残体，避免在叶片潮湿时田间操作，改善通风；病害压力较高时按当地建议使用登记杀菌剂。
+
+[Cowpea | Anthracnose] Q: Tell me more about this crop.
+A: Cowpea is a warm-season legume grown for pods and seed. Flowering and pod development are especially sensitive to insect feeding, while clean seed, rotation, and good airflow help reduce seedborne and foliar diseases.
+
+[豆角 | 炭疽病] 问：介绍一下这种作物。
+答：豆角（豇豆）是喜温豆科作物，以嫩荚和种子为主要收获部位。开花和结荚期尤其容易受到害虫取食影响，而健康种子、合理轮作和良好通风有助于减少种传和叶部病害。
+
+## Cowpea - Bacterial Blight / 豆角 - 细菌性疫病
+
+[Cowpea | Bacterial Blight] Q: What causes this?
+A: Cowpea bacterial blight is caused by Xanthomonas bacteria and is often introduced with contaminated seed. Splashing water and warm, humid weather promote spread.
+
+[豆角 | 细菌性疫病] 问：病因是什么？
+答：豆角细菌性疫病由黄单胞菌引起，常随带菌种子传入；溅水以及温暖高湿环境有利于传播。
+
+[Cowpea | Bacterial Blight] Q: What symptoms should I look for?
+A: Leaves develop angular, vein-limited lesions with yellow halos that can enlarge into wedge-shaped blighted areas; severe infections may cause leaf drop, stem cankers, and lodging.
+
+[豆角 | 细菌性疫病] 问：应该注意哪些症状？
+答：叶片出现受叶脉限制的角形病斑并带黄色晕圈，可扩大成楔形坏死区；严重时发生落叶、茎部溃疡和倒伏。
+
+[Cowpea | Bacterial Blight] Q: How can I manage it?
+A: Use clean seed, rotate crops, avoid overhead irrigation and working wet plants, remove infected residue, and sanitize equipment that moves between fields.
+
+[豆角 | 细菌性疫病] 问：如何防治？
+答：使用健康种子，合理轮作，避免喷灌和植株潮湿时操作，清除病残体，并清洁消毒在田块之间移动的设备。
+
+[Cowpea | Bacterial Blight] Q: Tell me more about this crop.
+A: Cowpea is a warm-season legume grown for pods and seed. Flowering and pod development are especially sensitive to insect feeding, while clean seed, rotation, and good airflow help reduce seedborne and foliar diseases.
+
+[豆角 | 细菌性疫病] 问：介绍一下这种作物。
+答：豆角（豇豆）是喜温豆科作物，以嫩荚和种子为主要收获部位。开花和结荚期尤其容易受到害虫取食影响，而健康种子、合理轮作和良好通风有助于减少种传和叶部病害。
+
+## Cowpea - Powdery Mildew / 豆角 - 白粉病
+
+[Cowpea | Powdery Mildew] Q: What causes this?
+A: Cowpea powdery mildew is caused by powdery mildew fungi that spread by airborne spores and often become more visible during dry periods with moderate temperatures and humid nights.
+
+[豆角 | 白粉病] 问：病因是什么？
+答：豆角白粉病由白粉菌类真菌引起，孢子可随空气传播，在白天较干燥、温度适中且夜间湿度较高时常更容易显现。
+
+[Cowpea | Powdery Mildew] Q: What symptoms should I look for?
+A: White powdery patches develop on leaves and may spread to stems or pods; severe disease causes yellowing, premature leaf drop, and reduced plant vigor.
+
+[豆角 | 白粉病] 问：应该注意哪些症状？
+答：叶片出现白色粉状斑块，并可扩展到茎或豆荚；严重时叶片黄化、提前脱落，植株长势下降。
+
+[Cowpea | Powdery Mildew] Q: How can I manage it?
+A: Improve spacing and airflow, remove badly affected material, avoid excessive nitrogen, use resistant varieties where available, and apply locally registered fungicides when disease pressure is significant.
+
+[豆角 | 白粉病] 问：如何防治？
+答：改善株距和通风，清除严重受害组织，避免氮肥过量，尽量使用抗病品种；病害压力较高时按当地建议使用登记杀菌剂。
+
+[Cowpea | Powdery Mildew] Q: Tell me more about this crop.
+A: Cowpea is a warm-season legume grown for pods and seed. Flowering and pod development are especially sensitive to insect feeding, while clean seed, rotation, and good airflow help reduce seedborne and foliar diseases.
+
+[豆角 | 白粉病] 问：介绍一下这种作物。
+答：豆角（豇豆）是喜温豆科作物，以嫩荚和种子为主要收获部位。开花和结荚期尤其容易受到害虫取食影响，而健康种子、合理轮作和良好通风有助于减少种传和叶部病害。
+
+
+---
+## Version: AgroMind Knowledge Base v4.0 — Extended Coverage
+## Language Support: English | 中文 (separate chunks per language for accurate retrieval)
+## Scope: 8 crops; 19 Phase 2 core crop-condition pairs plus 41 extended common crop-condition pairs (60 total English canonical pairs, with Chinese equivalents).
+## Structure: 4 Q&A intents per combination in English and Chinese, matching the UI buttons.
+## Sources: Original v3 sources plus UC IPM crop/pest guidelines, University of Minnesota Extension, Penn State Extension, and University of Georgia Cooperative Extension.
+## Last Updated: September 2026
+## IMPORTANT: Extended KB coverage improves RAG support only; it does not establish vision-model accuracy for conditions outside the 19 Phase 2 core labels.

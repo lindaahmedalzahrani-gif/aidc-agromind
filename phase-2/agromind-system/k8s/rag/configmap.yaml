@@ -1,0 +1,30 @@
+apiVersion: v1
+kind: ConfigMap
+
+metadata:
+  name: agromind-rag-config
+  namespace: agromind-h100
+
+data:
+  LLM_BACKEND: "vllm"
+
+  VLLM_BASE_URL: "http://agromind-serving:8000/v1"
+
+  VLLM_MODEL_NAME: "Qwen/Qwen2.5-VL-7B-Instruct"
+
+  KNOWLEDGE_BASE_PATH: "/app/runtime/documents/knowledge_base.txt"
+
+  CHROMA_DB_PATH: "/app/runtime/vector-db"
+
+  REBUILD_VECTOR_DB: "false"
+
+  EMBEDDING_MODEL: "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+
+  CHUNK_SIZE: "50"
+  CHUNK_OVERLAP: "0"
+  RETRIEVAL_K: "5"
+
+  TEMPERATURE: "0.3"
+  TOP_P: "0.9"
+  NUM_CTX: "2048"
+  MAX_TOKENS: "150"

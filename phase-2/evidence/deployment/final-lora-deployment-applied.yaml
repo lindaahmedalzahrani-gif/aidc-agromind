@@ -1,0 +1,122 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    deployment.kubernetes.io/revision: "2"
+    kubectl.kubernetes.io/last-applied-configuration: |
+      {"apiVersion":"apps/v1","kind":"Deployment","metadata":{"annotations":{},"name":"agromind-vllm","namespace":"agromind-h100"},"spec":{"replicas":1,"selector":{"matchLabels":{"app":"agromind-vllm"}},"strategy":{"type":"Recreate"},"template":{"metadata":{"labels":{"app":"agromind-vllm"}},"spec":{"containers":[{"args":["--model=Qwen/Qwen2.5-VL-7B-Instruct","--dtype=half","--max-model-len=20000","--gpu-memory-utilization=0.82","--enable-lora","--max-loras=1","--max-lora-rank=16","--lora-modules={\"name\":\"agromind-diagnosis\",\"path\":\"/models/adapters/diagnosis-final\",\"base_model_name\":\"Qwen/Qwen2.5-VL-7B-Instruct\"}"],"image":"vllm/vllm-openai:v0.27.1","imagePullPolicy":"IfNotPresent","livenessProbe":{"failureThreshold":3,"httpGet":{"path":"/health","port":8000},"periodSeconds":20,"timeoutSeconds":2},"name":"vllm","ports":[{"containerPort":8000,"name":"http"}],"readinessProbe":{"failureThreshold":3,"httpGet":{"path":"/health","port":8000},"periodSeconds":10,"timeoutSeconds":2},"resources":{"limits":{"cpu":"4","memory":"16Gi","nvidia.com/gpu":"1"},"requests":{"cpu":"4","memory":"16Gi","nvidia.com/gpu":"1"}},"startupProbe":{"failureThreshold":60,"httpGet":{"path":"/health","port":8000},"periodSeconds":10,"timeoutSeconds":2},"volumeMounts":[{"mountPath":"/root/.cache/huggingface","name":"hf-cache"},{"mountPath":"/models/adapters/diagnosis-final","name":"diagnosis-adapter","readOnly":true}]}],"volumes":[{"hostPath":{"path":"/var/lib/hf-cache","type":"DirectoryOrCreate"},"name":"hf-cache"},{"hostPath":{"path":"/var/lib/agromind/adapters/diagnosis-final","type":"Directory"},"name":"diagnosis-adapter"}]}}}}
+  creationTimestamp: "2026-09-21T09:27:38Z"
+  generation: 2
+  name: agromind-vllm
+  namespace: agromind-h100
+  resourceVersion: "789621"
+  uid: fd586592-00df-4730-87bc-be51961227aa
+spec:
+  progressDeadlineSeconds: 600
+  replicas: 1
+  revisionHistoryLimit: 10
+  selector:
+    matchLabels:
+      app: agromind-vllm
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: agromind-vllm
+    spec:
+      containers:
+      - args:
+        - --model=Qwen/Qwen2.5-VL-7B-Instruct
+        - --dtype=half
+        - --max-model-len=20000
+        - --gpu-memory-utilization=0.82
+        - --enable-lora
+        - --max-loras=1
+        - --max-lora-rank=16
+        - --lora-modules={"name":"agromind-diagnosis","path":"/models/adapters/diagnosis-final","base_model_name":"Qwen/Qwen2.5-VL-7B-Instruct"}
+        image: vllm/vllm-openai:v0.27.1
+        imagePullPolicy: IfNotPresent
+        livenessProbe:
+          failureThreshold: 3
+          httpGet:
+            path: /health
+            port: 8000
+            scheme: HTTP
+          periodSeconds: 20
+          successThreshold: 1
+          timeoutSeconds: 2
+        name: vllm
+        ports:
+        - containerPort: 8000
+          name: http
+          protocol: TCP
+        readinessProbe:
+          failureThreshold: 3
+          httpGet:
+            path: /health
+            port: 8000
+            scheme: HTTP
+          periodSeconds: 10
+          successThreshold: 1
+          timeoutSeconds: 2
+        resources:
+          limits:
+            cpu: "4"
+            memory: 16Gi
+            nvidia.com/gpu: "1"
+          requests:
+            cpu: "4"
+            memory: 16Gi
+            nvidia.com/gpu: "1"
+        startupProbe:
+          failureThreshold: 60
+          httpGet:
+            path: /health
+            port: 8000
+            scheme: HTTP
+          periodSeconds: 10
+          successThreshold: 1
+          timeoutSeconds: 2
+        terminationMessagePath: /dev/termination-log
+        terminationMessagePolicy: File
+        volumeMounts:
+        - mountPath: /root/.cache/huggingface
+          name: hf-cache
+        - mountPath: /models/adapters/diagnosis-final
+          name: diagnosis-adapter
+          readOnly: true
+      dnsPolicy: ClusterFirst
+      restartPolicy: Always
+      schedulerName: default-scheduler
+      securityContext: {}
+      terminationGracePeriodSeconds: 30
+      volumes:
+      - hostPath:
+          path: /var/lib/hf-cache
+          type: DirectoryOrCreate
+        name: hf-cache
+      - hostPath:
+          path: /var/lib/agromind/adapters/diagnosis-final
+          type: Directory
+        name: diagnosis-adapter
+status:
+  availableReplicas: 1
+  conditions:
+  - lastTransitionTime: "2026-09-24T20:45:46Z"
+    lastUpdateTime: "2026-09-24T20:45:46Z"
+    message: Deployment has minimum availability.
+    reason: MinimumReplicasAvailable
+    status: "True"
+    type: Available
+  - lastTransitionTime: "2026-09-21T09:27:38Z"
+    lastUpdateTime: "2026-09-24T20:45:46Z"
+    message: ReplicaSet "agromind-vllm-7d777687f8" has successfully progressed.
+    reason: NewReplicaSetAvailable
+    status: "True"
+    type: Progressing
+  observedGeneration: 2
+  readyReplicas: 1
+  replicas: 1
+  terminatingReplicas: 0
+  updatedReplicas: 1

@@ -1,0 +1,501 @@
+﻿filename,crop,disease,disease_type,crop_en,disease_en,disease_type_en
+b24cb2c9_crop01.jpg,葡萄,白粉病,真菌病害,Grape,Powdery Mildew,Fungal Disease
+b24cb2c9_crop02.jpg,柑橘,炭疽病,真菌病害,Citrus,Anthracnose,Fungal Disease
+b24cb2c9_crop03.jpg,柑橘,疮痂病,真菌病害,Citrus,Scab,Fungal Disease
+b24cb2c9_crop04.jpg,柑橘,沙皮病,真菌病害,Citrus,Sandpaper Disease,Fungal Disease
+b24cb2c9_crop05.jpg,柑橘,树脂病,真菌病害,Citrus,Citrus Gummosis,Fungal Disease
+b24cb2c9_crop06.jpg,柑橘,黑星病,真菌病害,Citrus,Black Scab,Fungal Disease
+b24cb2c9_crop08.jpg,玉米,锈病,真菌病害,Corn,Rust,Fungal Disease
+30f62513_crop01.jpg,苹果,轮纹病,真菌病害,Apple,Ring Rot,Fungal Disease
+30f62513_crop03.jpg,番茄,早疫病,真菌病害,Tomato,Early Blight,Fungal Disease
+屏幕截图 2026-05-31 141448.png,苹果,炭疽病,真菌病害,Apple,Anthracnose,Fungal Disease
+屏幕截图 2026-05-31 141619.png,梨,炭疽病,真菌病害,Pear,Anthracnose,Fungal Disease
+屏幕截图 2026-05-31 141730.png,水稻,枯心苗,真菌病害,Rice,Dead Heart,Fungal Disease
+屏幕截图 2026-05-31 141949.png,柑橘,青霉病,真菌病害,Mandarin Orange,Blue Mold,Fungal Disease
+屏幕截图 2026-05-31 142048.png,香蕉,根腐病,真菌病害,Banana,Root Rot,Fungal Disease
+屏幕截图 2026-05-31 142150.png,香蕉,炭疽病,真菌病害,Banana,Anthracnose,Fungal Disease
+屏幕截图 2026-05-31 142229.png,柑橘,炭疽病,真菌病害,Mandarin Orange,Anthracnose,Fungal Disease
+屏幕截图 2026-05-31 142421.png,苹果,晚疫病,真菌病害,Apple,Late Blight,Fungal Disease
+屏幕截图 2026-05-31 142601.png,黄瓜,白粉病,真菌病害,Cucumber,Powdery Mildew,Fungal Disease
+屏幕截图 2026-05-31 142948.png,番茄,叶霉病,真菌病害,Tomato,Leaf Mold,Fungal Disease
+屏幕截图 2026-05-31 143021.png,水稻,条斑病,真菌病害,Rice,Stripe Blight,Fungal Disease
+屏幕截图 2026-05-31 143608.png,花生,叶斑病,真菌病害,Peanut,Leaf Spot,Fungal Disease
+屏幕截图 2026-05-31 143811.png,柑橘,疮痂病,真菌病害,Citrus,Scab,Fungal Disease
+屏幕截图 2026-05-31 144008.png,柑橘,黑斑病,真菌病害,Citrus,Black Spot,Fungal Disease
+屏幕截图 2026-05-31 144132.png,水稻,稻瘟病,真菌病害,Rice,Rice Blast,Fungal Disease
+屏幕截图 2026-05-31 144210.png,棉花,枯萎病,真菌病害,Cotton,Fusarium Wilt,Fungal Disease
+屏幕截图 2026-05-31 144340.png,柑橘,炭疽病,真菌病害,Citrus,Anthracnose,Fungal Disease
+屏幕截图 2026-05-31 144528.png,辣椒,炭疽病,真菌病害,Chili Pepper,Anthracnose,Fungal Disease
+屏幕截图 2026-05-31 144653.png,白菜,灰霉病,真菌病害,Chinese Cabbage,Gray Mold,Fungal Disease
+屏幕截图 2026-05-31 144747.png,水稻,稻瘟病,真菌病害,Rice,Rice Blast,Fungal Disease
+屏幕截图 2026-05-31 151816.png,玉米,茎腐病,真菌病害,Corn,Stalk Rot,Fungal Disease
+屏幕截图 2026-05-31 154436.png,花生,褐斑病,真菌病害,Peanut,Brown Spot,Fungal Disease
+屏幕截图 2026-05-31 155123.png,柑橘,蚧壳虫,虫害,Citrus,Scale Insect,Pest Damage
+微信图片_2026-06-01_163205_835.jpg,辣椒,脐腐病,真菌病害,Chili Pepper,Blossom End Rot,Fungal Disease
+微信图片_2026-06-01_163238_487.jpg,辣椒,脐腐病,真菌病害,Chili Pepper,Blossom End Rot,Fungal Disease
+微信图片_2026-06-02_135750_857.jpg,多肉,黑腐病,真菌病害,Succulent,Black Rot,Fungal Disease
+微信图片_2026-06-02_140148_290.jpg,多肉,蚧壳虫,虫害,Succulent,Mealybug,Pest Damage
+微信图片_2026-06-02_140342_506.jpg,多肉,黑腐病,真菌病害,Succulent,Black Rot,Fungal Disease
+微信图片_2026-06-02_140503_224.jpg,多肉,根腐病,真菌病害,Succulent,Root Rot,Fungal Disease
+微信图片_2026-06-02_140619_821.jpg,多肉,蚧壳虫,虫害,Succulent,Mealybug,Pest Damage
+微信图片_2026-06-02_140827_582.jpg,多肉,蚜虫,虫害,Succulent,Aphid,Pest Damage
+微信图片_2026-06-02_140958_303.jpg,多肉,黑腐病,真菌病害,Succulent,Black Rot,Fungal Disease
+微信图片_2026-06-02_141320_311.jpg,葡萄,褐斑病,真菌病害,Grape,Large Brown Spot,Fungal Disease
+微信图片_2026-06-02_141600_648.jpg,葡萄,褐斑病,真菌病害,Grape,Large Brown Spot,Fungal Disease
+微信图片_2026-06-02_141744_664.jpg,葡萄,白粉病,真菌病害,Grape,Powdery Mildew,Fungal Disease
+微信图片_2026-06-02_141933_482.jpg,月季/玫瑰,白粉病,真菌病害,Rose,Powdery Mildew,Fungal Disease
+微信图片_2026-06-02_142549_071.jpg,葡萄,蓟马,虫害,Shine Muscat,Thrips,Pest Damage
+微信图片_2026-06-02_150231_966.jpg,葡萄,灰霉病,真菌病害,Shine Muscat,Gray Mold,Fungal Disease
+微信图片_2026-06-02_151015_161.jpg,葡萄,褐斑病,真菌病害,Grape,Brown Spot,Fungal Disease
+微信图片_2026-06-02_151308_906.jpg,葡萄,房枯病,真菌病害,Grape,Pod Blight,Fungal Disease
+微信图片_2026-06-02_151509_706.jpg,葡萄,房枯病,真菌病害,Grape,Pod Blight,Fungal Disease
+微信图片_2026-06-02_151516_867.jpg,葡萄,房枯病,真菌病害,Grape,Pod Blight,Fungal Disease
+微信图片_2026-06-02_151522_564.jpg,葡萄,房枯病,真菌病害,Grape,Pod Blight,Fungal Disease
+微信图片_2026-06-02_151849_809.jpg,葡萄,疮痂病,真菌病害,Grape,Scab,Fungal Disease
+微信图片_2026-06-02_151858_769.jpg,葡萄,黑痘病,真菌病害,Grape,Black Pox,Fungal Disease
+微信图片_2026-06-02_154025_529.jpg,葡萄,褐斑病,真菌病害,Grape,Large Brown Spot,Fungal Disease
+微信图片_2026-06-02_155532_737.jpg,月季/玫瑰,黑斑病,真菌病害,Rose,Black Spot,Fungal Disease
+微信图片_2026-06-02_161446_021.jpg,月季/玫瑰,蚜虫,虫害,Rose,Aphid,Pest Damage
+微信图片_2026-06-02_161755_997.jpg,月季/玫瑰,根癌病,细菌病害,Rose,Crown Gall,Bacterial Disease
+微信图片_2026-06-02_162024_497.jpg,月季/玫瑰,病毒病,细菌病害,Rose,Viral Disease,Bacterial Disease
+微信图片_2026-06-02_162032_620.jpg,月季/玫瑰,病毒病,细菌病害,Rose,Viral Disease,Bacterial Disease
+微信图片_2026-06-02_162341_485.jpg,葡萄,煤污病,真菌病害,Grape,Sooty Mold,Fungal Disease
+微信图片_2026-06-02_162658_059.jpg,葡萄,褐斑病 ,真菌病害,Grape,Brown Spot,Fungal Disease
+微信图片_2026-06-02_162908_276.jpg,月季/玫瑰,灰霉病,真菌病害,Rose,Gray Mold,Fungal Disease
+微信图片_2026-06-02_163007_018.jpg,葡萄,褐枯病,真菌病害,Grape,Brown Blight,Fungal Disease
+微信图片_2026-06-02_163223_615.jpg,葡萄,房枯病,真菌病害,Grape,Pod Blight,Fungal Disease
+微信图片_2026-06-02_163451_204.jpg,葡萄,炭疽病,真菌病害,Grape,Anthracnose,Fungal Disease
+微信图片_2026-06-02_163714_613.jpg,葡萄,黑痘病,真菌病害,Grape,Black Pox,Fungal Disease
+微信图片_2026-06-02_164322_366.jpg,月季/玫瑰,叶斑病,真菌病害,Rose,Leaf Spot,Fungal Disease
+微信图片_2026-06-02_164444_179.jpg,葡萄,蓟马,虫害,Grape,Thrips,Pest Damage
+微信图片_2026-06-02_164603_968.jpg,葡萄,褐枯病,真菌病害,Grape,Brown Blight,Fungal Disease
+微信图片_2026-06-02_164726_164.jpg,葡萄,褐斑病 ,真菌病害,Grape,Brown Spot,Fungal Disease
+微信图片_2026-06-02_164734_956.jpg,葡萄,褐斑病 ,真菌病害,Grape,Brown Spot,Fungal Disease
+微信图片_2026-06-02_164939_732.jpg,葡萄,褐枯病,真菌病害,Grape,Brown Blight,Fungal Disease
+微信图片_2026-06-02_165134_659.jpg,月季/玫瑰,白粉病,真菌病害,Rose,Powdery Mildew,Fungal Disease
+微信图片_2026-06-02_165226_054.jpg,月季/玫瑰,白粉病,真菌病害,Rose,Powdery Mildew,Fungal Disease
+微信图片_2026-06-02_165259_413.jpg,月季/玫瑰,灰霉病,真菌病害,Rose,Gray Mold,Fungal Disease
+微信图片_2026-06-02_165356_195.jpg,月季/玫瑰,黑斑病,真菌病害,Rose,Black Spot,Fungal Disease
+微信图片_2026-06-02_165512_228.jpg,月季/玫瑰,白粉病,真菌病害,Rose,Powdery Mildew,Fungal Disease
+微信图片_2026-06-02_165516_776.jpg,月季/玫瑰,白粉病,真菌病害,Rose,Powdery Mildew,Fungal Disease
+微信图片_2026-06-02_165926_566.jpg,月季/玫瑰,黑斑病,真菌病害,Rose,Black Spot,Fungal Disease
+微信图片_2026-06-02_170040_021.jpg,月季/玫瑰,茎腐病,真菌病害,Rose,Stalk Rot,Fungal Disease
+微信图片_2026-06-02_170655_974.jpg,西瓜,蔓枯病,真菌病害,Watermelon,Gummy Stem Blight,Fungal Disease
+微信图片_2026-06-03_091914_987.jpg,月季/玫瑰,灰霉病,真菌病害,Rose,Gray Mold,Fungal Disease
+微信图片_2026-06-03_092800_140.jpg,月季/玫瑰,蚜虫,虫害,Rose,Aphid,Pest Damage
+微信图片_2026-06-03_093000_211.jpg,天堂鸟,炭疽病,真菌病害,Bird of Paradise,Anthracnose,Fungal Disease
+微信图片_2026-06-03_093206_226.jpg,穿心莲,叶斑病,真菌病害,Andrographis,Leaf Spot,Fungal Disease
+微信图片_2026-06-03_093344_628.jpg,百合花,叶枯病,真菌病害,Lily,Leaf Blight,Fungal Disease
+微信图片_2026-06-03_093820_564.jpg,富贵竹,叶斑病,真菌病害,Lucky Bamboo,Leaf Spot,Fungal Disease
+微信图片_2026-06-03_094146_139.jpg,富贵竹,炭疽病,真菌病害,Lucky Bamboo,Anthracnose,Fungal Disease
+微信图片_2026-06-03_094432_191.jpg,富贵竹,叶斑病,真菌病害,Lucky Bamboo,Leaf Spot,Fungal Disease
+微信图片_2026-06-03_100323_493.jpg,发财树,炭疽病,真菌病害,Money Tree,Anthracnose,Fungal Disease
+微信图片_2026-06-03_101020_877.jpg,发财树,蓟马,虫害,Money Tree,Thrips,Pest Damage
+微信图片_2026-06-03_101133_549.jpg,发财树,红蜘蛛,虫害,Money Tree,Spider Mite,Pest Damage
+微信图片_2026-06-03_101505_278.jpg,月季/玫瑰,煤污病,真菌病害,Rose,Sooty Mold,Fungal Disease
+微信图片_2026-06-03_101712_991.jpg,月季/玫瑰,灰霉病,真菌病害,Rose,Gray Mold,Fungal Disease
+微信图片_2026-06-03_101820_301.jpg,花生,叶斑病,真菌病害,Peanut,Leaf Spot,Fungal Disease
+微信图片_2026-06-03_101923_588.jpg,辣椒,脐腐病,真菌病害,Chili Pepper,Blossom End Rot,Fungal Disease
+微信图片_2026-06-03_102130_919.jpg,茄子,棉疫病,真菌病害,Eggplant,Cotton Blight,Fungal Disease
+微信图片_2026-06-03_102250_756.jpg,黄瓜,病毒病,真菌病害,Cucumber,Viral Disease,Fungal Disease
+微信图片_2026-06-03_102515_268.jpg,番茄,脐腐病,真菌病害,Tomato,Blossom End Rot,Fungal Disease
+微信图片_2026-06-03_102526_032.jpg,番茄,脐腐病,真菌病害,Tomato,Blossom End Rot,Fungal Disease
+微信图片_2026-06-02_102445_649.jpg,水稻,褐斑病,细菌病害,Rice,Brown Spot,Bacterial Disease
+微信图片_2026-06-02_103856_760.jpg,水稻,立枯病,真菌病害,Rice,Damping-off,Fungal Disease
+微信图片_2026-06-02_110940_063.jpg,玉米,蓟马,虫害,Corn,Thrips Damage,Pest Damage
+微信图片_2026-06-02_110129_417.jpg,玉米,叶斑病,真菌病害,Corn,Leaf Spot,Fungal Disease
+微信图片_2026-06-02_110342_856.jpg,玉米,顶腐病,细菌病害,Corn,Top Rot,Bacterial Disease
+微信图片_2026-06-02_110819_328.jpg,花生,叶斑病,真菌病害,Peanut,Leaf Spot,Fungal Disease
+微信图片_2026-06-02_110927_679.jpg,玉米,玉米螟危害,虫害,Corn,Corn Borer Damage,Pest Damage
+微信图片_2026-06-02_111304_743.jpg,玉米,锈腐病,真菌病害,Corn,Rust Rot,Fungal Disease
+微信图片_2026-06-02_132503_538.jpg,马铃薯,早疫病,真菌病害,Potato,Early Blight,Fungal Disease
+微信图片_2026-06-02_112319_688.jpg,马铃薯,晚疫病,真菌病害,Potato,Late Blight,Fungal Disease
+微信图片_2026-06-02_133032_729.jpg,马铃薯,炭疽病,真菌病害,Potato,Anthracnose,Fungal Disease
+微信图片_2026-06-02_133343_239.jpg,马铃薯,粉蚧类危害,虫害,Potato,Mealybug Damage,Pest Damage
+微信图片_2026-06-02_134037_673.jpg,马铃薯,环腐病,细菌病害,Potato,Ring Rot,Bacterial Disease
+微信图片_2026-06-02_134254_487.jpg,黄豆,叶斑病,真菌病害,Soybean,Leaf Spot,Fungal Disease
+微信图片_2026-06-02_134618_344.jpg,黄豆,蝽类害虫危害,虫害,Soybean,Stink Bug Damage,Pest Damage
+微信图片_2026-06-02_134648_224.jpg,黄豆,炭疽病,真菌病害,Soybean,Anthracnose,Fungal Disease
+微信图片_2026-06-02_135508_768.jpg,黄豆,蓟马,虫害,Soybean,Thrips Damage,Pest Damage
+微信图片_2026-06-02_135602_783.jpg,黄豆,夜蛾类幼虫危害,虫害,Soybean,Armyworm Damage,Pest Damage
+微信图片_2026-06-02_140101_823.jpg,黄豆,斑枯病,真菌病害,Soybean,Septoria Leaf Spot,Fungal Disease
+微信图片_2026-06-02_140340_792.jpg,山药,炭疽病,真菌病害,Yam,Anthracnose,Fungal Disease
+微信图片_2026-06-02_141608_832.jpg,山药,红蜘蛛,虫害,Yam,Spider Mite Damage,Pest Damage
+微信图片_2026-06-02_142230_712.jpg,山药,褐斑病,真菌病害,Yam,Brown Spot,Fungal Disease
+微信图片_2026-06-02_142245_215.jpg,山药,斜纹夜蛾危害,真菌病害,Yam,Spodoptera Damage,Fungal Disease
+微信图片_2026-06-02_142532_376.jpg,绿豆,蝽类害虫危害,虫害,Mung Bean,Stink Bug Damage,Pest Damage
+微信图片_2026-06-02_143106_441.jpg,绿豆,褐斑病,真菌病害,Mung Bean,Brown Spot,Fungal Disease
+微信图片_2026-06-02_143545_576.jpg,绿豆,煤霉病,真菌病害,Mung Bean,Sooty Blotch,Fungal Disease
+微信图片_2026-06-02_143535_969.jpg,绿豆,螨类危害,虫害,Mung Bean,Mite Damage,Pest Damage
+微信图片_2026-06-02_144411_088.jpg,绿豆,红斑病,真菌病害,Mung Bean,Red Spot,Fungal Disease
+微信图片_2026-06-02_144707_104.jpg,花生,疮痂病,真菌病害,Peanut,Scab,Fungal Disease
+微信图片_2026-06-02_144521_552.jpg,绿豆,斑疹病,细菌病害,Mung Bean,Spotted Wilt,Bacterial Disease
+微信图片_2026-06-02_145340_600.jpg,绿豆,叶斑病,真菌病害,Mung Bean,Leaf Spot,Fungal Disease
+微信图片_2026-06-02_145403_160.jpg,绿豆,炭疽病,真菌病害,Mung Bean,Anthracnose,Fungal Disease
+微信图片_2026-06-02_145556_303.jpg,小麦,赤霉病,真菌病害,Wheat,Fusarium Head Blight,Fungal Disease
+微信图片_2026-06-02_145729_264.jpg,小麦,颖枯病,真菌病害,Wheat,Glume Blotch,Fungal Disease
+微信图片_2026-06-02_145742_847.jpg,小麦,颖枯病,真菌病害,Wheat,Glume Blotch,Fungal Disease
+微信图片_2026-06-02_150144_416.jpg,小麦,条锈病,真菌病害,Wheat,Stripe Rust,Fungal Disease
+微信图片_2026-06-02_150253_631.jpg,小麦,赤霉病,真菌病害,Wheat,Fusarium Head Blight,Fungal Disease
+微信图片_2026-06-02_150354_040.jpg,小麦,叶枯病,真菌病害,Wheat,Leaf Blight,Fungal Disease
+微信图片_2026-06-02_150457_775.jpg,小麦,叶枯病,真菌病害,Wheat,Leaf Blight,Fungal Disease
+微信图片_2026-06-02_150519_152.jpg,小麦,叶枯病,真菌病害,Wheat,Leaf Blight,Fungal Disease
+微信图片_2026-06-02_150504_272.jpg,小麦,叶枯病,真菌病害,Wheat,Leaf Blight,Fungal Disease
+微信图片_2026-06-02_150816_295.jpg,小麦,叶枯病,真菌病害,Wheat,Leaf Blight,Fungal Disease
+微信图片_2026-06-02_150859_728.jpg,小麦,蚜虫,虫害,Wheat,Aphid Damage,Pest Damage
+微信图片_2026-06-02_153609_032.jpg,红豆,螨类危害,虫害,Red Bean,Mite Damage,Pest Damage
+微信图片_2026-06-02_154001_440.jpg,水稻,螨类危害,虫害,Rice,Mite Damage,Pest Damage
+微信图片_2026-06-02_154009_248.jpg,水稻,螨类危害,虫害,Rice,Mite Damage,Pest Damage
+微信图片_2026-06-02_154019_336.jpg,水稻,螨类危害,虫害,Rice,Mite Damage,Pest Damage
+微信图片_2026-06-02_154124_376.jpg,水稻,白叶枯病,细菌病害,Rice,Bacterial Blight,Bacterial Disease
+微信图片_2026-06-02_154222_512.jpg,水稻,稻曲病,真菌病害,Rice,False Smut,Fungal Disease
+微信图片_2026-06-02_154218_257.jpg,水稻,稻曲病,真菌病害,Rice,False Smut,Fungal Disease
+微信图片_2026-06-02_154809_264.jpg,水稻,叶鞘腐败病,真菌病害,Rice,Leaf Sheath Rot,Fungal Disease
+微信图片_2026-06-02_155406_521.jpg,水稻,条斑病,细菌病害,Rice,Stripe Blight,Bacterial Disease
+微信图片_2026-06-02_155723_591.jpg,水稻,稻飞虱危害,虫害,Rice,Brown Planthopper Damage,Pest Damage
+微信图片_2026-06-02_161400_881.jpg,水稻,纹枯病,真菌病害,Rice,Sheath Blight,Fungal Disease
+微信图片_2026-06-02_161649_032.jpg,水稻,穗腐病,真菌病害,Rice,Ear Rot,Fungal Disease
+微信图片_2026-06-02_162037_392.jpg,荞麦,褐斑病,真菌病害,Buckwheat,Brown Spot,Fungal Disease
+微信图片_2026-06-02_162207_105.jpg,豌豆,炭疽病,真菌病害,Pea,Anthracnose,Fungal Disease
+微信图片_2026-06-02_162603_094.png,豌豆,白粉病,真菌病害,Pea,Powdery Mildew,Fungal Disease
+微信图片_2026-06-02_162659_577.jpg,豌豆,根腐病,真菌病害,Pea,Root Rot,Fungal Disease
+微信图片_2026-06-02_164308_960.jpg,豌豆,炭疽病,真菌病害,Pea,Anthracnose,Fungal Disease
+微信图片_2026-06-02_164403_857.jpg,豌豆,斑潜蝇,虫害,Pea,Leafminer Damage,Pest Damage
+微信图片_2026-06-02_164954_048.jpg,豌豆,霜霉病,卵菌病害,Pea,Downy Mildew,Oomycete Disease
+微信图片_2026-06-02_165045_818.jpg,豌豆,霜霉病,卵菌病害,Pea,Downy Mildew,Oomycete Disease
+微信图片_2026-06-02_165037_968.jpg,豌豆,霜霉病,卵菌病害,Pea,Downy Mildew,Oomycete Disease
+微信图片_2026-06-02_165117_600.jpg,豌豆,蓟马,虫害,Pea,Thrips Damage,Pest Damage
+微信图片_2026-06-02_170340_287.jpg,豌豆,灰霉病,真菌病害,Pea,Gray Mold,Fungal Disease
+微信图片_2026-06-02_170326_632.jpg,豌豆,灰霉病,真菌病害,Pea,Gray Mold,Fungal Disease
+微信图片_2026-06-02_170522_536.jpg,豌豆,霜霉病,卵菌病害,Pea,Downy Mildew,Oomycete Disease
+微信图片_2026-06-02_170517_520.jpg,豌豆,霜霉病,卵菌病害,Pea,Downy Mildew,Oomycete Disease
+微信图片_2026-06-02_170527_320.jpg,豌豆,霜霉病,卵菌病害,Pea,Downy Mildew,Oomycete Disease
+微信图片_2026-06-02_170723_937.jpg,豌豆,锈病,真菌病害,Pea,Rust,Fungal Disease
+微信图片_2026-06-02_170754_017.jpg,豌豆,白粉病,真菌病害,Pea,Powdery Mildew,Fungal Disease
+微信图片_2026-06-02_170816_721.jpg,豌豆,白粉病,真菌病害,Pea,Powdery Mildew,Fungal Disease
+微信图片_2026-06-02_170922_442.jpg,豌豆,褐斑病,真菌病害,Pea,Brown Spot,Fungal Disease
+微信图片_2026-06-02_172006_624.jpg,玉米,穗腐病,真菌病害,Corn,Ear Rot,Fungal Disease
+微信图片_2026-06-02_172040_184.jpg,玉米,叶斑病,真菌病害,Corn,Leaf Spot,Fungal Disease
+微信图片_2026-06-02_172037_440.jpg,玉米,叶斑病,真菌病害,Corn,Leaf Spot,Fungal Disease
+微信图片_2026-06-02_172153_095.jpg,玉米,顶腐病,细菌病害,Corn,Top Rot,Bacterial Disease
+微信图片_2026-06-02_172148_968.jpg,玉米,顶腐病,细菌病害,Corn,Top Rot,Bacterial Disease
+微信图片_2026-06-02_172516_625.jpg,玉米,叶斑病,真菌病害,Corn,Leaf Spot,Fungal Disease
+微信图片_2026-06-02_172547_529.jpg,玉米,顶腐病,真菌病害,Corn,Top Rot,Fungal Disease
+微信图片_2026-06-02_172815_106.jpg,玉米,褐斑病,真菌病害,Corn,Brown Spot,Fungal Disease
+微信图片_2026-06-02_172819_721.jpg,玉米,褐斑病,真菌病害,Corn,Brown Spot,Fungal Disease
+微信图片_2026-06-02_173009_912.jpg,玉米,大斑病,真菌病害,Corn,Northern Leaf Blight,Fungal Disease
+微信图片_2026-06-02_173015_817.jpg,玉米,大斑病,真菌病害,Corn,Northern Leaf Blight,Fungal Disease
+微信图片_2026-06-02_173042_440.jpg,玉米,棉铃虫危害,虫害,Corn,Bollworm Damage,Pest Damage
+微信图片_2026-06-02_173127_377.jpg,玉米,鞘腐病,真菌病害,Corn,Sheath Rot,Fungal Disease
+微信图片_2026-06-02_173221_584.jpg,玉米,炭疽病,真菌病害,Corn,Anthracnose,Fungal Disease
+微信图片_2026-06-02_173217_458.jpg,玉米,炭疽病,真菌病害,Corn,Anthracnose,Fungal Disease
+微信图片_2026-06-02_173228_112.jpg,玉米,炭疽病,真菌病害,Corn,Anthracnose,Fungal Disease
+微信图片_2026-06-02_173339_896.jpg,玉米,鞘腐病,真菌病害,Corn,Sheath Rot,Fungal Disease
+微信图片_2026-06-02_173448_137.jpg,玉米,大斑病,真菌病害,Corn,Northern Leaf Blight,Fungal Disease
+微信图片_2026-06-02_173452_168.jpg,玉米,大斑病,真菌病害,Corn,Northern Leaf Blight,Fungal Disease
+微信图片_2026-06-02_173534_368.jpg,玉米,白粉病,真菌病害,Corn,Powdery Mildew,Fungal Disease
+微信图片_2026-06-02_174417_440.jpg,燕麦,白粉病,真菌病害,Oat,Powdery Mildew,Fungal Disease
+微信图片_2026-06-02_174353_912.jpg,燕麦,白粉病,真菌病害,Oat,Powdery Mildew,Fungal Disease
+微信图片_2026-06-02_174431_937.jpg,燕麦,白粉病,真菌病害,Oat,Powdery Mildew,Fungal Disease
+微信图片_2026-06-02_174806_624.jpg,红薯,炭疽病,真菌病害,Sweet Potato,Anthracnose,Fungal Disease
+微信图片_2026-06-02_174939_271.jpg,红薯,霜霉病,真菌病害,Sweet Potato,Downy Mildew,Fungal Disease
+微信图片_2026-06-02_175050_961.jpg,红薯,蚧壳虫,虫害,Sweet Potato,Scale Insect Damage,Pest Damage
+微信图片_2026-06-02_163618_664.jpg,番茄,叶霉病,真菌病害,Tomato,Leaf Mold,Fungal Disease
+微信图片_2026-06-02_163726_372.jpg,番茄,叶霉病,真菌病害,Tomato,Leaf Mold,Fungal Disease
+微信图片_2026-06-02_163738_699.jpg,番茄,叶霉病,真菌病害,Tomato,Leaf Mold,Fungal Disease
+微信图片_2026-06-02_163743_044.jpg,番茄,叶霉病,真菌病害,Tomato,Leaf Mold,Fungal Disease
+微信图片_2026-06-02_163821_540.jpg,番茄,叶霉病,真菌病害,Tomato,Leaf Mold,Fungal Disease
+微信图片_2026-06-02_165609_210.jpg,番茄,病毒病,感染性病害,Tomato,Viral Disease,Infectious Disease
+微信图片_2026-06-02_165617_218.jpg,番茄,病毒病,感染性病害,Tomato,Viral Disease,Infectious Disease
+微信图片_2026-06-02_165621_410.jpg,番茄,病毒病,感染性病害,Tomato,Viral Disease,Infectious Disease
+微信图片_2026-06-02_170246_368.jpg,生菜,炭疽病,真菌病害,Lettuce,Anthracnose,Fungal Disease
+微信图片_2026-06-02_170308_119.jpg,生菜,炭疽病,真菌病害,Lettuce,Anthracnose,Fungal Disease
+微信图片_2026-06-02_170310_767.jpg,生菜,炭疽病,真菌病害,Lettuce,Anthracnose,Fungal Disease
+微信图片_2026-06-02_170812_130.jpg,茨菇,炭疽病,真菌病害,Arrowhead,Anthracnose,Fungal Disease
+微信图片_2026-06-02_171329_780.jpg,罗勒,蓟马,蓟马虫害,Basil,Thrips,Thrips Damage
+微信图片_2026-06-02_171431_498.jpg,生菜,细菌病,细菌性病害,Lettuce,Bacterial Disease,Bacterial Disease
+微信图片_2026-06-02_171557_446.jpg,上海青,黑腐病,细菌性病害,Shanghai Greens,Black Rot,Bacterial Disease
+微信图片_2026-06-02_171601_557.jpg,上海青,黑腐病,细菌性病害,Shanghai Greens,Black Rot,Bacterial Disease
+微信图片_2026-06-02_171759_864.jpg,花椰菜,霜霉病,细菌性病害,Cauliflower,Downy Mildew,Bacterial Disease
+微信图片_2026-06-02_171803_455.jpg,花椰菜,霜霉病,细菌性病害,Cauliflower,Downy Mildew,Bacterial Disease
+微信图片_2026-06-02_171921_156.jpg,葱,霜霉病,细菌性病害,Scallion,Downy Mildew,Bacterial Disease
+微信图片_2026-06-02_171924_853.jpg,葱,霜霉病,细菌性病害,Scallion,Downy Mildew,Bacterial Disease
+微信图片_2026-06-02_172335_265.jpg,空心菜,霜霉病,细菌性病害,Water Spinach,Downy Mildew,Bacterial Disease
+微信图片_2026-06-02_172339_009.jpg,空心菜,霜霉病,细菌性病害,Water Spinach,Downy Mildew,Bacterial Disease
+微信图片_2026-06-02_172433_678.jpg,油菜,炭疽病,真菌病害,Rapeseed,Anthracnose,Fungal Disease
+微信图片_2026-06-02_172638_201.jpg,油菜,炭疽病,真菌病害,Rapeseed,Anthracnose,Fungal Disease
+微信图片_2026-06-02_172732_494.jpg,白菜,霜霉病,细菌性病害,Chinese Cabbage,Downy Mildew,Bacterial Disease
+微信图片_2026-06-02_172935_040.jpg,空心菜,白锈病,真菌病害,Water Spinach,White Rust,Fungal Disease
+微信图片_2026-06-02_172942_673.jpg,空心菜,白锈病,真菌病害,Water Spinach,White Rust,Fungal Disease
+微信图片_2026-06-02_173054_957.jpg,油菜,霜霉病,细菌性病害,Rapeseed,Downy Mildew,Bacterial Disease
+微信图片_2026-06-02_173101_245.jpg,油菜,霜霉病,细菌性病害,Rapeseed,Downy Mildew,Bacterial Disease
+微信图片_2026-06-02_173221_353.jpg,莴苣,霜霉病,细菌性病害,Stem Lettuce,Downy Mildew,Bacterial Disease
+微信图片_2026-06-02_173228_905.jpg,莴苣,霜霉病,细菌性病害,Stem Lettuce,Downy Mildew,Bacterial Disease
+微信图片_2026-06-02_173317_119.jpg,苦荞麦,霜霉病,细菌性病害,Tartary Buckwheat,Downy Mildew,Bacterial Disease
+微信图片_2026-06-02_173405_636.jpg,莴苣,霜霉病,细菌性病害,Lettuce,Downy Mildew,Bacterial Disease
+微信图片_2026-06-02_173443_907.jpg,白菜,霜霉病,细菌性病害,Chinese Cabbage,Downy Mildew,Bacterial Disease
+微信图片_2026-06-02_173447_419.jpg,白菜,霜霉病,细菌性病害,Chinese Cabbage,Downy Mildew,Bacterial Disease
+微信图片_2026-06-02_173455_859.jpg,白菜,霜霉病,细菌性病害,Chinese Cabbage,Downy Mildew,Bacterial Disease
+微信图片_2026-06-02_173500_874.jpg,白菜,霜霉病,细菌性病害,Chinese Cabbage,Downy Mildew,Bacterial Disease
+微信图片_2026-06-02_173614_168.jpg,白菜,叶甲,叶甲虫害,Chinese Cabbage,Leaf Beetle,Leaf Beetle Damage
+微信图片_2026-06-02_173618_622.jpg,白菜,叶甲,叶甲虫害,Chinese Cabbage,Leaf Beetle,Leaf Beetle Damage
+微信图片_2026-06-02_173752_659.jpg,韭菜,疫病,真菌病害,Chinese Chive,Phytophthora Blight,Fungal Disease
+微信图片_2026-06-02_174048_563.jpg,香菜,斑枯病,真菌病害,Cilantro,Septoria Leaf Spot,Fungal Disease
+微信图片_2026-06-02_174053_866.jpg,香菜,斑枯病,真菌病害,Cilantro,Septoria Leaf Spot,Fungal Disease
+微信图片_2026-06-02_174721_481.jpg,香菜,斑枯病,真菌病害,Cilantro,Septoria Leaf Spot,Fungal Disease
+微信图片_2026-06-02_174929_043.jpg,白菜,白斑病,真菌病害,Chinese Cabbage,White Spot,Fungal Disease
+微信图片_2026-06-02_175053_696.jpg,白菜,白斑病,真菌病害,Chinese Cabbage,White Spot,Fungal Disease
+微信图片_2026-06-02_175229_052.jpg,芹菜,斑枯病,真菌病害,Celery,Septoria Leaf Spot,Fungal Disease
+微信图片_2026-06-02_175237_403.jpg,芹菜,斑枯病,真菌病害,Celery,Septoria Leaf Spot,Fungal Disease
+微信图片_2026-06-02_175442_173.jpg,莴苣,斑潜蝇,斑潜蝇虫害,Stem Lettuce,Leafminer,Leafminer Damage
+微信图片_2026-06-02_175546_810.jpg,散花,霜霉病,细菌性病害,Chrysanthemum,Downy Mildew,Bacterial Disease
+微信图片_2026-06-02_175642_976.jpg,芹菜,软霉病,细菌性病害,Celery,Soft Mold,Bacterial Disease
+微信图片_2026-06-02_175758_149.jpg,油麦菜,软霉病,细菌性病害,Romaine Lettuce,Soft Mold,Bacterial Disease
+微信图片_2026-06-02_175845_794.jpg,芹菜,软霉病,细菌性病害,Celery,Soft Mold,Bacterial Disease
+微信图片_2026-06-02_175928_369.jpg,莴苣,霜霉病,细菌性病害,Stem Lettuce,Downy Mildew,Bacterial Disease
+微信图片_2026-06-02_180037_094.jpg,白菜,软腐病,细菌性病害,Chinese Cabbage,Soft Rot,Bacterial Disease
+微信图片_2026-06-02_180040_822.jpg,白菜,软腐病,细菌性病害,Chinese Cabbage,Soft Rot,Bacterial Disease
+微信图片_2026-06-02_180222_952.jpg,枸杞,蚧壳虫,蚧壳虫害,Wolfberry,Scale Insect,Scale Insect Damage
+微信图片_2026-06-02_180227_898.jpg,枸杞,蚧壳虫,蚧壳虫害,Wolfberry,Scale Insect,Scale Insect Damage
+微信图片_2026-06-02_180736_835.jpg,葱,疫病,真菌病害,Scallion,Phytophthora Blight,Fungal Disease
+微信图片_2026-06-02_180742_259.jpg,葱,疫病,真菌病害,Scallion,Phytophthora Blight,Fungal Disease
+微信图片_2026-06-02_180818_761.jpg,韭菜,灰霉病,真菌病害,Chinese Chive,Gray Mold,Fungal Disease
+微信图片_2026-06-02_180826_329.jpg,韭菜,灰霉病,真菌病害,Chinese Chive,Gray Mold,Fungal Disease
+微信图片_2026-06-02_181000_381.jpg,白菜,白锈病,真菌病害,Chinese Cabbage,White Rust,Fungal Disease
+微信图片_2026-06-02_181118_241.jpg,白菜,霜霉病,细菌性病害,Chinese Cabbage,Downy Mildew,Bacterial Disease
+微信图片_2026-06-02_181307_117.jpg,菠菜,痿螨,痿螨虫害,Spinach,Eriophyid Mite,Eriophyid Mite Damage
+微信图片_2026-06-02_181434_528.jpg,葱,蓟马,蓟马虫害,Scallion,Thrips,Thrips Damage
+微信图片_2026-06-02_181620_923.jpg,大蒜,叶枯病,真菌病害,Garlic,Leaf Blight,Fungal Disease
+微信图片_2026-06-02_181730_473.jpg,白菜,黑斑病,真菌病害,Chinese Cabbage,Black Spot,Fungal Disease
+微信图片_2026-06-02_181831_485.jpg,油菜,霜霉病,细菌性病害,Rapeseed,Downy Mildew,Bacterial Disease
+微信图片_2026-06-02_182008_217.jpg,芥菜,霜霉病,细菌性病害,Mustard Greens,Downy Mildew,Bacterial Disease
+微信图片_2026-06-02_182104_983.jpg,生菜,软腐病,细菌性病害,Lettuce,Soft Rot,Bacterial Disease
+微信图片_2026-06-02_182112_150.jpg,生菜,软腐病,细菌性病害,Lettuce,Soft Rot,Bacterial Disease
+微信图片_2026-06-02_182225_620.jpg,芹菜,黏菌病,真菌病害,Celery,Slime Mold,Fungal Disease
+微信图片_2026-06-02_182347_112.jpg,油麦菜,蚜虫,蚜虫虫害,Romaine Lettuce,Aphid,Aphid Damage
+微信图片_2026-06-02_182350_944.jpg,油麦菜,蚜虫,蚜虫虫害,Romaine Lettuce,Aphid,Aphid Damage
+微信图片_2026-06-02_182446_934.jpg,油麦菜,霜霉病,细菌性病害,Romaine Lettuce,Downy Mildew,Bacterial Disease
+微信图片_2026-06-02_182451_750.jpg,油麦菜,霜霉病,细菌性病害,Romaine Lettuce,Downy Mildew,Bacterial Disease
+微信图片_2026-06-02_182541_874.jpg,油菜,根腐病,真菌病害,Rapeseed Flower,Root Rot,Fungal Disease
+微信图片_2026-06-02_182659_607.jpg,菠菜,霜霉病,霜霉病,Spinach,Downy Mildew,Downy Mildew
+微信图片_2026-06-03_104936_655.jpg,豆角,斑枯病,真菌病害,String Bean,Septoria Leaf Spot,Fungal Disease
+微信图片_2026-06-03_105431_353.jpg,玉米,茎腐病,细菌性病害,Corn,Stalk Rot,Bacterial Disease
+微信图片_2026-06-03_105445_096.jpg,玉米,茎腐病,细菌性病害,Corn,Stalk Rot,Bacterial Disease
+微信图片_2026-06-03_105839_222.jpg,甘蓝,菌核病,真菌病害,Cabbage,Sclerotinia Rot,Fungal Disease
+微信图片_2026-06-03_105843_278.jpg,甘蓝,菌核病,真菌病害,Cabbage,Sclerotinia Rot,Fungal Disease
+微信图片_2026-06-03_111332_262.jpg,白菜,蚜虫,蚜虫虫害,Chinese Cabbage,Aphid,Aphid Damage
+微信图片_2026-06-03_111444_971.jpg,红薯,蚜虫,蚜虫虫害,Sweet Potato Leaf,Aphid,Aphid Damage
+微信图片_2026-06-03_111610_055.jpg,红薯,蚜虫,蚜虫虫害,Sweet Potato Leaf,Aphid,Aphid Damage
+微信图片_2026-06-03_112021_795.jpg,黄瓜,霜霉病,真菌病害,Cucumber,Downy Mildew,Fungal Disease
+微信图片_2026-06-03_112026_995.jpg,黄瓜,霜霉病,真菌病害,Cucumber,Downy Mildew,Fungal Disease
+微信图片_2026-06-03_112031_315.jpg,黄瓜,霜霉病,真菌病害,Cucumber,Downy Mildew,Fungal Disease
+微信图片_2026-06-03_112037_683.jpg,黄瓜,霜霉病,真菌病害,Cucumber,Downy Mildew,Fungal Disease
+微信图片_2026-06-03_112235_894.jpg,黄瓜,黑星病,真菌病害,Cucumber,Black Scab,Fungal Disease
+微信图片_2026-06-03_112239_662.jpg,黄瓜,黑星病,真菌病害,Cucumber,Black Scab,Fungal Disease
+微信图片_2026-06-03_112245_213.jpg,黄瓜,黑星病,真菌病害,Cucumber,Black Scab,Fungal Disease
+微信图片_2026-06-03_130704_672.jpg,苦瓜,根腐病,真菌病害,Bitter Melon,Root Rot,Fungal Disease
+微信图片_2026-06-03_130708_560.jpg,苦瓜,根腐病,真菌病害,Bitter Melon,Root Rot,Fungal Disease
+微信图片_2026-06-03_135800_961.jpg,西葫芦,花腐病,真菌病害,Zucchini,Flower Rot,Fungal Disease
+微信图片_2026-06-03_140029_794.jpg,黄瓜,病毒病,病毒病害,Cucumber,Viral Disease,Viral Disease
+微信图片_2026-06-03_140034_889.jpg,黄瓜,病毒病,病毒病害,Cucumber,Viral Disease,Viral Disease
+微信图片_2026-06-03_140311_483.jpg,南瓜,枯萎病,真菌病害,Pumpkin,Fusarium Wilt,Fungal Disease
+微信图片_2026-06-03_140506_397.jpg,南瓜,白粉病,真菌病害,Pumpkin,Powdery Mildew,Fungal Disease
+微信图片_2026-06-03_091551_942.jpg,山药,叶斑病,真菌性病害,Yam,Leaf Spot,Fungal Disease
+微信图片_2026-06-03_092723_438.jpg,小麦,颖枯病,真菌性病害,Wheat,Glume Blotch,Fungal Disease
+微信图片_2026-06-03_093036_198.jpg,豆角,病毒病,病毒性病害,String Bean,Viral Disease,Viral Disease
+微信图片_2026-06-03_093553_773.jpg,玉米,缺锌生理病害,生理性缺素病害,Corn,Zinc Deficiency,Nutrient Deficiency
+微信图片_2026-06-03_093930_598.jpg,草莓,细菌性断头病,细菌性病害,Strawberry,Bacterial Top Rot,Bacterial Disease
+微信图片_2026-06-03_094103_550.jpg,西瓜,霜霉病,真菌性侵染病害,Watermelon,Downy Mildew,Fungal Infection
+微信图片_2026-06-03_094252_894.jpg,茭白,纹枯病,真菌性病害,Water Bamboo,Sheath Blight,Fungal Disease
+微信图片_2026-06-03_094358_111.jpg,番茄,轮纹斑病,真菌性病害,Cherry Tomato,Ring Spot,Fungal Disease
+微信图片_2026-06-03_094511_269.jpg,甜瓜,病毒病,病毒性侵染病害,Melon,Viral Disease,Viral Infection
+微信图片_2026-06-03_094617_381.jpg,核桃,黑疤病,细菌性病害,Walnut,Black Scar,Bacterial Disease
+微信图片_2026-06-03_094724_998.jpg,冬瓜,蔓枯病,真菌性病害,Winter Melon,Gummy Stem Blight,Fungal Disease
+微信图片_2026-06-03_094950_342.jpg,水稻,烂秧病,真菌性病害,Rice Seedling,Seedling Blight,Fungal Disease
+微信图片_2026-06-03_095048_926.jpg,苹果,根腐病,真菌性土传侵染病害,Apple Tree,Root Rot,Soil-borne Fungal Disease
+微信图片_2026-06-03_095500_238.jpg,猕猴桃,褐斑病,真菌性病害,Kiwifruit,Brown Spot,Fungal Disease
+微信图片_2026-06-03_100539_291.jpg,烟草,病毒病,病毒性侵染病害,Tobacco,Viral Disease,Viral Infection
+微信图片_2026-06-03_100652_428.jpg,南瓜,霜霉病,低等真菌性侵染病害,Pumpkin,Downy Mildew,Oomycete Infection
+微信图片_2026-06-03_100835_228.jpg,西瓜,白粉病,真菌性病害,Watermelon,Powdery Mildew,Fungal Disease
+微信图片_2026-06-03_101655_332.jpg,枇杷,日灼病,非侵染性生理性病害,Loquat,Sunscald,Non-infectious Physiological Disease
+微信图片_2026-06-03_101827_619.jpg,柑橘,黄龙病,细菌性病害,Citrus,Huanglongbing,Bacterial Disease
+微信图片_2026-06-03_102024_260.jpg,甘蔗,胡麻叶斑病,真菌性侵染病害,Sugarcane,Sesame Leaf Spot,Fungal Infection
+微信图片_2026-06-03_102213_100.jpg,葡萄,霜霉病,低等真菌性侵染病害,Grape,Downy Mildew,Oomycete Infection
+微信图片_2026-06-03_102343_916.jpg,番茄,晚疫病,低等真菌病害,Tomato,Late Blight,Lower Fungal Disease
+微信图片_2026-06-03_102437_530.jpg,茶,炭疽病,真菌性侵染病害,Tea,Anthracnose,Fungal Infection
+微信图片_2026-06-03_102529_475.jpg,桃,果腐病,真菌性侵染病害,Peach,Fruit Rot,Fungal Infection
+微信图片_2026-06-03_102628_171.jpg,桃,根腐病,真菌性土传侵染病害,Peach Tree,Root Rot,Soil-borne Fungal Disease
+微信图片_2026-06-03_102740_739.jpg,玉米,大斑病,真菌性侵染病害,Corn,Northern Leaf Blight,Fungal Infection
+微信图片_2026-06-03_102843_659.jpg,番茄,炭疽病,真菌性侵染病害,Tomato,Anthracnose,Fungal Infection
+微信图片_2026-06-03_103113_715.jpg,番茄,猝倒病,低等真菌土传病害,Tomato,Damping-off,Soil-borne Oomycete
+微信图片_2026-06-03_103236_715.jpg,辣椒,畸形果,非侵染性生理性病害,String Pepper,Fruit Deformity,Non-infectious Physiological Disease
+微信图片_2026-06-03_103330_170.jpg,桃,缩叶病,真菌性侵染病害,Peach Tree,Peach Leaf Curl,Fungal Infection
+微信图片_2026-06-03_103535_692.jpg,小麦,条锈病,真菌性气流传播病害,Wheat,Stripe Rust,Airborne Fungal Disease
+微信图片_2026-06-03_103748_371.jpg,桃,细菌性穿孔病,细菌性侵染病害,Peach Tree,Bacterial Shot Hole,Bacterial Infection
+微信图片_2026-06-03_103850_418.jpg,番茄,早疫病,真菌性侵染病害,Tomato,Early Blight,Fungal Infection
+微信图片_2026-06-03_103958_466.jpg,番茄,茶色果,非侵染性生理性病害,Tomato,Tea-colored Fruit,Non-infectious Physiological Disease
+微信图片_2026-06-03_104213_939.jpg,白菜,软腐病,细菌性土传病害,Chinese Cabbage,Soft Rot,Soil-borne Bacterial
+微信图片_2026-06-03_104404_954.jpg,葡萄,褐斑病,真菌性侵染病害,Grape,Brown Spot,Fungal Infection
+微信图片_2026-06-03_104501_323.jpg,茄子,日灼病,非侵染性生理性病害,Eggplant,Sunscald,Non-infectious Physiological Disease
+微信图片_2026-06-03_104556_202.jpg,草莓,茎基腐病,真菌性土传侵染病害,Strawberry,Stem Base Rot,Soil-borne Fungal Disease
+微信图片_2026-06-03_104704_963.jpg,豆角,炭疽病,真菌性侵染病害,French Bean,Anthracnose,Fungal Infection
+微信图片_2026-06-03_104808_874.jpg,瓜栗,叶尖叶缘枯焦,非侵染性生理性病害,Malabar Chestnut,Leaf Tip Burn,Non-infectious Physiological Disease
+微信图片_2026-06-03_104911_235.jpg,大蒜,叶枯病,真菌性侵染病害,Garlic,Leaf Blight,Fungal Infection
+微信图片_2026-06-03_105038_403.jpg,草莓,白粉病,真菌性侵染病害,Strawberry,Powdery Mildew,Fungal Infection
+微信图片_2026-06-03_105152_284.jpg,油菜,菌核病,真菌性土传侵染病害,Rapeseed,Sclerotinia Rot,Soil-borne Fungal Disease
+微信图片_2026-06-03_105459_068.jpg,甜瓜,细菌性角斑病,细菌性侵染病害,Melon,Angular Leaf Spot,Bacterial Infection
+微信图片_2026-06-03_105547_948.jpg,甜瓜,青枯病,细菌性病害,Melon,Bacterial Wilt,Bacterial Disease
+微信图片_2026-06-03_105703_810.jpg,草莓, 缺磷,生理性缺素病害,Strawberry,Phosphorus Deficiency,Nutrient Deficiency
+微信图片_2026-06-03_110019_228.jpg,草莓,灰霉病,真菌性侵染病害,Strawberry,Gray Mold,Fungal Infection
+微信图片_2026-06-03_110127_508.jpg,番茄,灰霉病,真菌性侵染病害,Tomato,Gray Mold,Fungal Infection
+微信图片_2026-06-03_110205_819.jpg,茄子,白粉病,真菌性病害,Eggplant,Powdery Mildew,Fungal Disease
+微信图片_2026-06-03_110331_234.jpg,番茄,溃疡病,细菌性病害,Tomato,Canker on Fruit,Bacterial Disease
+微信图片_2026-06-03_130414_121.jpg,草莓,缺铁,非侵染性生理性病害,Strawberry,Iron Deficiency Chlorosis,Non-infectious Physiological Disease
+微信图片_2026-06-03_130513_320.jpg,豌豆,根腐病,真菌性土传侵染病害,Pea,Root Rot,Soil-borne Fungal Disease
+微信图片_2026-06-03_130628_751.jpg,花椰菜,软腐病,细菌性侵染病害,Cauliflower,Soft Rot,Bacterial Infection
+微信图片_2026-06-03_131007_935.jpg,番茄,晚疫病,卵菌纲真菌性侵染病害,Tomato,Late Blight,Oomycete Infection
+微信图片_2026-06-03_131135_816.jpg,番茄,缺磷,生理性缺素病害,Tomato,Phosphorus Deficiency,Nutrient Deficiency
+微信图片_2026-06-03_131256_528.jpg,豌豆,白粉病,真菌性侵染病害,Sweet Pea,Powdery Mildew,Fungal Infection
+微信图片_2026-06-03_131438_872.jpg,玉米,粗缩病,病毒性病害,Corn,Rough Dwarf Disease,Viral Disease
+微信图片_2026-06-03_131539_776.jpg,黄瓜,病毒病,病毒性侵染病害,Cucumber,Viral Disease,Viral Infection
+微信图片_2026-06-03_131707_128.jpg,茄子,缺铁,生理性缺素病害,Eggplant,Iron Deficiency,Nutrient Deficiency
+微信图片_2026-06-03_131832_600.jpg,番茄,褐斑病,真菌性病害,Tomato,Brown Spot,Fungal Disease
+微信图片_2026-06-03_132021_808.jpg,茄子,早疫病,真菌性病害,Eggplant,Early Blight,Fungal Disease
+微信图片_2026-06-03_132137_864.jpg,甜瓜,蔓枯病,真菌性病害,Melon,Gummy Stem Blight (Stem),Fungal Disease
+微信图片_2026-06-03_133638_095.jpg,西瓜,缺铁,生理性病害,Watermelon,Iron Deficiency,Physiological Disease
+微信图片_2026-06-03_133852_816.jpg,小麦,条锈病,真菌性病害,Wheat,Stripe Rust,Fungal Disease
+微信图片_2026-06-03_133936_992.jpg,小麦,花叶病,病毒性病害,Wheat,Mosaic Disease,Viral Disease
+微信图片_2026-06-03_134146_543.jpg,小麦,赤霉病,真菌性病害,Wheat,Fusarium Head Blight,Fungal Disease
+微信图片_2026-06-03_134256_823.jpg,小麦,黄矮病,病毒性病害,Wheat,Yellow Dwarf,Viral Disease
+微信图片_2026-06-03_134518_062.jpg,小麦,花叶病,病毒性病害,Wheat,Mosaic Disease,Viral Disease
+微信图片_2026-06-03_134948_072.jpg,小麦,纹枯病,真菌性病害,Wheat,Sheath Blight,Fungal Disease
+微信图片_2026-06-03_135132_224.jpg,马铃薯,晚疫病,真菌性病害,Potato,Late Blight,Fungal Disease
+微信图片_2026-06-03_135256_368.jpg,马铃薯,癌肿病,真菌性病害,Potato,Gall,Fungal Disease
+微信图片_2026-06-03_135352_847.jpg,马铃薯,青枯病,细菌性病害,Potato,Bacterial Wilt,Bacterial Disease
+微信图片_2026-06-03_135623_584.jpg,马铃薯,苍痂病,细菌性病害,Potato,Scab,Bacterial Disease
+微信图片_2026-06-03_135725_126.jpg,马铃薯,早疫病,真菌性病害,Potato,Early Blight,Fungal Disease
+微信图片_2026-06-03_135846_326.jpg,马铃薯,病毒病,非生理性病害,Potato,Viral Disease,Non-physiological Disease
+微信图片_2026-06-03_135949_447.jpg,杨梅,褐斑病,真菌性病害,Bayberry,Brown Spot,Fungal Disease
+微信图片_2026-06-03_140115_791.jpg,苹果,黑星病,真菌性病害,Apple,Black Scab,Fungal Disease
+微信图片_2026-06-03_140155_615.jpg,苹果,花腐病,真菌性病害,Apple Tree,Flower Rot,Fungal Disease
+微信图片_2026-06-03_140612_807.jpg,樱桃,腐烂病,真菌性病害,Cherry,Rot Disease,Fungal Disease
+微信图片_2026-06-03_140914_911.jpg,猕猴桃,溃疡病,细菌性病害,Kiwifruit,Canker,Bacterial Disease
+微信图片_2026-06-03_141055_079.jpg,猕猴桃,膏药病,真菌性病害,Kiwifruit,Plaster Disease,Fungal Disease
+微信图片_2026-06-03_141215_040.jpg,甘蔗,凤梨病,真菌性土传,Sugarcane,Pineapple Disease,Soil-borne Fungal
+微信图片_2026-06-03_141436_167.jpg,百香果,缺镁,生理性病害,Passion Fruit,Magnesium Deficiency,Physiological Disease
+微信图片_2026-06-03_141550_750.jpg,芒果,炭疽病,真菌性侵染病害,Mango,Anthracnose,Fungal Infection
+微信图片_2026-06-03_141859_087.jpg,烟草,黑胫病,真菌性病害,Tobacco,Blackleg,Fungal Disease
+微信图片_2026-06-03_141919_758.jpg,烟草,赤星病,真菌性侵染病害,Tobacco,Cedar Apple Rust,Fungal Infection
+微信图片_2026-06-03_142023_366.jpg,烟草,病毒病,病毒性病害,Tobacco,Viral Disease,Viral Disease
+微信图片_2026-06-03_142154_574.jpg,花生,赤星病,真菌性病害,Peanut,Cedar Apple Rust,Fungal Disease
+微信图片_2026-06-03_142315_287.jpg,烟草,青枯病,细菌性病害,Tobacco,Bacterial Wilt,Bacterial Disease
+微信图片_2026-06-03_142345_198.jpg,烟草,蛙眼病,真菌性病害,Tobacco,Frog Eye Spot,Fungal Disease
+微信图片_2026-06-03_142600_896.jpg,棉花,褐斑病,真菌性侵染病害,Cotton,Brown Spot,Fungal Infection
+微信图片_2026-06-03_142637_870.jpg,棉花,黄萎病,真菌性病害,Cotton,Verticillium Wilt,Fungal Disease
+微信图片_2026-06-03_142732_024.jpg,棉花,炭疽病,真菌性病害,Cotton,Anthracnose,Fungal Disease
+微信图片_2026-06-03_142910_167.jpg,向日葵,菌核病,真菌性土传侵染病害,Sunflower,Sclerotinia Rot,Soil-borne Fungal Disease
+微信图片_2026-06-03_143040_863.jpg,棉花,角斑病,细菌性病害,Cotton,Angular Leaf Spot,Bacterial Disease
+微信图片_2026-06-03_143248_278.jpg,茶,枯芽病,真菌性病害,Tea,Bud Blight,Fungal Disease
+微信图片_2026-06-03_143420_927.jpg,茶,炭疽病,真菌性侵染病害,Tea,Anthracnose,Fungal Infection
+微信图片_2026-06-03_143701_110.jpg,豆角,白粉病,真菌性病害,String Bean,Powdery Mildew,Fungal Disease
+微信图片_2026-06-03_143759_223.jpg,豆角,病毒病,病毒性病害,String Bean,Viral Disease,Viral Disease
+微信图片_2026-06-02_164146_721.png,葡萄,煤污病,真菌病害,Grape,Sooty Mold,Fungal Disease
+微信图片_2026-06-02_164212_925.png,葡萄,煤污病,真菌病害,Grape,Sooty Mold,Fungal Disease
+微信图片_2026-06-02_164220_909.png,葡萄,煤污病,真菌病害,Grape,Sooty Mold,Fungal Disease
+微信图片_2026-06-02_164235_292.png,葡萄,煤污病,真菌病害,Grape,Sooty Mold,Fungal Disease
+微信图片_2026-06-02_164714_797.jpg,嘉宝果树,蓟马,虫害,Jaboticaba Tree,Thrips,Pest Damage
+微信图片_2026-06-02_164724_909.jpg,嘉宝果树,蓟马,虫害,Jaboticaba Tree,Thrips,Pest Damage
+微信图片_2026-06-02_164729_542.jpg,嘉宝果树,蓟马,虫害,Jaboticaba Tree,Thrips,Pest Damage
+微信图片_2026-06-02_164736_676.jpg,嘉宝果树,蓟马,虫害,Jaboticaba Tree,Thrips,Pest Damage
+微信图片_2026-06-02_164741_532.jpg,嘉宝果树,蓟马,虫害,Jaboticaba Tree,Thrips,Pest Damage
+微信图片_2026-06-02_165139_565.png,猕猴桃,溃疡病,细菌病害,Kiwifruit,Canker,Bacterial Disease
+微信图片_2026-06-02_165146_844.png,猕猴桃,溃疡病,细菌病害,Kiwifruit,Canker,Bacterial Disease
+微信图片_2026-06-02_165158_980.png,猕猴桃,溃疡病,细菌病害,Kiwifruit,Canker,Bacterial Disease
+微信图片_2026-06-02_165203_748.png,猕猴桃,溃疡病,细菌病害,Kiwifruit,Canker,Bacterial Disease
+微信图片_2026-06-02_165527_700.jpg,柑橘,潜叶蛾,虫害,Citrus Tree,Leafminer Moth,Pest Damage
+微信图片_2026-06-02_165532_228.jpg,柑橘,潜叶蛾,虫害,Citrus Tree,Leafminer Moth,Pest Damage
+微信图片_2026-06-02_165536_572.jpg,柑橘,潜叶蛾,虫害,Citrus Tree,Leafminer Moth,Pest Damage
+微信图片_2026-06-02_165540_269.jpg,柑橘,潜叶蛾,虫害,Citrus Tree,Leafminer Moth,Pest Damage
+微信图片_2026-06-02_165544_732.jpg,柑橘,潜叶蛾,虫害,Citrus Tree,Leafminer Moth,Pest Damage
+微信图片_2026-06-02_165548_900.jpg,柑橘,潜叶蛾,虫害,Citrus Tree,Leafminer Moth,Pest Damage
+微信图片_2026-06-02_170014_428.jpg,苹果,花叶病,病毒性病害,Apple Tree,Mosaic Disease,Viral Disease
+微信图片_2026-06-02_170019_012.jpg,苹果,花叶病,病毒性病害,Apple Tree,Mosaic Disease,Viral Disease
+微信图片_2026-06-02_170022_988.jpg,苹果,花叶病,病毒性病害,Apple Tree,Mosaic Disease,Viral Disease
+微信图片_2026-06-02_170026_956.jpg,苹果,花叶病,病毒性病害,Apple Tree,Mosaic Disease,Viral Disease
+微信图片_2026-06-02_170031_636.jpg,苹果,花叶病,病毒性病害,Apple Tree,Mosaic Disease,Viral Disease
+微信图片_2026-06-02_170035_428.jpg,苹果,花叶病,病毒性病害,Apple Tree,Mosaic Disease,Viral Disease
+微信图片_2026-06-02_170039_374.jpg,苹果,花叶病,病毒性病害,Apple Tree,Mosaic Disease,Viral Disease
+微信图片_2026-06-02_170043_212.jpg,苹果,花叶病,病毒性病害,Apple Tree,Mosaic Disease,Viral Disease
+微信图片_2026-06-02_170609_876.jpg,梨,干腐病,真菌病害,Pear Tree,Dry Rot,Fungal Disease
+微信图片_2026-06-02_170624_227.jpg,梨,干腐病,真菌病害,Pear Tree,Dry Rot,Fungal Disease
+微信图片_2026-06-02_170630_612.jpg,梨,干腐病,真菌病害,Pear Tree,Dry Rot,Fungal Disease
+微信图片_2026-06-02_170634_804.jpg,梨,干腐病,真菌病害,Pear Tree,Dry Rot,Fungal Disease
+微信图片_2026-06-02_170639_555.jpg,梨,干腐病,真菌病害,Pear Tree,Dry Rot,Fungal Disease
+微信图片_2026-06-02_170643_643.jpg,梨,干腐病,真菌病害,Pear Tree,Dry Rot,Fungal Disease
+微信图片_2026-06-02_170832_468.jpg,苹果,红蜘蛛,虫害,Apple Tree,Spider Mite,Pest Damage
+微信图片_2026-06-02_170836_308.jpg,苹果,红蜘蛛,虫害,Apple Tree,Spider Mite,Pest Damage
+微信图片_2026-06-02_171011_291.jpg,柿子树,黑斑病,真菌病害,Persimmon Tree,Black Spot,Fungal Disease
+微信图片_2026-06-02_171019_579.jpg,柿子树,黑斑病,真菌病害,Persimmon Tree,Black Spot,Fungal Disease
+微信图片_2026-06-02_171025_116.jpg,柿子树,黑斑病,真菌病害,Persimmon Tree,Black Spot,Fungal Disease
+微信图片_2026-06-02_171330_595.jpg,苹果,红蜘蛛,虫害,Apple Tree,Spider Mite,Pest Damage
+微信图片_2026-06-02_171337_787.jpg,苹果,红蜘蛛,虫害,Apple Tree,Spider Mite,Pest Damage
+微信图片_2026-06-02_171342_163.jpg,苹果,红蜘蛛,虫害,Apple Tree,Spider Mite,Pest Damage
+微信图片_2026-06-02_172516_442.jpg,嘉宝果树,炭疽病,真菌病害,Jaboticaba Tree,Anthracnose,Fungal Disease
+微信图片_2026-06-02_172524_307.jpg,嘉宝果树,炭疽病,真菌病害,Jaboticaba Tree,Anthracnose,Fungal Disease
+微信图片_2026-06-02_172530_578.jpg,嘉宝果树,炭疽病,真菌病害,Jaboticaba Tree,Anthracnose,Fungal Disease
+微信图片_2026-06-02_172752_019.jpg,柑橘,炭疽病,真菌病害,Citrus Tree,Anthracnose,Fungal Disease
+微信图片_2026-06-02_172756_211.jpg,柑橘,炭疽病,真菌病害,Citrus Tree,Anthracnose,Fungal Disease
+微信图片_2026-06-02_172915_610.jpg,苹果,螨类危害,虫害,Apple Tree,Mite,Pest Damage
+微信图片_2026-06-02_172919_978.jpg,苹果,螨类危害,虫害,Apple Tree,Mite,Pest Damage
+微信图片_2026-06-02_172923_354.jpg,苹果,螨类危害,虫害,Apple Tree,Mite,Pest Damage
+微信图片_2026-06-02_173141_627.jpg,芒果,炭疽病,真菌病害,Mango Tree,Anthracnose,Fungal Disease
+微信图片_2026-06-02_173145_938.jpg,芒果,炭疽病,真菌病害,Mango Tree,Anthracnose,Fungal Disease
+微信图片_2026-06-02_173149_905.jpg,芒果,炭疽病,真菌病害,Mango Tree,Anthracnose,Fungal Disease
+微信图片_2026-06-02_173153_674.jpg,芒果,炭疽病,真菌病害,Mango Tree,Anthracnose,Fungal Disease
+微信图片_2026-06-02_173157_666.jpg,芒果,炭疽病,真菌病害,Mango Tree,Anthracnose,Fungal Disease
+微信图片_2026-06-02_173314_185.jpg,牛油果树,褐斑病,真菌病害,Avocado Tree,Brown Spot,Fungal Disease
+微信图片_2026-06-02_173318_298.jpg,牛油果树,褐斑病,真菌病害,Avocado Tree,Brown Spot,Fungal Disease
+微信图片_2026-06-02_173321_953.jpg,牛油果树,褐斑病,真菌病害,Avocado Tree,Brown Spot,Fungal Disease
+微信图片_2026-06-02_173326_259.jpg,牛油果树,褐斑病,真菌病害,Avocado Tree,Brown Spot,Fungal Disease
+微信图片_2026-06-02_173639_882.jpg,苹果,腐烂病,真菌病害,Apple Tree,Rot Disease,Fungal Disease
+微信图片_2026-06-02_173643_841.jpg,苹果,腐烂病,真菌病害,Apple Tree,Rot Disease,Fungal Disease
+微信图片_2026-06-02_173647_849.jpg,苹果,腐烂病,真菌病害,Apple Tree,Rot Disease,Fungal Disease
+微信图片_2026-06-02_174326_297.jpg,芒果,炭疽病,真菌病害,Mango Tree,Anthracnose,Fungal Disease
+微信图片_2026-06-02_174331_680.jpg,芒果,炭疽病,真菌病害,Mango Tree,Anthracnose,Fungal Disease
+微信图片_2026-06-02_174336_249.jpg,芒果,炭疽病,真菌病害,Mango Tree,Anthracnose,Fungal Disease
+微信图片_2026-06-02_174753_264.jpg,苹果,锈病,真菌病害,Apple Tree,Rust,Fungal Disease
+微信图片_2026-06-02_174808_881.jpg,苹果,锈病,真菌病害,Apple Tree,Rust,Fungal Disease
+微信图片_2026-06-02_174814_073.jpg,苹果,锈病,真菌病害,Apple Tree,Rust,Fungal Disease
+微信图片_2026-06-02_174819_026.jpg,苹果,锈病,真菌病害,Apple Tree,Rust,Fungal Disease
+微信图片_2026-06-02_175418_257.jpg,人参果树,炭疽病,真菌病害,Pepino Tree,Anthracnose,Fungal Disease
+微信图片_2026-06-02_175422_144.jpg,人参果树,炭疽病,真菌病害,Pepino Tree,Anthracnose,Fungal Disease
+微信图片_2026-06-02_175426_664.jpg,人参果树,炭疽病,真菌病害,Pepino Tree,Anthracnose,Fungal Disease
+微信图片_2026-06-03_162606_277.jpg,桃,穿孔病,真菌病害,Peach Tree,Shot Hole,Fungal Disease
+微信图片_2026-06-03_162610_645.jpg,桃,穿孔病,真菌病害,Peach Tree,Shot Hole,Fungal Disease
+微信图片_2026-06-03_162744_108.jpg,桃,穿孔病,真菌病害,Peach Tree,Shot Hole,Fungal Disease
+微信图片_2026-06-03_162754_164.jpg,桃,穿孔病,真菌病害,Peach Tree,Shot Hole,Fungal Disease
+微信图片_2026-06-03_162758_773.jpg,桃,穿孔病,真菌病害,Peach Tree,Shot Hole,Fungal Disease
+微信图片_2026-06-03_162803_796.jpg,桃,穿孔病,真菌病害,Peach Tree,Shot Hole,Fungal Disease
+微信图片_2026-06-03_162910_709.jpg,桃,穿孔病,真菌病害,Peach Tree,Shot Hole,Fungal Disease
+微信图片_2026-06-03_162915_077.jpg,桃,穿孔病,真菌病害,Peach Tree,Shot Hole,Fungal Disease
+微信图片_2026-06-03_162918_797.jpg,桃,穿孔病,真菌病害,Peach Tree,Shot Hole,Fungal Disease
+微信图片_2026-06-03_162923_596.jpg,桃,穿孔病,真菌病害,Peach Tree,Shot Hole,Fungal Disease
+微信图片_2026-06-03_163049_900.jpg,梨,锈病,真菌病害,Pear Tree,Rust,Fungal Disease
+微信图片_2026-06-03_163053_765.jpg,梨,锈病,真菌病害,Pear Tree,Rust,Fungal Disease
+微信图片_2026-06-03_163058_244.jpg,梨,锈病,真菌病害,Pear Tree,Rust,Fungal Disease
+微信图片_2026-06-03_163102_212.jpg,梨,锈病,真菌病害,Pear Tree,Rust,Fungal Disease
+微信图片_2026-06-03_163106_797.jpg,梨,锈病,真菌病害,Pear Tree,Rust,Fungal Disease
+微信图片_2026-06-03_163110_789.jpg,梨,锈病,真菌病害,Pear Tree,Rust,Fungal Disease
+微信图片_2026-06-03_163238_860.jpg,梨,白粉病,真菌病害,Pear Tree,Powdery Mildew,Fungal Disease
+微信图片_2026-06-03_163243_236.jpg,梨,白粉病,真菌病害,Pear Tree,Powdery Mildew,Fungal Disease
+微信图片_2026-06-03_163247_116.jpg,梨,白粉病,真菌病害,Pear Tree,Powdery Mildew,Fungal Disease
+微信图片_2026-06-03_163251_540.jpg,梨,白粉病,真菌病害,Pear Tree,Powdery Mildew,Fungal Disease
+微信图片_2026-06-03_163256_180.jpg,梨,白粉病,真菌病害,Pear Tree,Powdery Mildew,Fungal Disease
+微信图片_2026-06-03_163300_357.jpg,梨,白粉病,真菌病害,Pear Tree,Powdery Mildew,Fungal Disease
+微信图片_2026-06-03_163419_356.jpg,梨,锈病,真菌病害,Pear Tree,Pear Rust,Fungal Disease
+微信图片_2026-06-03_163423_164.jpg,梨,锈病,真菌病害,Pear Tree,Pear Rust,Fungal Disease
+微信图片_2026-06-03_163426_932.jpg,梨,锈病,真菌病害,Pear Tree,Pear Rust,Fungal Disease
+微信图片_2026-06-03_163431_220.jpg,梨,锈病,真菌病害,Pear Tree,Pear Rust,Fungal Disease
+微信图片_2026-06-03_163435_452.jpg,梨,锈病,真菌病害,Pear Tree,Pear Rust,Fungal Disease
+微信图片_2026-06-03_163439_253.jpg,梨,锈病,真菌病害,Pear Tree,Pear Rust,Fungal Disease
+微信图片_2026-06-03_163443_877.jpg,梨,锈病,真菌病害,Pear Tree,Pear Rust,Fungal Disease
